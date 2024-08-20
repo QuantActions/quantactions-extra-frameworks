@@ -18,10 +18,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (NSString*) getCurrentFolder;
 
-/// Encrypts and stores the passed generic data into a file. Returns the path of the file where the encrypted generic data is to be stored.
+/// Encrypts and stores the passed generic data into a file. Returns the path of the file where the encrypted generic data is to be stored. Returns nil if it a unique file path could not be created.
 /// @param contents The data to store into an encrypted file.
 /// @param key The key used to encrypt the data.
-+ (NSString *)storeGenericContents:(NSString*) contents withKey:(nullable NSString*) key;
++ (nullable NSString *)storeGenericContents:(NSString*) contents withKey:(nullable NSString*) key;
 
 @end
 

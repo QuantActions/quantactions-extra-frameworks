@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/FLEnums.h</key>
 		<data>
-		gtsjWjYwvBUNokgDMHWEnGWNmww=
+		tCd6LPL5Vn9k8KWwKkq+p1VF0mc=
 		</data>
 		<key>Headers/FLUserWordManager.h</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Headers/FleksyAPI.h</key>
 		<data>
-		pYiU2XXQvtzp4AKkwaFnMepabuU=
+		uO0yopqRKt5RYeSHnBm4Mqosf8c=
 		</data>
 		<key>Headers/FleksyCore/FLDataCaptureStructures.h</key>
 		<data>
-		qX4MgGFvdAtpYqzMJ75EO4cNKdM=
+		ySnsnyUeshNKbd6tXelivoC3qII=
 		</data>
 		<key>Headers/FleksyCore/FLException.h</key>
 		<data>
@@ -126,7 +126,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		xX8YcuPE53iVh07bNKYx3rFpvw8=
+		MJwgfuqrhQYRRYYCDuE27TE61Rk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -164,7 +164,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Qaso882732kYW44IRI4padbBAj3RNTaDUHtLRYp6xSQ=
+			PqOFzad+Leyu1J/4/wug2AQa02DeDLfVkCTZuyEH1oI=
 			</data>
 		</dict>
 		<key>Headers/FLUserWordManager.h</key>
@@ -185,14 +185,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lc1mnHNtFdL2nDgu31F7ayrP0ZrHzLIv9ECawlBA294=
+			hE0eEF+xG3Ii++EaQwY0a3Zp+xMQW3qh4Aqevq7OfB4=
 			</data>
 		</dict>
 		<key>Headers/FleksyCore/FLDataCaptureStructures.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OKEykhx3MsUlneBEprvJf9Qxh/r+gJbPZjOo+1GnJPc=
+			EMAs3vDdki7Tu25viT9Eb511vXDmBnlY9Le702H3yhQ=
 			</data>
 		</dict>
 		<key>Headers/FleksyCore/FLException.h</key>

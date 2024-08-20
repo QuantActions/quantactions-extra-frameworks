@@ -29,6 +29,7 @@
 // TODO: Rename to fleksyInputView to avoid clash with UIViewController's inputView property
 /// The common parent view of all the subviews that  make up the keyboard
 @property (nonatomic, readonly) UIView *inputView;
+@property (assign, nonatomic, readonly) UIReturnKeyType returnKeyType;
 
 // Custom integrator buttons
 - (UIImage * _Nullable)imageForCustomButtonWithLabel:(NSString * _Nonnull)label;

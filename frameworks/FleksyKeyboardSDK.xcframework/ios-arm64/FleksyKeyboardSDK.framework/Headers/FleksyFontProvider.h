@@ -14,6 +14,7 @@
 @protocol FleksyFontProvider <NSObject>
 
 @property (nonatomic, readonly) UIFont * _Nullable keypadFont;
+@property (nonatomic, readonly) UIFont * _Nullable lowercaseKeysFont;
 @property (nonatomic, readonly) UIFont * _Nullable extensionKeysFont;
 
 @end

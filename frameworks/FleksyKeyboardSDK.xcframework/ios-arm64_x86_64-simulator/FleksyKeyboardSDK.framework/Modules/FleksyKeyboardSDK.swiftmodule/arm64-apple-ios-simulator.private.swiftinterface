@@ -11,14 +11,13 @@ import DeveloperToolsSupport
 import FleksyAppsCore
 @_exported import FleksyKeyboardSDK
 import Foundation
+import OSLog
 import Swift
 import SwiftUI
 import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-import os.log
-import os
 public enum ActivityEvent {
   public enum ActionType {
     case backspace
@@ -80,6 +79,11 @@ extension FleksyKeyboardSDK.StyleConfiguration {
   public static func getFeedbackConfiguration() -> FleksyKeyboardSDK.FeedbackConfiguration?
   @objc deinit
 }
+extension UIKit.UITextDocumentProxy {
+  @_Concurrency.MainActor(unsafe) public var debugDescription: Swift.String {
+    get
+  }
+}
 @_hasMissingDesignatedInitializers public class EventBus {
   public var activity: Combine.AnyPublisher<FleksyKeyboardSDK.ActivityEvent, Swift.Never> {
     get
@@ -138,7 +142,9 @@ public struct TypingConfiguration {
   public let autoCapitalization: Swift.Bool
   public let autoLearn: Swift.Bool
   public let doubleSpaceTapAddsPunctuation: Swift.Bool
-  public let magicButtonAction: FleksyKeyboardSDK.MagicButtonAction
+  public var magicButtonAction: FleksyKeyboardSDK.MagicButtonAction {
+    get
+  }
   public var magicButtonLongPressActions: [FleksyKeyboardSDK.MagicButtonAction] {
     get
   }
@@ -196,6 +202,7 @@ public enum KeyboardActivationStatus : Swift.Equatable {
   case coreSDK
   case monitorStress
   case fleksyAppAdsTiles
+  case storeData
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
@@ -379,8 +386,10 @@ public enum LanguageResourceType : Swift.String, Swift.Codable {
     }
   }
   public enum KeyboardFont {
+    case `default`
     case system(weight: UIKit.UIFont.Weight = .regular)
     case custom(fontName: Swift.String)
+    case uiFont(UIKit.UIFont)
   }
   final public let keyboardSize: FleksyKeyboardSDK.StyleConfiguration.KeyboardSize
   @available(*, deprecated, message: "Use spacebarLogoImage parameter when initializing the StyleConfiguration object")
@@ -684,6 +693,7 @@ public enum EventBasedDataCaptureEvent : Swift.Codable {
     public let language: Swift.String
     public let languageVersion: Swift.String
     public let appContext: Swift.String
+    public let schemaVersion: Swift.String
     public let keyboardAreaWidth: Swift.Int
     public let keyboardAreaHeight: Swift.Int
     public let screenWidthMm: Swift.Double
@@ -843,6 +853,7 @@ public enum EventBasedDataCaptureEvent : Swift.Codable {
   }
   public static var recentEmojis: [Swift.String] {
     get
+    @available(*, deprecated, message: "The internal structure of recentEmoji has changed and is now fully managed by FleksySDK. Setting this property removes the internal logic of the FleksySDK for keeping the recent emojis up-to-date based on the user's usage of the emojis.")
     set
   }
   public static var defaultEmojiSkinTone: FleksyKeyboardSDK.EmojiConfiguration.EmojiSkinTone {
@@ -856,6 +867,13 @@ public enum EventBasedDataCaptureEvent : Swift.Codable {
   public static var haptics: Swift.Bool {
     get
     set
+  }
+  public static var storeLogs: Swift.Bool {
+    get
+    set
+  }
+  public static var logsDirectory: Foundation.URL {
+    get
   }
   public static var showAppsInCarousel: Swift.Bool {
     get
@@ -887,12 +905,15 @@ public struct EmojiConfiguration {
     get
     set
   }
-  public init(recent: [Swift.String] = FleksyManagedSettings.recentEmojis, defaultSkinTone: FleksyKeyboardSDK.EmojiConfiguration.EmojiSkinTone = FleksyManagedSettings.defaultEmojiSkinTone, emojiSearch: Swift.Bool = true)
+  public init(recent: [Swift.String] = [], defaultSkinTone: FleksyKeyboardSDK.EmojiConfiguration.EmojiSkinTone = FleksyManagedSettings.defaultEmojiSkinTone, emojiSearch: Swift.Bool = true)
   @available(*, deprecated, message: "Use initializer with defaultSkinTone parameter instead")
   public init(skinTone: FleksyKeyboardSDK.EmojiConfiguration.EmojiSkinTone)
 }
 @objc extension FleksyKeyboardSDK.FleksyUtility {
   @objc dynamic public class func isExtension() -> Swift.Bool
+}
+extension FleksyKeyboardSDK.FleksyUtility {
+  @_spi(Fleksy) public static func getStoredDefaultIdentifier() -> Swift.String
 }
 public enum DataCaptureMode {
   case disabled
@@ -992,18 +1013,21 @@ public struct LicenseConfiguration {
     @objc set
   }
   @available(*, deprecated, message: "Subclass FKKeyboardViewController to integrate the SDK")
-  @objc convenience public init(with inputView: FleksyKeyboardSDK.FKInputView, view: UIKit.UIView, textDocumentProxy: any UIKit.UITextDocumentProxy, trailCollection: UIKit.UITraitCollection, protocol inputController: any UIKit.UIInputViewController & FleksyKeyboardSDK.FKInterfaceInputViewControllerDelegate)
+  @objc @_Concurrency.MainActor convenience public init(with inputView: FleksyKeyboardSDK.FKInputView, view: UIKit.UIView, textDocumentProxy: any UIKit.UITextDocumentProxy, trailCollection: UIKit.UITraitCollection, protocol inputController: any UIKit.UIInputViewController & FleksyKeyboardSDK.FKInterfaceInputViewControllerDelegate)
   @available(*, deprecated, message: "Subclass FKKeyboardViewController to integrate the SDK")
-  @objc convenience public init(with inputView: FleksyKeyboardSDK.FKInputView, textDocumentProxy: any UIKit.UITextDocumentProxy, trailCollection: UIKit.UITraitCollection, protocol inputController: any UIKit.UIInputViewController & FleksyKeyboardSDK.FKInterfaceInputViewControllerDelegate, configuration: FleksyKeyboardSDK.KeyboardConfiguration)
+  @objc @_Concurrency.MainActor convenience public init(with inputView: FleksyKeyboardSDK.FKInputView, textDocumentProxy: any UIKit.UITextDocumentProxy, trailCollection: UIKit.UITraitCollection, protocol inputController: any UIKit.UIInputViewController & FleksyKeyboardSDK.FKInterfaceInputViewControllerDelegate, configuration: FleksyKeyboardSDK.KeyboardConfiguration)
   @available(*, deprecated, message: "Subclass FKKeyboardViewController to integrate the SDK")
-  @objc convenience public init(with inputView: FleksyKeyboardSDK.FKInputView, textDocumentProxy: any UIKit.UITextDocumentProxy, trailCollection: UIKit.UITraitCollection, protocol inputController: any UIKit.UIInputViewController & FleksyKeyboardSDK.FKInterfaceInputViewControllerDelegate, output: (any FleksyKeyboardSDK.FKDataCollection)?, configuration: FleksyKeyboardSDK.KeyboardConfiguration, appIcon: UIKit.UIImage?)
+  @objc @_Concurrency.MainActor convenience public init(with inputView: FleksyKeyboardSDK.FKInputView, textDocumentProxy: any UIKit.UITextDocumentProxy, trailCollection: UIKit.UITraitCollection, protocol inputController: any UIKit.UIInputViewController & FleksyKeyboardSDK.FKInterfaceInputViewControllerDelegate, output: (any FleksyKeyboardSDK.FKDataCollection)?, configuration: FleksyKeyboardSDK.KeyboardConfiguration, appIcon: UIKit.UIImage?)
   @available(*, deprecated, message: "Subclass FKKeyboardViewController to integrate the SDK")
-  @objc convenience public init(with inputView: FleksyKeyboardSDK.FKInputView, textDocumentProxy: any UIKit.UITextDocumentProxy, trailCollection: UIKit.UITraitCollection, protocol inputController: any UIKit.UIInputViewController & FleksyKeyboardSDK.FKInterfaceInputViewControllerDelegate, output: (any FleksyKeyboardSDK.FKDataCollection)?, configuration: FleksyKeyboardSDK.KeyboardConfiguration?)
+  @objc @_Concurrency.MainActor convenience public init(with inputView: FleksyKeyboardSDK.FKInputView, textDocumentProxy: any UIKit.UITextDocumentProxy, trailCollection: UIKit.UITraitCollection, protocol inputController: any UIKit.UIInputViewController & FleksyKeyboardSDK.FKInterfaceInputViewControllerDelegate, output: (any FleksyKeyboardSDK.FKDataCollection)?, configuration: FleksyKeyboardSDK.KeyboardConfiguration?)
   @objc deinit
   public var isInLandscape: Swift.Bool {
     get
   }
   @objc public var keypadFont: UIKit.UIFont? {
+    @objc get
+  }
+  @objc public var lowercaseKeysFont: UIKit.UIFont? {
     @objc get
   }
   @objc public func setInterfaceDelegate(_ interfaceDelegate: any FleksyKeyboardSDK.FKInterfaceDelegate)
@@ -1075,7 +1099,7 @@ extension FleksyKeyboardSDK.FKInterfaceInputViewController {
   @objc dynamic public func pullDownGestureEnded(withOffset offset: CoreFoundation.CGFloat, velocity verticalVelocity: CoreFoundation.CGFloat, view: UIKit.UIView!, presentedViewController controller: UIKit.UIViewController!)
 }
 extension FleksyKeyboardSDK.FKInterfaceInputViewController {
-  @objc dynamic public func textWillChange(_ textInput: (any UIKit.UITextInput)?)
+  @objc @_Concurrency.MainActor dynamic public func textWillChange(_ textInput: (any UIKit.UITextInput)?)
   @objc @_Concurrency.MainActor dynamic public func textDidChange(_ textInput: (any UIKit.UITextInput)?)
   @objc dynamic public func selectionWillChange(_ textInput: (any UIKit.UITextInput)?)
   @objc dynamic public func selectionDidChange(_ textInput: (any UIKit.UITextInput)?)
@@ -1087,7 +1111,7 @@ extension FleksyKeyboardSDK.FKInterfaceInputViewController : UIKit.UIGestureReco
 extension FleksyKeyboardSDK.KeyboardID : Swift.Hashable {
 }
 extension FleksyKeyboardSDK.FLDataConfiguration {
-  convenience public init(text: Swift.Bool = true, swipe: Swift.Bool = true, emoji: Swift.Bool = true, layout: Swift.Bool = true, textField: Swift.Bool = true, language: Swift.Bool = true, type: Swift.Bool = true, area: Swift.Bool = true, code: Swift.Bool = true, position: Swift.Bool = true, press: Swift.Bool = true, keyPress: Swift.Bool = true, keyCenter: Swift.Bool = true, keyBounds: Swift.Bool = true, configCoordinate: FleksyKeyboardSDK.enumDataConfigCoordinate = .dataConfigCoordinate_screenPixel, word: Swift.Bool = true, delete: Swift.Bool = true, keyPlane: Swift.Bool = true, keyText: Swift.Bool = true, positionEnd: Swift.Bool = true, keyPressEnd: Swift.Bool = true, predictionsTouch: Swift.Bool = true, prediction: Swift.Bool = true, configFormat: FleksyKeyboardSDK.enumDataConfigFormat = .dataConfigFormat_standard, accelerometer: Swift.Bool = false, autocorrection: Swift.Bool = true, distanceFromLastTouch: Swift.Bool = true, keyPositionLimited: Swift.Bool = false, autocorrectionLimited: Swift.Bool = false, wordLimited: Swift.Bool = false, predictionLimited: Swift.Bool = false, swipeLimited: Swift.Bool = false, deleteLimited: Swift.Bool = false, stressMonitor: Swift.Bool = false, interKeyTimeHistogram: Swift.Bool = true, interKeyTimeHistogramInterval: Swift.Int = 50, interKeyTimeHistogramCount: Swift.Int = 21)
+  convenience public init(text: Swift.Bool = true, swipe: Swift.Bool = true, emoji: Swift.Bool = true, layout: Swift.Bool = true, textField: Swift.Bool = true, language: Swift.Bool = true, type: Swift.Bool = true, area: Swift.Bool = true, code: Swift.Bool = true, position: Swift.Bool = true, press: Swift.Bool = true, keyPress: Swift.Bool = true, keyCenter: Swift.Bool = true, keyBounds: Swift.Bool = true, configCoordinate: FleksyKeyboardSDK.enumDataConfigCoordinate = .dataConfigCoordinate_screenPixel, word: Swift.Bool = true, delete: Swift.Bool = true, keyPlane: Swift.Bool = true, keyText: Swift.Bool = true, positionEnd: Swift.Bool = true, keyPressEnd: Swift.Bool = true, predictionsTouch: Swift.Bool = true, prediction: Swift.Bool = true, configFormat: FleksyKeyboardSDK.enumDataConfigFormat = .dataConfigFormat_groupByTap, accelerometer: Swift.Bool = false, autocorrection: Swift.Bool = true, distanceFromLastTouch: Swift.Bool = false, keyPositionLimited: Swift.Bool = false, autocorrectionLimited: Swift.Bool = false, wordLimited: Swift.Bool = false, predictionLimited: Swift.Bool = false, swipeLimited: Swift.Bool = false, deleteLimited: Swift.Bool = false, stressMonitor: Swift.Bool = false, interKeyTimeHistogram: Swift.Bool = true, interKeyTimeHistogramInterval: Swift.Int = 50, interKeyTimeHistogramCount: Swift.Int = 21)
 }
 public struct FeedbackConfiguration : Swift.Equatable {
   public struct ResourceSoundSet : Swift.Equatable, Swift.Codable {
@@ -1140,6 +1164,8 @@ public protocol DataCaptureEventDelegate : AnyObject {
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidDisappear(_ animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewWillTransition(to size: CoreFoundation.CGSize, with coordinator: any UIKit.UIViewControllerTransitionCoordinator)
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func didMove(toParent parent: UIKit.UIViewController?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func traitCollectionDidChange(_ previousTraitCollection: UIKit.UITraitCollection?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func didReceiveMemoryWarning()
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func textWillChange(_ textInput: (any UIKit.UITextInput)?)
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func textDidChange(_ textInput: (any UIKit.UITextInput)?)
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func selectionDidChange(_ textInput: (any UIKit.UITextInput)?)
@@ -1155,6 +1181,9 @@ public protocol DataCaptureEventDelegate : AnyObject {
   @_Concurrency.MainActor public func reloadConfiguration()
   @available(iOS 15, *)
   @_Concurrency.MainActor public func openEmojiSearch()
+  #if compiler(>=5.3) && $AsyncAwait
+  @_Concurrency.MainActor(unsafe) public func readFullDocumentContext() async throws -> FleksyKeyboardSDK.FullDocumentContext
+  #endif
   @_Concurrency.MainActor(unsafe) open func createConfiguration() -> FleksyKeyboardSDK.KeyboardConfiguration
   @_Concurrency.MainActor(unsafe) @objc open var appIcon: UIKit.UIImage? {
     @objc get
@@ -1247,11 +1276,13 @@ public struct KeyboardTheme {
   @available(*, deprecated, message: "Use the initializer without the homeBackground parameter. homeBackground is deprecated")
   public init(key: Swift.String, name: Swift.String? = nil, backgroundGradient: [UIKit.UIColor] = [.clear], image: Swift.String? = nil, imageAlpha: CoreFoundation.CGFloat = 1, imagePosition: FleksyKeyboardSDK.KeyboardTheme.ImagePosition = .scale, keyLetters: UIKit.UIColor = .black, keyBackground: UIKit.UIColor? = nil, keyBackgroundPressed: UIKit.UIColor? = nil, keyShadow: UIKit.UIColor? = nil, hoverLetters: UIKit.UIColor? = nil, hoverBackground: UIKit.UIColor? = nil, hoverSelectedLetters: UIKit.UIColor? = nil, hoverSelectedBackground: UIKit.UIColor? = nil, suggestionLetters: UIKit.UIColor? = nil, suggestionBackground: UIKit.UIColor? = nil, suggestionSelectedLetters: UIKit.UIColor? = nil, suggestionSelectedBackground: UIKit.UIColor? = nil, buttonLetters: UIKit.UIColor? = nil, buttonBackground: UIKit.UIColor? = nil, buttonBackgroundPressed: UIKit.UIColor? = nil, buttonActionLetters: UIKit.UIColor? = nil, buttonActionBackground: UIKit.UIColor? = nil, buttonActionBackgroundPressed: UIKit.UIColor? = nil, buttonShiftLetters: UIKit.UIColor? = nil, buttonShiftBackground: UIKit.UIColor? = nil, buttonShiftBackgroundPressed: UIKit.UIColor? = nil, buttonBackspaceLetters: UIKit.UIColor? = nil, buttonBackspaceBackground: UIKit.UIColor? = nil, buttonBackspaceBackgroundPressed: UIKit.UIColor? = nil, spacebarLetters: UIKit.UIColor? = nil, spacebarBackground: UIKit.UIColor? = nil, spacebarBackgroundPressed: UIKit.UIColor? = nil, homeBackground: UIKit.UIColor?, swipeLine: UIKit.UIColor? = nil, trackPadCursor: UIKit.UIColor? = nil, tileIcons: [Swift.String]? = nil, extras: FleksyKeyboardSDK.KeyboardTheme.ThemeExtras = ThemeExtras(), sounds: FleksyKeyboardSDK.KeyboardTheme.ThemeSounds? = nil)
   public init(key: Swift.String, name: Swift.String? = nil, backgroundGradient: [UIKit.UIColor] = [.clear], image: Swift.String? = nil, imageAlpha: CoreFoundation.CGFloat = 1, imagePosition: FleksyKeyboardSDK.KeyboardTheme.ImagePosition = .scale, defaultForeground: UIKit.UIColor = .black, defaultBackground: UIKit.UIColor? = nil, keyShadow: UIKit.UIColor? = nil, suggestionBackground: UIKit.UIColor? = nil, suggestionSelectedBackground: UIKit.UIColor? = nil, tileIcons: [Swift.String]? = nil, extras: FleksyKeyboardSDK.KeyboardTheme.ThemeExtras = ThemeExtras(), sounds: FleksyKeyboardSDK.KeyboardTheme.ThemeSounds? = nil)
+  public init?(jsonString: Swift.String)
   @available(*, deprecated, message: "Use the initializer without the homeBackground parameter. homeBackground is deprecated")
   public init(key: Swift.String, name: Swift.String? = nil, backgroundGradient: [UIKit.UIColor] = [.clear], image: Swift.String? = nil, imageAlpha: CoreFoundation.CGFloat = 1, imagePosition: FleksyKeyboardSDK.KeyboardTheme.ImagePosition = .scale, defaultForeground: UIKit.UIColor = .black, defaultBackground: UIKit.UIColor? = nil, keyShadow: UIKit.UIColor? = nil, suggestionBackground: UIKit.UIColor? = nil, suggestionSelectedBackground: UIKit.UIColor? = nil, homeBackground: UIKit.UIColor?, tileIcons: [Swift.String]? = nil, extras: FleksyKeyboardSDK.KeyboardTheme.ThemeExtras = ThemeExtras(), sounds: FleksyKeyboardSDK.KeyboardTheme.ThemeSounds? = nil)
   public enum ImagePosition : Swift.String, Swift.Codable {
     case scale
     case center
+    case fit
     public init?(rawValue: Swift.String)
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
@@ -1285,6 +1316,7 @@ public struct KeyboardTheme {
     public let horizontalSwipe: Swift.String?
     public init(tap: Swift.String? = nil, verticalSwipe: Swift.String? = nil, horizontalSwipe: Swift.String? = nil)
   }
+  public func toJSONString() -> Swift.String?
 }
 public struct AppsConfiguration {
   public let keyboardApps: [any FleksyAppsCore.KeyboardApp]
@@ -1352,6 +1384,23 @@ extension FleksyKeyboardSDK.KeyboardConfiguration {
   @available(*, deprecated, message: "Use an initialization that does not include the `customView` and `heightCustom` parameters. For top bar customization, please use FleksyApps via AppsConfiguration")
   @objc convenience dynamic public init(customView: Swift.Bool, heightCustom: Swift.Float, capture: FleksyKeyboardSDK.CaptureConfiguration?, style: FleksyKeyboardSDK.StyleConfigurationObjC?, license: FleksyKeyboardSDK.LicenseConfigurationObjC)
 }
+public struct FullDocumentContext {
+  public enum Error : Swift.Error {
+    case keyboardUninitialized
+    case userCancelled
+    case cancelled
+    case fullDocumentReadInProgress
+    case invalidTextDocumentProxy
+    case unexpectedlyStopped
+    public static func == (a: FleksyKeyboardSDK.FullDocumentContext.Error, b: FleksyKeyboardSDK.FullDocumentContext.Error) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public var fullDocumentContextBeforeInput: Swift.String
+  public var fullDocumentContextAfterInput: Swift.String
+}
 extension FleksyKeyboardSDK.MagicButtonAction : Swift.Equatable {}
 extension FleksyKeyboardSDK.MagicButtonAction : Swift.Hashable {}
 extension FleksyKeyboardSDK.FKKeyboardLicenseCapability : Swift.Equatable {}
@@ -1392,3 +1441,5 @@ extension FleksyKeyboardSDK.KeyboardTheme.ImagePosition : Swift.RawRepresentable
 extension FleksyKeyboardSDK.KeyboardTheme.ThemeExtras.ExtraEffect : Swift.Equatable {}
 extension FleksyKeyboardSDK.KeyboardTheme.ThemeExtras.ExtraEffect : Swift.Hashable {}
 extension FleksyKeyboardSDK.KeyboardTheme.ThemeExtras.ExtraEffect : Swift.RawRepresentable {}
+extension FleksyKeyboardSDK.FullDocumentContext.Error : Swift.Equatable {}
+extension FleksyKeyboardSDK.FullDocumentContext.Error : Swift.Hashable {}

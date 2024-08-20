@@ -16,26 +16,7 @@ static inline void NS_FORMAT_FUNCTION(1, 2) _FSLogNull(NSString *format, ...) { 
 
 //#define FLEKSY_BUILDING_FOR_APPSTORE
 
-//GLOBALS
-#if defined(DEBUG) && DEBUG
-  #define FSLOG(format, ...)  NSLog(@"%@(%d): " format, @(__PRETTY_FUNCTION__), __LINE__, ##__VA_ARGS__)
-#else
-  #define FSLOG(format, ...) _FSLogNull(format, ##__VA_ARGS__)
-#endif
 
-#define LOG_TOUCHES 1
-#if LOG_TOUCHES
-#define FSTLOG(format, ...) FSLOG(@"Touch Log: %@(%d): " format, @(__PRETTY_FUNCTION__), __LINE__, ##__VA_ARGS__)
-#else
-#define FSTLOG(format, ...) _FSLogNull(format, ##__VA_ARGS__)
-#endif
-
-#define LOG_TEXT_INPUT_INTERACTION 1
-#if LOG_TOUCHES
-#define FSTILOG(format, ...) FSLOG(@"Touch Log: %@(%d): " format, @(__PRETTY_FUNCTION__), __LINE__, ##__VA_ARGS__)
-#else
-#define FSTILOG(format, ...) _FSLogNull(format, ##__VA_ARGS__)
-#endif
 
 #define FLKeyboardSize_HUGE_Str @"FLKeyboardSize_HUGE"
 #define FLKeyboardSize_LARGE_Str @"FLKeyboardSize_LARGE"

@@ -94,6 +94,7 @@ extern NSArray * AllJSONFields;
 @property (readonly, nonatomic) BOOL shouldUseImageTransform;
 @property (readonly, nonatomic) UIFont *defaultKeyboardFont __attribute((deprecated("Unused. Returns the fontKeyboardNormal")));
 @property (nonatomic, strong) UIFont * _Nonnull fontKeyboardNormal;
+@property (nonatomic, strong) UIFont * _Nullable fontKeyboardLowercaseKeys;
 @property (nonatomic, readonly) FleksyThemeType currentThemeType;
 @property (nonatomic) FleksyGraphicsHardwareEffect graphicsHardwareEffect;
 @property (nonatomic) BOOL isVibrant;
@@ -140,6 +141,10 @@ extern NSArray * AllJSONFields;
                            isLetterKeyboard:(BOOL)isLetters
                                keyboardSize:(KeyboardSize)size
                                   landscape:(BOOL)isInLandscape;
+- (UIFont * _Nullable)fontForLowercaseLettersWithTraitCollection:(UITraitCollection *)traitCollection
+                                                isLetterKeyboard:(BOOL)isLetters
+                                                    keyboardSize:(KeyboardSize)size
+                                                       landscape:(BOOL)isInLandscape;
 + (NSString *)JSONStringForKey:(NSString *)themeKey
                     withFields:(NSArray *)fields;
 + (NSDictionary *) JSONDictionaryForKey:(NSString *)themeKey withFields:(NSArray *)fields;

@@ -1607,6 +1607,23 @@
       },
       {
         "kind": "Import",
+        "name": "iOSCoreServices",
+        "printedName": "iOSCoreServices",
+        "declKind": "Import",
+        "moduleName": "FleksyKeyboardSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "FleksyKeyboardSDK"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -1614,6 +1631,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "FleksyKeyboardSDK"
       },
       {
         "kind": "TypeDecl",
@@ -2027,6 +2051,30 @@
       },
       {
         "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "FleksyKeyboardSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FleksyKeyboardSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "FleksyKeyboardSDK"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -2078,6 +2126,23 @@
         "printedName": "FleksyAppsCore",
         "declKind": "Import",
         "moduleName": "FleksyKeyboardSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "FleksyKeyboardSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FleksyKeyboardSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -2343,16 +2408,6 @@
         "kind": "Import",
         "name": "FleksyAppsCore",
         "printedName": "FleksyAppsCore",
-        "declKind": "Import",
-        "moduleName": "FleksyKeyboardSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "FleksyKeyboardSDK",
         "declAttributes": [
@@ -3903,10 +3958,10 @@
             "moduleName": "FleksyKeyboardSDK",
             "declAttributes": [
               "HasStorage",
+              "SetterAccess",
               "AccessControl",
               "RawDocComment"
             ],
-            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -5348,6 +5403,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FleksyKeyboardSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "iOSCoreServices",
         "printedName": "iOSCoreServices",
         "declKind": "Import",
@@ -5833,6 +5898,47 @@
             "fixedbinaryorder": 4
           },
           {
+            "kind": "Var",
+            "name": "storeData",
+            "printedName": "storeData",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FleksyKeyboardSDK.FKKeyboardLicenseCapability.Type) -> FleksyKeyboardSDK.FKKeyboardLicenseCapability",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FKKeyboardLicenseCapability",
+                    "printedName": "FleksyKeyboardSDK.FKKeyboardLicenseCapability",
+                    "usr": "c:@M@FleksyKeyboardSDK@E@FKKeyboardLicenseCapability"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "FleksyKeyboardSDK.FKKeyboardLicenseCapability.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FKKeyboardLicenseCapability",
+                        "printedName": "FleksyKeyboardSDK.FKKeyboardLicenseCapability",
+                        "usr": "c:@M@FleksyKeyboardSDK@E@FKKeyboardLicenseCapability"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@FleksyKeyboardSDK@E@FKKeyboardLicenseCapability@FKKeyboardLicenseCapabilityStoreData",
+            "mangledName": "$s17FleksyKeyboardSDK27FKKeyboardLicenseCapabilityO9storeDatayA2CmF",
+            "moduleName": "FleksyKeyboardSDK",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 5
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(rawValue:)",
@@ -6179,6 +6285,13 @@
         "kind": "Import",
         "name": "Combine",
         "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "FleksyKeyboardSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
         "declKind": "Import",
         "moduleName": "FleksyKeyboardSDK"
       },
@@ -6602,6 +6715,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "FleksyKeyboardSDK"
       },
       {
         "kind": "Import",
@@ -7470,6 +7590,13 @@
       },
       {
         "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "FleksyKeyboardSDK"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -7711,6 +7838,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "FleksyKeyboardSDK"
       },
       {
         "kind": "Import",
@@ -10018,6 +10152,51 @@
       },
       {
         "kind": "Import",
+        "name": "iOSCoreServices",
+        "printedName": "iOSCoreServices",
+        "declKind": "Import",
+        "moduleName": "FleksyKeyboardSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "FleksyKeyboardSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FleksyKeyboardSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "iOSCoreServices",
+        "printedName": "iOSCoreServices",
+        "declKind": "Import",
+        "moduleName": "FleksyKeyboardSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "FleksyKeyboardSDK"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -11167,6 +11346,13 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "FleksyKeyboardSDK"
+      },
+      {
         "kind": "TypeDecl",
         "name": "StyleConfiguration",
         "printedName": "StyleConfiguration",
@@ -11505,6 +11691,46 @@
             "children": [
               {
                 "kind": "Var",
+                "name": "default",
+                "printedName": "default",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(FleksyKeyboardSDK.StyleConfiguration.KeyboardFont.Type) -> FleksyKeyboardSDK.StyleConfiguration.KeyboardFont",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KeyboardFont",
+                        "printedName": "FleksyKeyboardSDK.StyleConfiguration.KeyboardFont",
+                        "usr": "s:17FleksyKeyboardSDK18StyleConfigurationC0B4FontO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "FleksyKeyboardSDK.StyleConfiguration.KeyboardFont.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "KeyboardFont",
+                            "printedName": "FleksyKeyboardSDK.StyleConfiguration.KeyboardFont",
+                            "usr": "s:17FleksyKeyboardSDK18StyleConfigurationC0B4FontO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:17FleksyKeyboardSDK18StyleConfigurationC0B4FontO7defaultyA2EmF",
+                "mangledName": "$s17FleksyKeyboardSDK18StyleConfigurationC0B4FontO7defaultyA2EmF",
+                "moduleName": "FleksyKeyboardSDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
                 "name": "system",
                 "printedName": "system",
                 "children": [
@@ -11618,6 +11844,59 @@
                 "declKind": "EnumElement",
                 "usr": "s:17FleksyKeyboardSDK18StyleConfigurationC0B4FontO6customyAESS_tcAEmF",
                 "mangledName": "$s17FleksyKeyboardSDK18StyleConfigurationC0B4FontO6customyAESS_tcAEmF",
+                "moduleName": "FleksyKeyboardSDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "uiFont",
+                "printedName": "uiFont",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(FleksyKeyboardSDK.StyleConfiguration.KeyboardFont.Type) -> (UIKit.UIFont) -> FleksyKeyboardSDK.StyleConfiguration.KeyboardFont",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(UIKit.UIFont) -> FleksyKeyboardSDK.StyleConfiguration.KeyboardFont",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "KeyboardFont",
+                            "printedName": "FleksyKeyboardSDK.StyleConfiguration.KeyboardFont",
+                            "usr": "s:17FleksyKeyboardSDK18StyleConfigurationC0B4FontO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIFont",
+                            "printedName": "UIKit.UIFont",
+                            "usr": "c:objc(cs)UIFont"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "FleksyKeyboardSDK.StyleConfiguration.KeyboardFont.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "KeyboardFont",
+                            "printedName": "FleksyKeyboardSDK.StyleConfiguration.KeyboardFont",
+                            "usr": "s:17FleksyKeyboardSDK18StyleConfigurationC0B4FontO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:17FleksyKeyboardSDK18StyleConfigurationC0B4FontO02uiF0yAESo6UIFontCcAEmF",
+                "mangledName": "$s17FleksyKeyboardSDK18StyleConfigurationC0B4FontO02uiF0yAESo6UIFontCcAEmF",
                 "moduleName": "FleksyKeyboardSDK",
                 "declAttributes": [
                   "RawDocComment"
@@ -23713,6 +23992,51 @@
               },
               {
                 "kind": "Var",
+                "name": "schemaVersion",
+                "printedName": "schemaVersion",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:17FleksyKeyboardSDK021EventBasedDataCaptureD0O13SessionUpdateV13schemaVersionSSvp",
+                "mangledName": "$s17FleksyKeyboardSDK021EventBasedDataCaptureD0O13SessionUpdateV13schemaVersionSSvp",
+                "moduleName": "FleksyKeyboardSDK",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:17FleksyKeyboardSDK021EventBasedDataCaptureD0O13SessionUpdateV13schemaVersionSSvg",
+                    "mangledName": "$s17FleksyKeyboardSDK021EventBasedDataCaptureD0O13SessionUpdateV13schemaVersionSSvg",
+                    "moduleName": "FleksyKeyboardSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
                 "name": "keyboardAreaWidth",
                 "printedName": "keyboardAreaWidth",
                 "children": [
@@ -27902,8 +28226,10 @@
                 "mangledName": "$s17FleksyKeyboardSDK0A15ManagedSettingsC12recentEmojisSaySSGvsZ",
                 "moduleName": "FleksyKeyboardSDK",
                 "static": true,
+                "deprecated": true,
                 "declAttributes": [
-                  "Final"
+                  "Final",
+                  "Available"
                 ],
                 "accessorKind": "set"
               },
@@ -27923,9 +28249,11 @@
                 "mangledName": "$s17FleksyKeyboardSDK0A15ManagedSettingsC12recentEmojisSaySSGvMZ",
                 "moduleName": "FleksyKeyboardSDK",
                 "static": true,
+                "deprecated": true,
                 "implicit": true,
                 "declAttributes": [
-                  "Final"
+                  "Final",
+                  "Available"
                 ],
                 "accessorKind": "_modify"
               }
@@ -28216,6 +28544,149 @@
                   "Final"
                 ],
                 "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "storeLogs",
+            "printedName": "storeLogs",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17FleksyKeyboardSDK0A15ManagedSettingsC9storeLogsSbvpZ",
+            "mangledName": "$s17FleksyKeyboardSDK0A15ManagedSettingsC9storeLogsSbvpZ",
+            "moduleName": "FleksyKeyboardSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17FleksyKeyboardSDK0A15ManagedSettingsC9storeLogsSbvgZ",
+                "mangledName": "$s17FleksyKeyboardSDK0A15ManagedSettingsC9storeLogsSbvgZ",
+                "moduleName": "FleksyKeyboardSDK",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17FleksyKeyboardSDK0A15ManagedSettingsC9storeLogsSbvsZ",
+                "mangledName": "$s17FleksyKeyboardSDK0A15ManagedSettingsC9storeLogsSbvsZ",
+                "moduleName": "FleksyKeyboardSDK",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17FleksyKeyboardSDK0A15ManagedSettingsC9storeLogsSbvMZ",
+                "mangledName": "$s17FleksyKeyboardSDK0A15ManagedSettingsC9storeLogsSbvMZ",
+                "moduleName": "FleksyKeyboardSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "logsDirectory",
+            "printedName": "logsDirectory",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17FleksyKeyboardSDK0A15ManagedSettingsC13logsDirectory10Foundation3URLVvpZ",
+            "mangledName": "$s17FleksyKeyboardSDK0A15ManagedSettingsC13logsDirectory10Foundation3URLVvpZ",
+            "moduleName": "FleksyKeyboardSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17FleksyKeyboardSDK0A15ManagedSettingsC13logsDirectory10Foundation3URLVvgZ",
+                "mangledName": "$s17FleksyKeyboardSDK0A15ManagedSettingsC13logsDirectory10Foundation3URLVvgZ",
+                "moduleName": "FleksyKeyboardSDK",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
               }
             ]
           },
@@ -29092,8 +29563,45 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FleksyKeyboardSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FleksyKeyboardSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FleksyKeyboardSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "FleksyKeyboardSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "FleksyKeyboardSDK",
         "declAttributes": [
@@ -29109,6 +29617,23 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FleksyKeyboardSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "FleksyKeyboardSDK"
       },
       {
         "kind": "Import",
@@ -29169,6 +29694,23 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FleksyKeyboardSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "FleksyKeyboardSDK"
       },
       {
         "kind": "Import",
@@ -30078,6 +30620,16 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "FleksyKeyboardSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -30114,6 +30666,13 @@
         "kind": "Import",
         "name": "CoreMotion",
         "printedName": "CoreMotion",
+        "declKind": "Import",
+        "moduleName": "FleksyKeyboardSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
         "declKind": "Import",
         "moduleName": "FleksyKeyboardSDK"
       },
@@ -30305,6 +30864,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "FleksyKeyboardSDK"
       },
       {
         "kind": "Import",
@@ -31755,6 +32321,13 @@
       },
       {
         "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "FleksyKeyboardSDK"
+      },
+      {
+        "kind": "Import",
         "name": "iOSCoreServices",
         "printedName": "iOSCoreServices",
         "declKind": "Import",
@@ -31762,6 +32335,13 @@
         "declAttributes": [
           "ImplementationOnly"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "FleksyKeyboardSDK"
       },
       {
         "kind": "TypeDecl",
@@ -31938,6 +32518,7 @@
             "declAttributes": [
               "Convenience",
               "AccessControl",
+              "Custom",
               "ObjC",
               "Available",
               "RawDocComment"
@@ -31994,6 +32575,7 @@
             "declAttributes": [
               "Convenience",
               "AccessControl",
+              "Custom",
               "ObjC",
               "Available",
               "RawDocComment"
@@ -32078,6 +32660,7 @@
             "declAttributes": [
               "Convenience",
               "AccessControl",
+              "Custom",
               "ObjC",
               "Available",
               "RawDocComment"
@@ -32156,6 +32739,7 @@
             "declAttributes": [
               "Convenience",
               "AccessControl",
+              "Custom",
               "ObjC",
               "Available",
               "RawDocComment"
@@ -32257,6 +32841,68 @@
                 "mangledName": "$s17FleksyKeyboardSDK30FKInterfaceInputViewControllerC10keypadFontSo6UIFontCSgvg",
                 "moduleName": "FleksyKeyboardSDK",
                 "objc_name": "keypadFont",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "lowercaseKeysFont",
+            "printedName": "lowercaseKeysFont",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIFont?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIFont",
+                    "printedName": "UIKit.UIFont",
+                    "usr": "c:objc(cs)UIFont"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@FleksyKeyboardSDK@objc(cs)FKInterfaceInputViewController(py)lowercaseKeysFont",
+            "mangledName": "$s17FleksyKeyboardSDK30FKInterfaceInputViewControllerC17lowercaseKeysFontSo6UIFontCSgvp",
+            "moduleName": "FleksyKeyboardSDK",
+            "objc_name": "lowercaseKeysFont",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIFont?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIFont",
+                        "printedName": "UIKit.UIFont",
+                        "usr": "c:objc(cs)UIFont"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@FleksyKeyboardSDK@objc(cs)FKInterfaceInputViewController(im)lowercaseKeysFont",
+                "mangledName": "$s17FleksyKeyboardSDK30FKInterfaceInputViewControllerC17lowercaseKeysFontSo6UIFontCSgvg",
+                "moduleName": "FleksyKeyboardSDK",
+                "objc_name": "lowercaseKeysFont",
                 "declAttributes": [
                   "ObjC"
                 ],
@@ -33752,6 +34398,7 @@
             "declAttributes": [
               "Dynamic",
               "AccessControl",
+              "Custom",
               "ObjC"
             ],
             "isFromExtension": true,
@@ -35141,6 +35788,13 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "FleksyKeyboardSDK"
+      },
+      {
         "kind": "TypeDecl",
         "name": "DataCaptureEventDelegate",
         "printedName": "DataCaptureEventDelegate",
@@ -35615,6 +36269,74 @@
           },
           {
             "kind": "Function",
+            "name": "traitCollectionDidChange",
+            "printedName": "traitCollectionDidChange(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UITraitCollection?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UITraitCollection",
+                    "printedName": "UIKit.UITraitCollection",
+                    "usr": "c:objc(cs)UITraitCollection"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@FleksyKeyboardSDK@objc(cs)FKKeyboardViewControllerSwift(im)traitCollectionDidChange:",
+            "mangledName": "$s17FleksyKeyboardSDK24FKKeyboardViewControllerC24traitCollectionDidChangeyySo07UITraitH0CSgF",
+            "moduleName": "FleksyKeyboardSDK",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "traitCollectionDidChange:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didReceiveMemoryWarning",
+            "printedName": "didReceiveMemoryWarning()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@FleksyKeyboardSDK@objc(cs)FKKeyboardViewControllerSwift(im)didReceiveMemoryWarning",
+            "mangledName": "$s17FleksyKeyboardSDK24FKKeyboardViewControllerC23didReceiveMemoryWarningyyF",
+            "moduleName": "FleksyKeyboardSDK",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "didReceiveMemoryWarning",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "textWillChange",
             "printedName": "textWillChange(_:)",
             "children": [
@@ -36002,6 +36724,30 @@
               "Available",
               "RawDocComment"
             ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "readFullDocumentContext",
+            "printedName": "readFullDocumentContext()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FullDocumentContext",
+                "printedName": "FleksyKeyboardSDK.FullDocumentContext",
+                "usr": "s:17FleksyKeyboardSDK19FullDocumentContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FleksyKeyboardSDK24FKKeyboardViewControllerC23readFullDocumentContextAA0hiJ0VyYaKF",
+            "mangledName": "$s17FleksyKeyboardSDK24FKKeyboardViewControllerC23readFullDocumentContextAA0hiJ0VyYaKF",
+            "moduleName": "FleksyKeyboardSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -37269,6 +38015,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "FleksyKeyboardSDK"
       },
       {
         "kind": "TypeDecl",
@@ -40665,6 +41418,42 @@
           {
             "kind": "Constructor",
             "name": "init",
+            "printedName": "init(jsonString:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FleksyKeyboardSDK.KeyboardTheme?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeyboardTheme",
+                    "printedName": "FleksyKeyboardSDK.KeyboardTheme",
+                    "usr": "s:17FleksyKeyboardSDK0B5ThemeV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17FleksyKeyboardSDK0B5ThemeV10jsonStringACSgSS_tcfc",
+            "mangledName": "$s17FleksyKeyboardSDK0B5ThemeV10jsonStringACSgSS_tcfc",
+            "moduleName": "FleksyKeyboardSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
             "printedName": "init(key:name:backgroundGradient:image:imageAlpha:imagePosition:defaultForeground:defaultBackground:keyShadow:suggestionBackground:suggestionSelectedBackground:homeBackground:tileIcons:extras:sounds:)",
             "children": [
               {
@@ -40957,6 +41746,46 @@
                 "declKind": "EnumElement",
                 "usr": "s:17FleksyKeyboardSDK0B5ThemeV13ImagePositionO6centeryA2EmF",
                 "mangledName": "$s17FleksyKeyboardSDK0B5ThemeV13ImagePositionO6centeryA2EmF",
+                "moduleName": "FleksyKeyboardSDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "fit",
+                "printedName": "fit",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(FleksyKeyboardSDK.KeyboardTheme.ImagePosition.Type) -> FleksyKeyboardSDK.KeyboardTheme.ImagePosition",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ImagePosition",
+                        "printedName": "FleksyKeyboardSDK.KeyboardTheme.ImagePosition",
+                        "usr": "s:17FleksyKeyboardSDK0B5ThemeV13ImagePositionO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "FleksyKeyboardSDK.KeyboardTheme.ImagePosition.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ImagePosition",
+                            "printedName": "FleksyKeyboardSDK.KeyboardTheme.ImagePosition",
+                            "usr": "s:17FleksyKeyboardSDK0B5ThemeV13ImagePositionO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:17FleksyKeyboardSDK0B5ThemeV13ImagePositionO3fityA2EmF",
+                "mangledName": "$s17FleksyKeyboardSDK0B5ThemeV13ImagePositionO3fityA2EmF",
                 "moduleName": "FleksyKeyboardSDK",
                 "declAttributes": [
                   "RawDocComment"
@@ -41833,6 +42662,36 @@
               "AccessControl",
               "Available"
             ]
+          },
+          {
+            "kind": "Function",
+            "name": "toJSONString",
+            "printedName": "toJSONString()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17FleksyKeyboardSDK0B5ThemeV12toJSONStringSSSgyF",
+            "mangledName": "$s17FleksyKeyboardSDK0B5ThemeV12toJSONStringSSSgyF",
+            "moduleName": "FleksyKeyboardSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Struct",
@@ -42727,19 +43586,597 @@
       },
       {
         "kind": "Import",
-        "name": "os.log",
-        "printedName": "os.log",
-        "declKind": "Import",
-        "moduleName": "FleksyKeyboardSDK"
-      },
-      {
-        "kind": "Import",
         "name": "iOSCoreServices",
         "printedName": "iOSCoreServices",
         "declKind": "Import",
         "moduleName": "FleksyKeyboardSDK",
         "declAttributes": [
           "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "FleksyKeyboardSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FleksyKeyboardSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FullDocumentContext",
+        "printedName": "FullDocumentContext",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Error",
+            "printedName": "Error",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "keyboardUninitialized",
+                "printedName": "keyboardUninitialized",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(FleksyKeyboardSDK.FullDocumentContext.Error.Type) -> FleksyKeyboardSDK.FullDocumentContext.Error",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "FleksyKeyboardSDK.FullDocumentContext.Error",
+                        "usr": "s:17FleksyKeyboardSDK19FullDocumentContextV5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "FleksyKeyboardSDK.FullDocumentContext.Error.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "FleksyKeyboardSDK.FullDocumentContext.Error",
+                            "usr": "s:17FleksyKeyboardSDK19FullDocumentContextV5ErrorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:17FleksyKeyboardSDK19FullDocumentContextV5ErrorO21keyboardUninitializedyA2EmF",
+                "mangledName": "$s17FleksyKeyboardSDK19FullDocumentContextV5ErrorO21keyboardUninitializedyA2EmF",
+                "moduleName": "FleksyKeyboardSDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "userCancelled",
+                "printedName": "userCancelled",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(FleksyKeyboardSDK.FullDocumentContext.Error.Type) -> FleksyKeyboardSDK.FullDocumentContext.Error",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "FleksyKeyboardSDK.FullDocumentContext.Error",
+                        "usr": "s:17FleksyKeyboardSDK19FullDocumentContextV5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "FleksyKeyboardSDK.FullDocumentContext.Error.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "FleksyKeyboardSDK.FullDocumentContext.Error",
+                            "usr": "s:17FleksyKeyboardSDK19FullDocumentContextV5ErrorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:17FleksyKeyboardSDK19FullDocumentContextV5ErrorO13userCancelledyA2EmF",
+                "mangledName": "$s17FleksyKeyboardSDK19FullDocumentContextV5ErrorO13userCancelledyA2EmF",
+                "moduleName": "FleksyKeyboardSDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "cancelled",
+                "printedName": "cancelled",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(FleksyKeyboardSDK.FullDocumentContext.Error.Type) -> FleksyKeyboardSDK.FullDocumentContext.Error",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "FleksyKeyboardSDK.FullDocumentContext.Error",
+                        "usr": "s:17FleksyKeyboardSDK19FullDocumentContextV5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "FleksyKeyboardSDK.FullDocumentContext.Error.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "FleksyKeyboardSDK.FullDocumentContext.Error",
+                            "usr": "s:17FleksyKeyboardSDK19FullDocumentContextV5ErrorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:17FleksyKeyboardSDK19FullDocumentContextV5ErrorO9cancelledyA2EmF",
+                "mangledName": "$s17FleksyKeyboardSDK19FullDocumentContextV5ErrorO9cancelledyA2EmF",
+                "moduleName": "FleksyKeyboardSDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "fullDocumentReadInProgress",
+                "printedName": "fullDocumentReadInProgress",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(FleksyKeyboardSDK.FullDocumentContext.Error.Type) -> FleksyKeyboardSDK.FullDocumentContext.Error",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "FleksyKeyboardSDK.FullDocumentContext.Error",
+                        "usr": "s:17FleksyKeyboardSDK19FullDocumentContextV5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "FleksyKeyboardSDK.FullDocumentContext.Error.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "FleksyKeyboardSDK.FullDocumentContext.Error",
+                            "usr": "s:17FleksyKeyboardSDK19FullDocumentContextV5ErrorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:17FleksyKeyboardSDK19FullDocumentContextV5ErrorO04fullE14ReadInProgressyA2EmF",
+                "mangledName": "$s17FleksyKeyboardSDK19FullDocumentContextV5ErrorO04fullE14ReadInProgressyA2EmF",
+                "moduleName": "FleksyKeyboardSDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "invalidTextDocumentProxy",
+                "printedName": "invalidTextDocumentProxy",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(FleksyKeyboardSDK.FullDocumentContext.Error.Type) -> FleksyKeyboardSDK.FullDocumentContext.Error",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "FleksyKeyboardSDK.FullDocumentContext.Error",
+                        "usr": "s:17FleksyKeyboardSDK19FullDocumentContextV5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "FleksyKeyboardSDK.FullDocumentContext.Error.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "FleksyKeyboardSDK.FullDocumentContext.Error",
+                            "usr": "s:17FleksyKeyboardSDK19FullDocumentContextV5ErrorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:17FleksyKeyboardSDK19FullDocumentContextV5ErrorO011invalidTextE5ProxyyA2EmF",
+                "mangledName": "$s17FleksyKeyboardSDK19FullDocumentContextV5ErrorO011invalidTextE5ProxyyA2EmF",
+                "moduleName": "FleksyKeyboardSDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "unexpectedlyStopped",
+                "printedName": "unexpectedlyStopped",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(FleksyKeyboardSDK.FullDocumentContext.Error.Type) -> FleksyKeyboardSDK.FullDocumentContext.Error",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "FleksyKeyboardSDK.FullDocumentContext.Error",
+                        "usr": "s:17FleksyKeyboardSDK19FullDocumentContextV5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "FleksyKeyboardSDK.FullDocumentContext.Error.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "FleksyKeyboardSDK.FullDocumentContext.Error",
+                            "usr": "s:17FleksyKeyboardSDK19FullDocumentContextV5ErrorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:17FleksyKeyboardSDK19FullDocumentContextV5ErrorO19unexpectedlyStoppedyA2EmF",
+                "mangledName": "$s17FleksyKeyboardSDK19FullDocumentContextV5ErrorO19unexpectedlyStoppedyA2EmF",
+                "moduleName": "FleksyKeyboardSDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "FleksyKeyboardSDK.FullDocumentContext.Error",
+                    "usr": "s:17FleksyKeyboardSDK19FullDocumentContextV5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "FleksyKeyboardSDK.FullDocumentContext.Error",
+                    "usr": "s:17FleksyKeyboardSDK19FullDocumentContextV5ErrorO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:17FleksyKeyboardSDK19FullDocumentContextV5ErrorO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s17FleksyKeyboardSDK19FullDocumentContextV5ErrorO2eeoiySbAE_AEtFZ",
+                "moduleName": "FleksyKeyboardSDK",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:17FleksyKeyboardSDK19FullDocumentContextV5ErrorO9hashValueSivp",
+                "mangledName": "$s17FleksyKeyboardSDK19FullDocumentContextV5ErrorO9hashValueSivp",
+                "moduleName": "FleksyKeyboardSDK",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:17FleksyKeyboardSDK19FullDocumentContextV5ErrorO9hashValueSivg",
+                    "mangledName": "$s17FleksyKeyboardSDK19FullDocumentContextV5ErrorO9hashValueSivg",
+                    "moduleName": "FleksyKeyboardSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:17FleksyKeyboardSDK19FullDocumentContextV5ErrorO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s17FleksyKeyboardSDK19FullDocumentContextV5ErrorO4hash4intoys6HasherVz_tF",
+                "moduleName": "FleksyKeyboardSDK",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:17FleksyKeyboardSDK19FullDocumentContextV5ErrorO",
+            "mangledName": "$s17FleksyKeyboardSDK19FullDocumentContextV5ErrorO",
+            "moduleName": "FleksyKeyboardSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Error",
+                "printedName": "Error",
+                "usr": "s:s5ErrorP",
+                "mangledName": "$ss5ErrorP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fullDocumentContextBeforeInput",
+            "printedName": "fullDocumentContextBeforeInput",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17FleksyKeyboardSDK19FullDocumentContextV04fulleF11BeforeInputSSvp",
+            "mangledName": "$s17FleksyKeyboardSDK19FullDocumentContextV04fulleF11BeforeInputSSvp",
+            "moduleName": "FleksyKeyboardSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17FleksyKeyboardSDK19FullDocumentContextV04fulleF11BeforeInputSSvg",
+                "mangledName": "$s17FleksyKeyboardSDK19FullDocumentContextV04fulleF11BeforeInputSSvg",
+                "moduleName": "FleksyKeyboardSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17FleksyKeyboardSDK19FullDocumentContextV04fulleF11BeforeInputSSvs",
+                "mangledName": "$s17FleksyKeyboardSDK19FullDocumentContextV04fulleF11BeforeInputSSvs",
+                "moduleName": "FleksyKeyboardSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17FleksyKeyboardSDK19FullDocumentContextV04fulleF11BeforeInputSSvM",
+                "mangledName": "$s17FleksyKeyboardSDK19FullDocumentContextV04fulleF11BeforeInputSSvM",
+                "moduleName": "FleksyKeyboardSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fullDocumentContextAfterInput",
+            "printedName": "fullDocumentContextAfterInput",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17FleksyKeyboardSDK19FullDocumentContextV04fulleF10AfterInputSSvp",
+            "mangledName": "$s17FleksyKeyboardSDK19FullDocumentContextV04fulleF10AfterInputSSvp",
+            "moduleName": "FleksyKeyboardSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17FleksyKeyboardSDK19FullDocumentContextV04fulleF10AfterInputSSvg",
+                "mangledName": "$s17FleksyKeyboardSDK19FullDocumentContextV04fulleF10AfterInputSSvg",
+                "moduleName": "FleksyKeyboardSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17FleksyKeyboardSDK19FullDocumentContextV04fulleF10AfterInputSSvs",
+                "mangledName": "$s17FleksyKeyboardSDK19FullDocumentContextV04fulleF10AfterInputSSvs",
+                "moduleName": "FleksyKeyboardSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17FleksyKeyboardSDK19FullDocumentContextV04fulleF10AfterInputSSvM",
+                "mangledName": "$s17FleksyKeyboardSDK19FullDocumentContextV04fulleF10AfterInputSSvM",
+                "moduleName": "FleksyKeyboardSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17FleksyKeyboardSDK19FullDocumentContextV",
+        "mangledName": "$s17FleksyKeyboardSDK19FullDocumentContextV",
+        "moduleName": "FleksyKeyboardSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
         ]
       },
       {
@@ -42931,6 +44368,70 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "UITextDocumentProxy",
+        "printedName": "UITextDocumentProxy",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "debugDescription",
+            "printedName": "debugDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So19UITextDocumentProxyP17FleksyKeyboardSDKE16debugDescriptionSSvp",
+            "mangledName": "$sSo19UITextDocumentProxyP17FleksyKeyboardSDKE16debugDescriptionSSvp",
+            "moduleName": "FleksyKeyboardSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So19UITextDocumentProxyP17FleksyKeyboardSDKE16debugDescriptionSSvg",
+                "mangledName": "$sSo19UITextDocumentProxyP17FleksyKeyboardSDKE16debugDescriptionSSvg",
+                "moduleName": "FleksyKeyboardSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UITextDocumentProxy>",
+                "sugared_genericSig": "<Self where Self : UIKit.UITextDocumentProxy>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:objc(pl)UITextDocumentProxy",
+        "moduleName": "UIKit",
+        "genericSig": "<τ_0_0 : UIKit.UIKeyInput>",
+        "sugared_genericSig": "<Self : UIKit.UIKeyInput>",
+        "objc_name": "UITextDocumentProxy",
+        "declAttributes": [
+          "ObjC",
+          "Custom",
+          "Dynamic"
+        ],
+        "isExternal": true
+      },
+      {
+        "kind": "TypeDecl",
         "name": "FleksyUtility",
         "printedName": "FleksyUtility",
         "children": [
@@ -42957,6 +44458,35 @@
               "RawDocComment"
             ],
             "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getStoredDefaultIdentifier",
+            "printedName": "getStoredDefaultIdentifier()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So13FleksyUtilityC0A11KeyboardSDKE26getStoredDefaultIdentifierSSyFZ",
+            "mangledName": "$sSo13FleksyUtilityC0A11KeyboardSDKE26getStoredDefaultIdentifierSSyFZ",
+            "moduleName": "FleksyKeyboardSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "SPIAccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "spi_group_names": [
+              "Fleksy"
+            ],
             "funcSelfKind": "NonMutating"
           }
         ],
@@ -43024,6 +44554,97 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIInputViewController",
+        "printedName": "UIInputViewController",
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIInputViewController",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "8.0",
+        "objc_name": "UIInputViewController",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           }
         ]
       },
@@ -43525,35 +45146,70 @@
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/Dictionary\/UserDictionaryManager.swift",
       "kind": "StringLiteral",
-      "offset": 454,
+      "offset": 539,
       "length": 35,
       "value": "\"com.fleksy.dictionaryManagerQueue\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/Dictionary\/UserDictionaryManager.swift",
       "kind": "StringLiteral",
-      "offset": 3996,
+      "offset": 4352,
       "length": 28,
       "value": "\"FLInternalDictionary.plist\""
     },
     {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/Logging\/LogsFileManager.swift",
+      "kind": "StringLiteral",
+      "offset": 800,
+      "length": 40,
+      "value": "\"com.fleksy.setting.storeLogs.lastSync.\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/Logging\/LogsFileManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1493,
+      "length": 4,
+      "value": "1024"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/Logging\/LogsFileManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1500,
+      "length": 4,
+      "value": "1024"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/Logging\/LogsFileManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1560,
+      "length": 6,
+      "value": "\"logs\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/Logging\/LogsFileManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2246,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/vagrant\/git\/FleksyKit\/FleksyCustomButton.swift",
       "kind": "FloatLiteral",
-      "offset": 1605,
+      "offset": 1607,
       "length": 4,
       "value": "0.15"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKit\/FleksyCustomButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 1687,
+      "offset": 1689,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKit\/FleksyCustomButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 1691,
+      "offset": 1693,
       "length": 1,
       "value": "1"
     },
@@ -43768,6 +45424,34 @@
       "value": "3.0"
     },
     {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/EmojiPanel\/RecentEmojiMetadata.swift",
+      "kind": "StringLiteral",
+      "offset": 272,
+      "length": 7,
+      "value": "\"emoji\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/EmojiPanel\/RecentEmojiMetadata.swift",
+      "kind": "StringLiteral",
+      "offset": 310,
+      "length": 10,
+      "value": "\"useCount\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/EmojiPanel\/RecentEmojiMetadata.swift",
+      "kind": "StringLiteral",
+      "offset": 355,
+      "length": 14,
+      "value": "\"lastUsedTime\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/EmojiPanel\/RecentEmojiMetadata.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4281,
+      "length": 1,
+      "value": "3"
+    },
+    {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/License\/KeyboardActivationStatus.swift",
       "kind": "IntegerLiteral",
       "offset": 1897,
@@ -43798,6 +45482,13 @@
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/License\/KeyboardActivationStatus.swift",
       "kind": "IntegerLiteral",
+      "offset": 2063,
+      "length": 9,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/License\/KeyboardActivationStatus.swift",
+      "kind": "IntegerLiteral",
       "offset": 1897,
       "length": 6,
       "value": "1"
@@ -43826,63 +45517,70 @@
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/License\/KeyboardActivationStatus.swift",
       "kind": "IntegerLiteral",
-      "offset": 2810,
+      "offset": 2063,
+      "length": 9,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/License\/KeyboardActivationStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2889,
       "length": 5,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/License\/KeyboardActivationStatus.swift",
       "kind": "IntegerLiteral",
-      "offset": 2810,
+      "offset": 2889,
       "length": 5,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/Engine\/FleksyEngineManager.swift",
       "kind": "StringLiteral",
-      "offset": 3786,
+      "offset": 3827,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/Engine\/FleksyEngineManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 5461,
+      "offset": 5502,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/Engine\/FleksyEngineManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 5464,
+      "offset": 5505,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/Engine\/FleksyEngineManager.swift",
       "kind": "StringLiteral",
-      "offset": 6317,
+      "offset": 6358,
       "length": 18,
       "value": "\"default-language\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/Engine\/FleksyEngineManager.swift",
       "kind": "StringLiteral",
-      "offset": 31928,
+      "offset": 34312,
       "length": 8,
       "value": "\"bundle\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/Engine\/FleksyEngineManager.swift",
       "kind": "StringLiteral",
-      "offset": 947,
+      "offset": 988,
       "length": 19,
       "value": "\"FleksyKeyboardSDK.FleksyEngineManager\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/InputViewContainer\/TopBarOverlays\/TextField\/AppTextDocumentProxy.swift",
       "kind": "StringLiteral",
-      "offset": 2077,
+      "offset": 2112,
       "length": 107,
       "value": "\"The documentIdentifier of the AppTextFieldInputViewController in the keyboard extension should not be nil\""
     },
@@ -43896,35 +45594,35 @@
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/FleksyApps\/DefaultApps\/Tiles\/Service\/AdsTilesService.swift",
       "kind": "StringLiteral",
-      "offset": 430,
+      "offset": 471,
       "length": 76,
       "value": "\"https:\/\/vvtzm33i71.execute-api.eu-west-1.amazonaws.com\/Prod\/api\/v1\/routing\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/FleksyApps\/DefaultApps\/Tiles\/Service\/AdsTilesService.swift",
       "kind": "StringLiteral",
-      "offset": 547,
+      "offset": 588,
       "length": 42,
       "value": "\"5SxBHUHWJz2STlyieK3qV5PRMKdmKhI67kO0liUK\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/FleksyApps\/DefaultApps\/Tiles\/Service\/AdsTilesService.swift",
       "kind": "StringLiteral",
-      "offset": 650,
+      "offset": 691,
       "length": 50,
       "value": "\"https:\/\/api.thingthing.co\/plugins\/api\/v1\/routing\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/FleksyApps\/DefaultApps\/Tiles\/Service\/AdsTilesService.swift",
       "kind": "StringLiteral",
-      "offset": 741,
+      "offset": 782,
       "length": 42,
       "value": "\"h0O4w3lWU38SryCMGNSvT52aM52BUsH0anOnOnjH\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/FleksyApps\/DefaultApps\/Tiles\/Service\/AdsTilesService.swift",
       "kind": "StringLiteral",
-      "offset": 880,
+      "offset": 921,
       "length": 21,
       "value": "\"fleksyapp_ads_tiles\""
     },
@@ -43952,21 +45650,28 @@
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/TopBar\/TopBarViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 880,
+      "offset": 886,
       "length": 2,
       "value": "46"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/TopBar\/TopBarViewController.swift",
+      "kind": "Array",
+      "offset": 6391,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/TopBar\/TopBarViewController.swift",
       "kind": "StringLiteral",
-      "offset": 764,
+      "offset": 770,
       "length": 20,
       "value": "\"FleksyKeyboardSDK.TopBarViewController\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/FleksyApps\/KeyboardAppsManager.swift",
       "kind": "Array",
-      "offset": 2109,
+      "offset": 2963,
       "length": 2,
       "value": "[]"
     },
@@ -43987,175 +45692,175 @@
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/EmojiPanel\/EmojiViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1164,
+      "offset": 1186,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/EmojiPanel\/EmojiViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1218,
+      "offset": 1240,
       "length": 2,
       "value": "25"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/EmojiPanel\/EmojiViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1272,
+      "offset": 1294,
       "length": 24,
       "value": "\"id-reusable-emoji-cell\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/EmojiPanel\/EmojiViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1348,
+      "offset": 1370,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/EmojiPanel\/EmojiViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1481,
+      "offset": 1503,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/EmojiPanel\/EmojiViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1862,
+      "offset": 1884,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/EmojiPanel\/EmojiViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2094,
+      "offset": 2116,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/EmojiPanel\/EmojiViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2134,
+      "offset": 2156,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/EmojiPanel\/EmojiViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2167,
+      "offset": 2189,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/EmojiPanel\/EmojiViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2542,
+      "offset": 2564,
       "length": 24,
       "value": "\"Emoji.Search.noResults\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/EmojiPanel\/EmojiViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2609,
+      "offset": 2631,
       "length": 12,
       "value": "\"No Results\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/EmojiPanel\/EmojiViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2875,
+      "offset": 2828,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/EmojiPanel\/EmojiViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3344,
+      "offset": 3297,
       "length": 5,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/EmojiPanel\/EmojiViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3356,
+      "offset": 3309,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/EmojiPanel\/EmojiViewController.swift",
       "kind": "Array",
-      "offset": 4058,
+      "offset": 4011,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/EmojiPanel\/EmojiViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4425,
+      "offset": 4378,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/EmojiPanel\/EmojiViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4795,
+      "offset": 4748,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/EmojiPanel\/EmojiViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4854,
+      "offset": 4807,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/EmojiPanel\/EmojiViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4913,
+      "offset": 4866,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/EmojiPanel\/EmojiViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4961,
+      "offset": 4914,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/EmojiPanel\/EmojiViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5007,
+      "offset": 4960,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/EmojiPanel\/EmojiViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11058,
+      "offset": 11211,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/EmojiPanel\/EmojiViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 15697,
+      "offset": 15850,
       "length": 5,
       "value": "0.035"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/EmojiPanel\/EmojiViewController.swift",
       "kind": "StringLiteral",
-      "offset": 921,
+      "offset": 943,
       "length": 19,
       "value": "\"FleksyKeyboardSDK.EmojiViewController\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/EmojiPanel\/EmojiViewController.swift",
       "kind": "StringLiteral",
-      "offset": 921,
+      "offset": 943,
       "length": 19,
       "value": "\"FleksyKeyboardSDK.EmojiViewController\""
     },
@@ -44372,16 +46077,163 @@
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/FleksyTextInputManager.swift",
       "kind": "StringLiteral",
-      "offset": 1448,
+      "offset": 1533,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/FleksyTextInputManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1832,
+      "offset": 1917,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/Logging\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 1152,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/Logging\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 1584,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/Logging\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 2207,
+      "length": 33,
+      "value": "\"co.thingthing.FleksyKeyboardSDK\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/Logging\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 2953,
+      "length": 23,
+      "value": "\"KeyboardConfiguration\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/Logging\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 3094,
+      "length": 14,
+      "value": "\"Data capture\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/Logging\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 3228,
+      "length": 14,
+      "value": "\"Text manager\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/Logging\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 3362,
+      "length": 17,
+      "value": "\"User dictionary\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/Logging\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 3495,
+      "length": 15,
+      "value": "\"Keyboard apps\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/Logging\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 3638,
+      "length": 17,
+      "value": "\"SDK integration\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/Logging\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 3773,
+      "length": 10,
+      "value": "\"File I\/O\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/Logging\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 3900,
+      "length": 11,
+      "value": "\"Languages\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/Logging\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 4029,
+      "length": 16,
+      "value": "\"Speech manager\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/Logging\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 4167,
+      "length": 18,
+      "value": "\"Feedback manager\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/Logging\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 4310,
+      "length": 20,
+      "value": "\"FullDocumentReader\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/Logging\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 4443,
+      "length": 9,
+      "value": "\"Generic\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/Logging\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 5012,
+      "length": 20,
+      "value": "\"SDK implementation\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/Logging\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 5265,
+      "length": 8,
+      "value": "\"Engine\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/Logging\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 5524,
+      "length": 10,
+      "value": "\"AdsTiles\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/Logging\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 5784,
+      "length": 19,
+      "value": "\"Logs file manager\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/Logging\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 6226,
+      "length": 11,
+      "value": "\"Touch log\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/Logging\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 6363,
+      "length": 15,
+      "value": "\"Themes legacy\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/TopBar\/Flick\/FlickPredictionsLayout.swift",
@@ -44463,21 +46315,21 @@
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/StyleConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 5890,
+      "offset": 7361,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/StyleConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 12364,
+      "offset": 13835,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/StyleConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 14732,
+      "offset": 16203,
       "length": 4,
       "value": "true"
     },
@@ -44552,72 +46404,79 @@
       "value": "2"
     },
     {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/Utilities\/String+Utils.swift",
+      "kind": "StringLiteral",
+      "offset": 196,
+      "length": 4,
+      "value": "\"\n\""
+    },
+    {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/DataCapture\/DataCaptureEvents.swift",
       "kind": "StringLiteral",
-      "offset": 22459,
+      "offset": 22622,
       "length": 32,
       "value": "\"FleksyKeyboardSDK.KeyStrokeEventPayloadObjcWrapper\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/DataCapture\/DataCaptureEvents.swift",
       "kind": "StringLiteral",
-      "offset": 23118,
+      "offset": 23281,
       "length": 29,
       "value": "\"FleksyKeyboardSDK.DeleteEventPayloadObjcWrapper\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/DataCapture\/DataCaptureEvents.swift",
       "kind": "StringLiteral",
-      "offset": 23503,
+      "offset": 23666,
       "length": 29,
       "value": "\"FleksyKeyboardSDK.KeyPlaneKeyPayloadObjcWrapper\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/DataCapture\/DataCaptureEvents.swift",
       "kind": "StringLiteral",
-      "offset": 23781,
+      "offset": 23944,
       "length": 31,
       "value": "\"FleksyKeyboardSDK.KeyPlaneEventPayloadObjcWrapper\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/DataCapture\/DataCaptureEvents.swift",
       "kind": "StringLiteral",
-      "offset": 24112,
+      "offset": 24275,
       "length": 27,
       "value": "\"FleksyKeyboardSDK.WordEventPayloadObjcWrapper\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/DataCapture\/DataCaptureEvents.swift",
       "kind": "StringLiteral",
-      "offset": 24772,
+      "offset": 24935,
       "length": 30,
       "value": "\"FleksyKeyboardSDK.SwipeFeaturePayloadObjcWrapper\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/DataCapture\/DataCaptureEvents.swift",
       "kind": "StringLiteral",
-      "offset": 25049,
+      "offset": 25212,
       "length": 32,
       "value": "\"FleksyKeyboardSDK.SwipeCandidatePayloadObjcWrapper\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/DataCapture\/DataCaptureEvents.swift",
       "kind": "StringLiteral",
-      "offset": 25353,
+      "offset": 25516,
       "length": 28,
       "value": "\"FleksyKeyboardSDK.SwipeEventPayloadObjcWrapper\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/DataCapture\/DataCaptureEvents.swift",
       "kind": "StringLiteral",
-      "offset": 26020,
+      "offset": 26183,
       "length": 36,
       "value": "\"FleksyKeyboardSDK.SessionUpdateEventPayloadObjcWrapper\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/DataCapture\/DataCaptureEvents.swift",
       "kind": "StringLiteral",
-      "offset": 26998,
+      "offset": 27214,
       "length": 35,
       "value": "\"FleksyKeyboardSDK.StressUpdateEventPayloadObjcWrapper\""
     },
@@ -44693,8 +46552,15 @@
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/EmojiConfiguration.swift",
+      "kind": "Array",
+      "offset": 4756,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/EmojiConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 4714,
+      "offset": 4889,
       "length": 4,
       "value": "true"
     },
@@ -44804,6 +46670,27 @@
       "value": "\"FleksyKeyboardSDK.AppsCarouselView\""
     },
     {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/FleksyEnterButton.swift",
+      "kind": "StringLiteral",
+      "offset": 170,
+      "length": 17,
+      "value": "\"FleksyKeyboardSDK.FleksyEnterButton\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/FleksyEnterButton.swift",
+      "kind": "StringLiteral",
+      "offset": 170,
+      "length": 17,
+      "value": "\"FleksyKeyboardSDK.FleksyEnterButton\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/FleksyEnterButton.swift",
+      "kind": "StringLiteral",
+      "offset": 170,
+      "length": 17,
+      "value": "\"FleksyKeyboardSDK.FleksyEnterButton\""
+    },
+    {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/Domain\/EngineHighlightsSuggestions.swift",
       "kind": "StringLiteral",
       "offset": 469,
@@ -44830,48 +46717,1133 @@
       "offset": 515,
       "length": 19,
       "value": "\"highlightEventNWP\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 391,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 483,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1045,
+      "length": 9,
+      "value": "\"iPad2,1\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1056,
+      "length": 9,
+      "value": "\"iPad2,2\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1067,
+      "length": 9,
+      "value": "\"iPad2,3\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1078,
+      "length": 9,
+      "value": "\"iPad2,4\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1118,
+      "length": 3,
+      "value": "132"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1135,
+      "length": 9,
+      "value": "\"iPad2,5\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1146,
+      "length": 9,
+      "value": "\"iPad2,6\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1157,
+      "length": 9,
+      "value": "\"iPad2,7\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1200,
+      "length": 3,
+      "value": "163"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1217,
+      "length": 9,
+      "value": "\"iPad3,1\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1228,
+      "length": 9,
+      "value": "\"iPad3,2\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1239,
+      "length": 9,
+      "value": "\"iPad3,3\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1285,
+      "length": 9,
+      "value": "\"iPad3,4\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1296,
+      "length": 9,
+      "value": "\"iPad3,5\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1307,
+      "length": 9,
+      "value": "\"iPad3,6\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1353,
+      "length": 9,
+      "value": "\"iPad4,1\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1364,
+      "length": 9,
+      "value": "\"iPad4,2\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1375,
+      "length": 9,
+      "value": "\"iPad4,3\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1410,
+      "length": 9,
+      "value": "\"iPad5,3\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1421,
+      "length": 9,
+      "value": "\"iPad5,4\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1458,
+      "length": 9,
+      "value": "\"iPad6,7\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1469,
+      "length": 9,
+      "value": "\"iPad6,8\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1513,
+      "length": 9,
+      "value": "\"iPad6,3\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1524,
+      "length": 9,
+      "value": "\"iPad6,4\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1567,
+      "length": 10,
+      "value": "\"iPad6,11\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1579,
+      "length": 10,
+      "value": "\"iPad6,12\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1626,
+      "length": 9,
+      "value": "\"iPad7,1\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1637,
+      "length": 9,
+      "value": "\"iPad7,2\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1679,
+      "length": 9,
+      "value": "\"iPad7,3\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1690,
+      "length": 9,
+      "value": "\"iPad7,4\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1732,
+      "length": 9,
+      "value": "\"iPad7,5\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1743,
+      "length": 9,
+      "value": "\"iPad7,6\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1789,
+      "length": 10,
+      "value": "\"iPad7,11\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1801,
+      "length": 10,
+      "value": "\"iPad7,12\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1848,
+      "length": 10,
+      "value": "\"iPad11,6\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1860,
+      "length": 10,
+      "value": "\"iPad11,7\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1907,
+      "length": 10,
+      "value": "\"iPad12,1\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1919,
+      "length": 10,
+      "value": "\"iPad12,2\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1966,
+      "length": 9,
+      "value": "\"iPad8,1\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1977,
+      "length": 9,
+      "value": "\"iPad8,2\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1988,
+      "length": 9,
+      "value": "\"iPad8,3\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1999,
+      "length": 9,
+      "value": "\"iPad8,4\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2044,
+      "length": 9,
+      "value": "\"iPad8,5\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2055,
+      "length": 9,
+      "value": "\"iPad8,6\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2066,
+      "length": 9,
+      "value": "\"iPad8,7\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2077,
+      "length": 9,
+      "value": "\"iPad8,8\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2124,
+      "length": 9,
+      "value": "\"iPad8,9\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2135,
+      "length": 10,
+      "value": "\"iPad8,10\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2179,
+      "length": 10,
+      "value": "\"iPad8,11\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2191,
+      "length": 10,
+      "value": "\"iPad8,12\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2237,
+      "length": 10,
+      "value": "\"iPad11,3\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2249,
+      "length": 10,
+      "value": "\"iPad11,4\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2287,
+      "length": 10,
+      "value": "\"iPad13,1\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2299,
+      "length": 10,
+      "value": "\"iPad13,2\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2337,
+      "length": 10,
+      "value": "\"iPad13,4\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2349,
+      "length": 10,
+      "value": "\"iPad13,5\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2361,
+      "length": 10,
+      "value": "\"iPad13,6\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2373,
+      "length": 10,
+      "value": "\"iPad13,7\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2419,
+      "length": 10,
+      "value": "\"iPad13,8\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2431,
+      "length": 10,
+      "value": "\"iPad13,9\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2443,
+      "length": 11,
+      "value": "\"iPad13,10\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2456,
+      "length": 11,
+      "value": "\"iPad13,11\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2505,
+      "length": 11,
+      "value": "\"iPad13,16\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2518,
+      "length": 11,
+      "value": "\"iPad13,17\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2557,
+      "length": 11,
+      "value": "\"iPad13,18\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2570,
+      "length": 11,
+      "value": "\"iPad13,19\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2619,
+      "length": 10,
+      "value": "\"iPad14,3\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2631,
+      "length": 10,
+      "value": "\"iPad14,4\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2677,
+      "length": 10,
+      "value": "\"iPad14,5\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2689,
+      "length": 10,
+      "value": "\"iPad14,6\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2737,
+      "length": 10,
+      "value": "\"iPad14,8\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2749,
+      "length": 10,
+      "value": "\"iPad14,9\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2796,
+      "length": 11,
+      "value": "\"iPad14,10\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2809,
+      "length": 11,
+      "value": "\"iPad14,11\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2857,
+      "length": 10,
+      "value": "\"iPad16,3\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2869,
+      "length": 10,
+      "value": "\"iPad16,4\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2915,
+      "length": 10,
+      "value": "\"iPad16,5\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2927,
+      "length": 10,
+      "value": "\"iPad16,6\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2980,
+      "length": 3,
+      "value": "264"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 2997,
+      "length": 11,
+      "value": "\"iPhone4,1\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3028,
+      "length": 11,
+      "value": "\"iPhone5,1\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3041,
+      "length": 11,
+      "value": "\"iPhone5,2\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3071,
+      "length": 11,
+      "value": "\"iPhone5,3\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3084,
+      "length": 11,
+      "value": "\"iPhone5,4\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3115,
+      "length": 11,
+      "value": "\"iPhone6,1\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3128,
+      "length": 11,
+      "value": "\"iPhone6,2\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3159,
+      "length": 11,
+      "value": "\"iPhone8,4\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3190,
+      "length": 11,
+      "value": "\"iPhone7,2\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3220,
+      "length": 11,
+      "value": "\"iPhone8,1\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3251,
+      "length": 11,
+      "value": "\"iPhone9,1\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3264,
+      "length": 11,
+      "value": "\"iPhone9,3\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3294,
+      "length": 12,
+      "value": "\"iPhone10,1\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3308,
+      "length": 12,
+      "value": "\"iPhone10,4\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3339,
+      "length": 12,
+      "value": "\"iPhone11,8\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3371,
+      "length": 12,
+      "value": "\"iPhone12,1\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3403,
+      "length": 12,
+      "value": "\"iPhone12,8\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3449,
+      "length": 9,
+      "value": "\"iPod5,1\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3460,
+      "length": 9,
+      "value": "\"iPod7,1\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3483,
+      "length": 9,
+      "value": "\"iPod9,1\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3506,
+      "length": 9,
+      "value": "\"iPad4,4\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3517,
+      "length": 9,
+      "value": "\"iPad4,5\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3540,
+      "length": 9,
+      "value": "\"iPad4,6\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3551,
+      "length": 9,
+      "value": "\"iPad4,7\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3574,
+      "length": 9,
+      "value": "\"iPad4,8\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3585,
+      "length": 9,
+      "value": "\"iPad4,9\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3608,
+      "length": 9,
+      "value": "\"iPad5,1\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3619,
+      "length": 9,
+      "value": "\"iPad5,2\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3642,
+      "length": 10,
+      "value": "\"iPad11,1\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3654,
+      "length": 10,
+      "value": "\"iPad11,2\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3693,
+      "length": 10,
+      "value": "\"iPad14,1\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3705,
+      "length": 10,
+      "value": "\"iPad14,2\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3744,
+      "length": 12,
+      "value": "\"iPhone14,6\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3791,
+      "length": 3,
+      "value": "326"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3808,
+      "length": 11,
+      "value": "\"iPhone7,1\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3842,
+      "length": 11,
+      "value": "\"iPhone8,2\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3877,
+      "length": 11,
+      "value": "\"iPhone9,2\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3890,
+      "length": 11,
+      "value": "\"iPhone9,4\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3925,
+      "length": 12,
+      "value": "\"iPhone10,2\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3939,
+      "length": 12,
+      "value": "\"iPhone10,5\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3982,
+      "length": 3,
+      "value": "401"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 3999,
+      "length": 12,
+      "value": "\"iPhone10,3\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4013,
+      "length": 12,
+      "value": "\"iPhone10,6\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4044,
+      "length": 12,
+      "value": "\"iPhone11,2\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4076,
+      "length": 12,
+      "value": "\"iPhone12,3\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4111,
+      "length": 12,
+      "value": "\"iPhone11,4\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4125,
+      "length": 12,
+      "value": "\"iPhone11,6\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4161,
+      "length": 12,
+      "value": "\"iPhone12,5\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4201,
+      "length": 12,
+      "value": "\"iPhone13,4\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4241,
+      "length": 12,
+      "value": "\"iPhone14,3\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4281,
+      "length": 12,
+      "value": "\"iPhone14,8\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4325,
+      "length": 3,
+      "value": "458"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4342,
+      "length": 12,
+      "value": "\"iPhone13,2\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4374,
+      "length": 12,
+      "value": "\"iPhone13,3\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4410,
+      "length": 12,
+      "value": "\"iPhone14,5\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4442,
+      "length": 12,
+      "value": "\"iPhone14,2\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4478,
+      "length": 12,
+      "value": "\"iPhone14,7\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4510,
+      "length": 12,
+      "value": "\"iPhone15,2\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4546,
+      "length": 12,
+      "value": "\"iPhone15,3\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4586,
+      "length": 12,
+      "value": "\"iPhone15,4\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4618,
+      "length": 12,
+      "value": "\"iPhone15,5\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4655,
+      "length": 12,
+      "value": "\"iPhone16,1\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4695,
+      "length": 12,
+      "value": "\"iPhone16,2\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4742,
+      "length": 3,
+      "value": "460"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4759,
+      "length": 12,
+      "value": "\"iPhone13,1\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 4796,
+      "length": 12,
+      "value": "\"iPhone14,4\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4840,
+      "length": 3,
+      "value": "476"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKit\/Utilities\/FleksyDeviceInfo.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4880,
+      "length": 3,
+      "value": "326"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/TopBar\/Predictions\/PredictionsView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1063,
+      "offset": 1114,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/TopBar\/Predictions\/PredictionsView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1072,
+      "offset": 1123,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/TopBar\/Predictions\/PredictionsView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1083,
+      "offset": 1134,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/TopBar\/Predictions\/PredictionsView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1093,
+      "offset": 1144,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/TopBar\/Predictions\/PredictionsView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1124,
+      "offset": 1175,
       "length": 3,
       "value": "999"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/TopBar\/Predictions\/PredictionsView.swift",
       "kind": "StringLiteral",
-      "offset": 643,
+      "offset": 694,
       "length": 15,
       "value": "\"FleksyKeyboardSDK.PredictionsView\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/FullDocumentContextRead\/FullDocumentReader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 642,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/FullDocumentContextRead\/FullDocumentReader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 720,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/FullDocumentContextRead\/FullDocumentReader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1101,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/FullDocumentContextRead\/FullDocumentReader.swift",
+      "kind": "StringLiteral",
+      "offset": 31021,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/FullDocumentContextRead\/FullDocumentReader.swift",
+      "kind": "StringLiteral",
+      "offset": 31070,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/FullDocumentContextRead\/FullDocumentReader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 31158,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/EmojiPanel\/EmojiCell.swift",
@@ -44945,22 +47917,29 @@
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/DependencyManager.swift",
+      "kind": "StringLiteral",
+      "offset": 536,
+      "length": 60,
+      "value": "\"com.fleksy.useFleksyCoreEnvironmentStaging.NotificationKey\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/DependencyManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 6003,
+      "offset": 6843,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/DependencyManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 6044,
+      "offset": 6884,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/DependencyManager.swift",
       "kind": "Dictionary",
-      "offset": 6156,
+      "offset": 6996,
       "length": 3,
       "value": "[]"
     },
@@ -45057,24 +48036,10 @@
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/EmojiPanel\/EmojiDataSource.swift",
-      "kind": "Dictionary",
-      "offset": 544,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/EmojiPanel\/EmojiDataSource.swift",
-      "kind": "Array",
-      "offset": 592,
+      "kind": "IntegerLiteral",
+      "offset": 311,
       "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/EmojiPanel\/EmojiDataSource.swift",
-      "kind": "Array",
-      "offset": 1124,
-      "length": 2,
-      "value": "[]"
+      "value": "32"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/InputViewContainer\/TopBarOverlays\/TextField\/AppTextFieldInputViewController.swift",
@@ -45114,163 +48079,163 @@
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/AccelerometerManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1052,
+      "offset": 1094,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/AccelerometerManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1400,
+      "offset": 1442,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/TopBar\/Flick\/FlickPredictionsViewController.swift",
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/TopBar\/Flick\/JapanesePredictionsViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 1283,
+      "offset": 1261,
       "length": 4,
       "value": "0.25"
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/TopBar\/Flick\/FlickPredictionsViewController.swift",
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/TopBar\/Flick\/JapanesePredictionsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1350,
+      "offset": 1328,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/TopBar\/Flick\/FlickPredictionsViewController.swift",
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/TopBar\/Flick\/JapanesePredictionsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1412,
+      "offset": 1390,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/TopBar\/Flick\/FlickPredictionsViewController.swift",
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/TopBar\/Flick\/JapanesePredictionsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1421,
+      "offset": 1399,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/TopBar\/Flick\/FlickPredictionsViewController.swift",
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/TopBar\/Flick\/JapanesePredictionsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1432,
+      "offset": 1410,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/TopBar\/Flick\/FlickPredictionsViewController.swift",
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/TopBar\/Flick\/JapanesePredictionsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1442,
+      "offset": 1420,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/TopBar\/Flick\/FlickPredictionsViewController.swift",
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/TopBar\/Flick\/JapanesePredictionsViewController.swift",
       "kind": "Array",
-      "offset": 1561,
+      "offset": 1539,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/TopBar\/Flick\/FlickPredictionsViewController.swift",
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/TopBar\/Flick\/JapanesePredictionsViewController.swift",
       "kind": "Array",
-      "offset": 1627,
+      "offset": 1605,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/TopBar\/Flick\/FlickPredictionsViewController.swift",
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/TopBar\/Flick\/JapanesePredictionsViewController.swift",
       "kind": "Array",
-      "offset": 1677,
+      "offset": 1655,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/TopBar\/Flick\/FlickPredictionsViewController.swift",
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/TopBar\/Flick\/JapanesePredictionsViewController.swift",
       "kind": "Array",
-      "offset": 2093,
+      "offset": 1983,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/TopBar\/Flick\/FlickPredictionsViewController.swift",
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/TopBar\/Flick\/JapanesePredictionsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2148,
+      "offset": 2038,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/TopBar\/Flick\/FlickPredictionsViewController.swift",
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/TopBar\/Flick\/JapanesePredictionsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2426,
+      "offset": 2316,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/TopBar\/Flick\/FlickPredictionsViewController.swift",
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/TopBar\/Flick\/JapanesePredictionsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2435,
+      "offset": 2325,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/TopBar\/Flick\/FlickPredictionsViewController.swift",
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/TopBar\/Flick\/JapanesePredictionsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2446,
+      "offset": 2336,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/TopBar\/Flick\/FlickPredictionsViewController.swift",
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/TopBar\/Flick\/JapanesePredictionsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2456,
+      "offset": 2346,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/TopBar\/Flick\/FlickPredictionsViewController.swift",
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/TopBar\/Flick\/JapanesePredictionsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2492,
+      "offset": 2382,
       "length": 19,
       "value": "\"Expand - Collapse\""
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/TopBar\/Flick\/FlickPredictionsViewController.swift",
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/TopBar\/Flick\/JapanesePredictionsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2729,
+      "offset": 2619,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/TopBar\/Flick\/FlickPredictionsViewController.swift",
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/TopBar\/Flick\/JapanesePredictionsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2816,
+      "offset": 2706,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/TopBar\/Flick\/FlickPredictionsViewController.swift",
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/TopBar\/Flick\/JapanesePredictionsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3205,
+      "offset": 3095,
       "length": 2,
       "value": "26"
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/TopBar\/Flick\/FlickPredictionsViewController.swift",
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/TopBar\/Flick\/JapanesePredictionsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3234,
+      "offset": 3124,
       "length": 10,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/TopBar\/Flick\/FlickPredictionsViewController.swift",
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/TopBar\/Flick\/JapanesePredictionsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 953,
-      "length": 30,
-      "value": "\"FleksyKeyboardSDK.FlickPredictionsViewController\""
+      "offset": 928,
+      "length": 33,
+      "value": "\"FleksyKeyboardSDK.JapanesePredictionsViewController\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/FleksyApps\/Views\/AppTextView\/AppTextView.swift",
@@ -45289,7 +48254,7 @@
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/FleksyApps\/Views\/AppTextView\/AppTextView.swift",
       "kind": "BooleanLiteral",
-      "offset": 4890,
+      "offset": 5037,
       "length": 4,
       "value": "true"
     },
@@ -45317,399 +48282,406 @@
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FKInterfaceInputViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 611,
+      "offset": 754,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FKInterfaceInputViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 616,
+      "offset": 759,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FKInterfaceInputViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 762,
+      "offset": 905,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FKInterfaceInputViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 767,
+      "offset": 910,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FKInterfaceInputViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 917,
+      "offset": 1060,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FKInterfaceInputViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 922,
+      "offset": 1065,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FKInterfaceInputViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1121,
+      "offset": 1264,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FKInterfaceInputViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1126,
+      "offset": 1269,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FKInterfaceInputViewController.swift",
       "kind": "Array",
-      "offset": 4172,
+      "offset": 4591,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FKInterfaceInputViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 5374,
+      "length": 4,
+      "value": "0.05"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FKInterfaceInputViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5763,
+      "offset": 7169,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FKInterfaceInputViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6021,
+      "offset": 7427,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FKInterfaceInputViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8388,
+      "offset": 10234,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FKInterfaceInputViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8446,
+      "offset": 10439,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FKInterfaceInputViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10488,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FKInterfaceInputViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10766,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FKInterfaceInputViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11206,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FKInterfaceInputViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9052,
+      "offset": 11297,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FKInterfaceInputViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9101,
+      "offset": 11369,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FKInterfaceInputViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9379,
+      "offset": 12658,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FKInterfaceInputViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9819,
+      "offset": 13408,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FKInterfaceInputViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9910,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FKInterfaceInputViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11173,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FKInterfaceInputViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11925,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FKInterfaceInputViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9448,
+      "offset": 10835,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FKInterfaceInputViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1151,
+      "offset": 1294,
       "length": 30,
       "value": "\"FleksyKeyboardSDK.FKInterfaceInputViewController\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/KeyboardConfiguration+Extensions.swift",
       "kind": "BooleanLiteral",
-      "offset": 2062,
+      "offset": 2065,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/KeyboardConfiguration+Extensions.swift",
       "kind": "BooleanLiteral",
-      "offset": 2110,
+      "offset": 2113,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/KeyboardConfiguration+Extensions.swift",
       "kind": "BooleanLiteral",
-      "offset": 2158,
+      "offset": 2161,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/KeyboardConfiguration+Extensions.swift",
       "kind": "BooleanLiteral",
-      "offset": 2207,
+      "offset": 2210,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/KeyboardConfiguration+Extensions.swift",
       "kind": "BooleanLiteral",
-      "offset": 2259,
+      "offset": 2262,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/KeyboardConfiguration+Extensions.swift",
       "kind": "BooleanLiteral",
-      "offset": 2310,
+      "offset": 2313,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/KeyboardConfiguration+Extensions.swift",
       "kind": "BooleanLiteral",
-      "offset": 2357,
+      "offset": 2360,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/KeyboardConfiguration+Extensions.swift",
       "kind": "BooleanLiteral",
-      "offset": 2404,
+      "offset": 2407,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/KeyboardConfiguration+Extensions.swift",
       "kind": "BooleanLiteral",
-      "offset": 2451,
+      "offset": 2454,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/KeyboardConfiguration+Extensions.swift",
       "kind": "BooleanLiteral",
-      "offset": 2502,
+      "offset": 2505,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/KeyboardConfiguration+Extensions.swift",
       "kind": "BooleanLiteral",
-      "offset": 2550,
+      "offset": 2553,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/KeyboardConfiguration+Extensions.swift",
       "kind": "BooleanLiteral",
-      "offset": 2601,
+      "offset": 2604,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/KeyboardConfiguration+Extensions.swift",
       "kind": "BooleanLiteral",
-      "offset": 2653,
+      "offset": 2656,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/KeyboardConfiguration+Extensions.swift",
       "kind": "BooleanLiteral",
-      "offset": 2705,
+      "offset": 2708,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/KeyboardConfiguration+Extensions.swift",
       "kind": "BooleanLiteral",
-      "offset": 2860,
+      "offset": 2863,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/KeyboardConfiguration+Extensions.swift",
       "kind": "BooleanLiteral",
-      "offset": 2909,
+      "offset": 2912,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/KeyboardConfiguration+Extensions.swift",
       "kind": "BooleanLiteral",
-      "offset": 2960,
+      "offset": 2963,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/KeyboardConfiguration+Extensions.swift",
       "kind": "BooleanLiteral",
-      "offset": 3010,
+      "offset": 3013,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/KeyboardConfiguration+Extensions.swift",
       "kind": "BooleanLiteral",
-      "offset": 3064,
+      "offset": 3067,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/KeyboardConfiguration+Extensions.swift",
       "kind": "BooleanLiteral",
-      "offset": 3118,
+      "offset": 3121,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/KeyboardConfiguration+Extensions.swift",
       "kind": "BooleanLiteral",
-      "offset": 3177,
+      "offset": 3180,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/KeyboardConfiguration+Extensions.swift",
       "kind": "BooleanLiteral",
-      "offset": 3230,
+      "offset": 3233,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/KeyboardConfiguration+Extensions.swift",
       "kind": "BooleanLiteral",
-      "offset": 3379,
+      "offset": 3384,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/KeyboardConfiguration+Extensions.swift",
       "kind": "BooleanLiteral",
-      "offset": 3437,
+      "offset": 3442,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/KeyboardConfiguration+Extensions.swift",
       "kind": "BooleanLiteral",
-      "offset": 3501,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/KeyboardConfiguration+Extensions.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3562,
+      "offset": 3506,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/KeyboardConfiguration+Extensions.swift",
       "kind": "BooleanLiteral",
-      "offset": 3627,
+      "offset": 3568,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/KeyboardConfiguration+Extensions.swift",
       "kind": "BooleanLiteral",
-      "offset": 3682,
+      "offset": 3633,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/KeyboardConfiguration+Extensions.swift",
       "kind": "BooleanLiteral",
-      "offset": 3743,
+      "offset": 3688,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/KeyboardConfiguration+Extensions.swift",
       "kind": "BooleanLiteral",
-      "offset": 3799,
+      "offset": 3749,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/KeyboardConfiguration+Extensions.swift",
       "kind": "BooleanLiteral",
-      "offset": 3856,
+      "offset": 3805,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/KeyboardConfiguration+Extensions.swift",
       "kind": "BooleanLiteral",
-      "offset": 3913,
+      "offset": 3862,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/KeyboardConfiguration+Extensions.swift",
       "kind": "BooleanLiteral",
-      "offset": 3978,
+      "offset": 3919,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/KeyboardConfiguration+Extensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3984,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/KeyboardConfiguration+Extensions.swift",
       "kind": "IntegerLiteral",
-      "offset": 4049,
+      "offset": 4055,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/KeyboardConfiguration+Extensions.swift",
       "kind": "IntegerLiteral",
-      "offset": 4115,
+      "offset": 4121,
       "length": 2,
       "value": "21"
     },
@@ -45723,49 +48695,49 @@
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/InputViewContainer\/InputViewContainer.swift",
       "kind": "Array",
-      "offset": 953,
+      "offset": 1058,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/InputViewContainer\/InputViewContainer.swift",
       "kind": "Array",
-      "offset": 1091,
+      "offset": 1196,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/InputViewContainer\/InputViewContainer.swift",
       "kind": "IntegerLiteral",
-      "offset": 1567,
+      "offset": 1672,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/TopBar\/HighlightsViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 888,
+      "offset": 944,
       "length": 4,
       "value": "0.25"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/TopBar\/HighlightsViewController.swift",
       "kind": "Array",
-      "offset": 1835,
+      "offset": 1784,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/TopBar\/HighlightsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1890,
+      "offset": 1839,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/TopBar\/HighlightsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 756,
+      "offset": 812,
       "length": 24,
       "value": "\"FleksyKeyboardSDK.HighlightsViewController\""
     },
@@ -45835,63 +48807,63 @@
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FKKeyboardViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2155,
+      "offset": 2755,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FKKeyboardViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2316,
+      "offset": 2916,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FKKeyboardViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2325,
+      "offset": 2925,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FKKeyboardViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2336,
+      "offset": 2936,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FKKeyboardViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2346,
+      "offset": 2946,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FKKeyboardViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2382,
+      "offset": 2982,
       "length": 8,
       "value": "\"Search\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FKKeyboardViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2601,
+      "offset": 3201,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FKKeyboardViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6957,
+      "offset": 8717,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FKKeyboardViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7291,
+      "offset": 9051,
       "length": 5,
       "value": "false"
     },
@@ -45938,149 +48910,156 @@
       "value": "2"
     },
     {
-      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/Style\/KeyboardTheme.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7429,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/Style\/KeyboardTheme.swift",
-      "kind": "IntegerLiteral",
-      "offset": 13675,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/Style\/KeyboardTheme.swift",
-      "kind": "IntegerLiteral",
-      "offset": 19200,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/Style\/KeyboardTheme.swift",
-      "kind": "IntegerLiteral",
-      "offset": 21429,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/Style\/KeyboardTheme.swift",
-      "kind": "StringLiteral",
-      "offset": 22741,
-      "length": 18,
-      "value": "\"look_feel_system\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/Style\/KeyboardTheme.swift",
-      "kind": "StringLiteral",
-      "offset": 22893,
-      "length": 9,
-      "value": "\"Rainbow\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/Style\/KeyboardTheme.swift",
-      "kind": "StringLiteral",
-      "offset": 22994,
-      "length": 11,
-      "value": "\"Timelapse\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/Style\/KeyboardTheme.swift",
-      "kind": "StringLiteral",
-      "offset": 23109,
-      "length": 13,
-      "value": "\"Swipechange\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/Style\/KeyboardTheme.swift",
-      "kind": "StringLiteral",
-      "offset": 23236,
-      "length": 11,
-      "value": "\"Chameleon\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/Style\/KeyboardTheme.swift",
-      "kind": "StringLiteral",
-      "offset": 22741,
-      "length": 18,
-      "value": "\"look_feel_system\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/Style\/KeyboardTheme.swift",
-      "kind": "StringLiteral",
-      "offset": 22893,
-      "length": 9,
-      "value": "\"Rainbow\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/Style\/KeyboardTheme.swift",
-      "kind": "StringLiteral",
-      "offset": 22994,
-      "length": 11,
-      "value": "\"Timelapse\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/Style\/KeyboardTheme.swift",
-      "kind": "StringLiteral",
-      "offset": 23109,
-      "length": 13,
-      "value": "\"Swipechange\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/Style\/KeyboardTheme.swift",
-      "kind": "StringLiteral",
-      "offset": 23236,
-      "length": 11,
-      "value": "\"Chameleon\""
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/Style\/KeyboardTheme.swift",
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/TopBar\/Predictions\/Subviews\/TextPredictionView.swift",
       "kind": "BooleanLiteral",
-      "offset": 23526,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/Style\/KeyboardTheme.swift",
-      "kind": "BooleanLiteral",
-      "offset": 23759,
+      "offset": 984,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/Style\/KeyboardTheme.swift",
       "kind": "IntegerLiteral",
-      "offset": 33946,
+      "offset": 8746,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/Style\/KeyboardTheme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15563,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/Style\/KeyboardTheme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21088,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/Style\/KeyboardTheme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 24233,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/Style\/KeyboardTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 25762,
+      "length": 18,
+      "value": "\"look_feel_system\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/Style\/KeyboardTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 25914,
+      "length": 9,
+      "value": "\"Rainbow\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/Style\/KeyboardTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 26015,
+      "length": 11,
+      "value": "\"Timelapse\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/Style\/KeyboardTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 26130,
+      "length": 13,
+      "value": "\"Swipechange\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/Style\/KeyboardTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 26257,
+      "length": 11,
+      "value": "\"Chameleon\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/Style\/KeyboardTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 25762,
+      "length": 18,
+      "value": "\"look_feel_system\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/Style\/KeyboardTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 25914,
+      "length": 9,
+      "value": "\"Rainbow\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/Style\/KeyboardTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 26015,
+      "length": 11,
+      "value": "\"Timelapse\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/Style\/KeyboardTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 26130,
+      "length": 13,
+      "value": "\"Swipechange\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/Style\/KeyboardTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 26257,
+      "length": 11,
+      "value": "\"Chameleon\""
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/Style\/KeyboardTheme.swift",
+      "kind": "BooleanLiteral",
+      "offset": 26547,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/Style\/KeyboardTheme.swift",
+      "kind": "BooleanLiteral",
+      "offset": 26780,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/Style\/KeyboardTheme.swift",
+      "kind": "IntegerLiteral",
+      "offset": 38393,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/Style\/KeyboardTheme.swift",
       "kind": "BooleanLiteral",
-      "offset": 47385,
+      "offset": 51832,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/AppsConfiguration.swift",
       "kind": "Array",
-      "offset": 2836,
+      "offset": 3350,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/AppsConfiguration.swift",
       "kind": "IntegerLiteral",
-      "offset": 3454,
+      "offset": 3968,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/KeyboardConfiguration\/AppsConfiguration.swift",
       "kind": "IntegerLiteral",
-      "offset": 3459,
+      "offset": 3973,
       "length": 1,
       "value": "0"
     },
@@ -46101,42 +49080,42 @@
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/FleksyKit\/FKInputView.swift",
       "kind": "BooleanLiteral",
-      "offset": 10474,
+      "offset": 10641,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/Languages\/LanguageResourceProvider.swift",
       "kind": "StringLiteral",
-      "offset": 270,
+      "offset": 297,
       "length": 18,
       "value": "\"resourceArchive-\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/Languages\/LanguageResourceProvider.swift",
       "kind": "StringLiteral",
-      "offset": 330,
+      "offset": 357,
       "length": 6,
       "value": "\".jet\""
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/Languages\/LanguageResourceProvider.swift",
       "kind": "Array",
-      "offset": 1281,
+      "offset": 1308,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/Languages\/LanguageResourceProvider.swift",
       "kind": "Dictionary",
-      "offset": 2321,
+      "offset": 2348,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/vagrant\/git\/FleksyKeyboardSDK\/FleksyKeyboardSDK\/Languages\/LanguageResourceProvider.swift",
       "kind": "StringLiteral",
-      "offset": 2552,
+      "offset": 2579,
       "length": 42,
       "value": "\"com.fleksy.LanguageResourceProviderQueue\""
     },

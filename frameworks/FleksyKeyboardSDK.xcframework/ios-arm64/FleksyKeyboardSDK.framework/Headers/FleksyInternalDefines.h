@@ -52,3 +52,6 @@ extern NSString * const FLEKSY_SETTINGS_HAPTICS;
 
 /// Internal `UserDefaults` flag to store the ``AppsConfiguration/showAppsInCarousel`` setting.
 extern NSString * const FLEKSY_SETTINGS_SHOW_APPS_IN_CAROUSSEL;
+
+/// Internal `UserDefaults` flag to store the store logs setting.
+extern NSString * const FLEKSY_SETTINGS_STORE_LOGS;
