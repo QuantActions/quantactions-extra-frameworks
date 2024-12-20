@@ -588,13 +588,13 @@ SWIFT_CLASS("_TtC17FleksyKeyboardSDK19EmojiViewController")
 @end
 
 
-
 @interface EmojiViewController (SWIFT_EXTENSION(FleksyKeyboardSDK)) <UICollectionViewDataSource>
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView * _Nonnull)collectionView SWIFT_WARN_UNUSED_RESULT;
 - (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)collectionView:(UICollectionView * _Nonnull)collectionView shouldSelectItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 @end
+
 
 @class UICollectionViewLayout;
 @class UIScrollView;
@@ -649,6 +649,7 @@ SWIFT_CLASS("_TtC17FleksyKeyboardSDK11FKInputView")
 - (void)pullDownGestureEndedWithOffset:(CGFloat)offset velocity:(CGFloat)verticalVelocity view:(UIView * _Null_unspecified)view presentedViewController:(UIViewController * _Null_unspecified)controller;
 @end
 
+@class UITraitCollection;
 
 /// This class only exists to abstract all the functionality from the public <code>FKInputView</code>.
 /// Because for FleksyApps, we need to <code>import FleksyAppsCore</code>, if <code>FKInputViewContent</code> didn’t exist,
@@ -668,7 +669,9 @@ SWIFT_CLASS("_TtC17FleksyKeyboardSDK18FKInputViewContent")
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 - (void)layoutSubviews;
+@property (nonatomic) CGRect bounds;
 @property (nonatomic) BOOL isShowingCursorControl;
+- (void)traitCollectionDidChange:(UITraitCollection * _Nullable)previousTraitCollection;
 @end
 
 
@@ -698,13 +701,11 @@ SWIFT_CLASS("_TtC17FleksyKeyboardSDK17FKInterfaceHelper")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UITraitCollection;
 @protocol FKInterfaceInputViewControllerDelegate;
 @class KeyboardConfiguration;
 @protocol FKDataCollection;
 @class UIImage;
 @class UIFont;
-@class UIPanGestureRecognizer;
 @protocol FKInterfaceDelegate;
 @class CaptureConfiguration;
 @class KeyboardDynamicConfiguration;
@@ -728,7 +729,6 @@ SWIFT_CLASS("_TtC17FleksyKeyboardSDK30FKInterfaceInputViewController")
 - (void)didReceiveMemoryWarning;
 - (void)settingsChanged:(NSNotification * _Nonnull)notification;
 - (void)leadingTopBarButtonPressed;
-- (void)respondToPan:(UIPanGestureRecognizer * _Nonnull)pan;
 - (void)setInterfaceDelegate:(id <FKInterfaceDelegate> _Nonnull)interfaceDelegate;
 - (void)insertText:(NSString * _Nonnull)text;
 - (void)replaceText:(NSString * _Nonnull)text inRange:(NSRange)range;
@@ -769,21 +769,21 @@ SWIFT_CLASS("_TtC17FleksyKeyboardSDK30FKInterfaceInputViewController")
 
 
 
-@interface FKInterfaceInputViewController (SWIFT_EXTENSION(FleksyKeyboardSDK)) <FleksyCursorControlDelegate>
-@property (nonatomic, readonly) CGFloat keyboardContainerHeight;
-@end
-
-
 @interface FKInterfaceInputViewController (SWIFT_EXTENSION(FleksyKeyboardSDK)) <FleksyCursorControllable>
 @property (nonatomic) BOOL isShowingCursorControl;
 @end
-
 
 @class UIGestureRecognizer;
 
 @interface FKInterfaceInputViewController (SWIFT_EXTENSION(FleksyKeyboardSDK)) <UIGestureRecognizerDelegate>
 - (BOOL)gestureRecognizer:(UIGestureRecognizer * _Nonnull)gestureRecognizer shouldRecognizeSimultaneouslyWithGestureRecognizer:(UIGestureRecognizer * _Nonnull)otherGestureRecognizer SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)gestureRecognizer:(UIGestureRecognizer * _Nonnull)gestureRecognizer shouldReceiveTouch:(UITouch * _Nonnull)touch SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+
+@interface FKInterfaceInputViewController (SWIFT_EXTENSION(FleksyKeyboardSDK)) <FleksyCursorControlDelegate>
+@property (nonatomic, readonly) CGFloat keyboardContainerHeight;
 @end
 
 
@@ -796,11 +796,11 @@ SWIFT_CLASS("_TtC17FleksyKeyboardSDK30FKInterfaceInputViewController")
 
 
 
+
 @interface FKInterfaceInputViewController (SWIFT_EXTENSION(FleksyKeyboardSDK))
 - (void)pullDownGestureWithOffset:(CGFloat)offset view:(UIView * _Null_unspecified)view presentedViewController:(UIViewController * _Null_unspecified)controller;
 - (void)pullDownGestureEndedWithOffset:(CGFloat)offset velocity:(CGFloat)verticalVelocity view:(UIView * _Null_unspecified)view presentedViewController:(UIViewController * _Null_unspecified)controller;
 @end
-
 
 
 @interface FKInterfaceInputViewController (SWIFT_EXTENSION(FleksyKeyboardSDK))
@@ -996,8 +996,37 @@ SWIFT_CLASS("_TtC17FleksyKeyboardSDK19FleksyEngineManager")
 @end
 
 
+/// Keyboard key with support of flick down gesture to get alternative character. Exclusive for full-sized iPad keyboard.
+/// This class is only supported if the <code>FleksyTheme</code>’s <code>isLookFeelSystem</code> is <code>true</code>
+SWIFT_CLASS("_TtC17FleksyKeyboardSDK14FleksyFlickKey")
+@interface FleksyFlickKey : UIView <FleksyCursorControllable, FleksyKeyboardKey, FleksyThemeableUI>
+- (nonnull instancetype)initWithFrame:(CGRect)frame uniqueID:(int32_t)uniqueID buttonType:(ButtonType)buttonType letter:(NSString * _Nonnull)letter altCharacter:(NSString * _Nullable)altCharacter font:(UIFont * _Nonnull)font lowercaseFont:(UIFont * _Nonnull)lowercaseFont theme:(FleksyTheme * _Nullable)theme inputView:(UIView * _Nonnull)inputView keyboardStyle:(KeyboardStyle)keyboardStyle OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@property (nonatomic, copy) NSString * _Nonnull letter;
+@property (nonatomic, copy) NSString * _Nullable altCharacter;
+@property (nonatomic, strong) UIFont * _Nonnull letterFont;
+@property (nonatomic, strong) UIFont * _Nonnull lowercaseLetterFont;
+- (void)setFlickProgress:(CGFloat)progress;
+@property (nonatomic) int32_t uniqueID;
+@property (nonatomic) ButtonType buttonType;
+- (void)setDimmed:(BOOL)dimm animated:(BOOL)animated;
+- (void)setFrameApplyingMarginsToFrame:(CGRect)frame;
+@property (nonatomic, strong) FleksyTheme * _Nullable theme;
+@property (nonatomic) BOOL isShowingCursorControl;
+- (void)highlight;
+- (void)pop;
+- (void)longPressPop;
+- (void)restore;
+- (void)restoreWithAnimationDuration:(NSTimeInterval)duration;
+- (void)dragPopWithShiftY:(CGFloat)shiftY duration:(NSTimeInterval)duration isSidePop:(BOOL)isSidePop;
+- (void)containerSwiped:(FleksyTouchSwipeDirection)swipeDirection;
+- (void)layoutSubviews;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
+
+
 SWIFT_CLASS("_TtC17FleksyKeyboardSDK28FleksyKeyboardViewController")
-@interface FleksyKeyboardViewController : UIViewController <FleksyEngineButtonHandler, FleksyThemeableUI, FleksyTouchIdentifierDelegate>
+@interface FleksyKeyboardViewController : UIViewController <FleksyEngineButtonHandler, FleksyThemeableUI>
 /// The keyboardID that is being displayed by this view controller’s view.
 /// note:
 /// We might be actually displaying a temporary keyboard associated with this keyboard ID
@@ -1017,30 +1046,6 @@ SWIFT_CLASS("_TtC17FleksyKeyboardSDK28FleksyKeyboardViewController")
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 @end
 
-@class FleksyTouch;
-
-@interface FleksyKeyboardViewController (SWIFT_EXTENSION(FleksyKeyboardSDK))
-@property (nonatomic, readonly) CGFloat swipeTriggerLength;
-- (CGFloat)extendedSwipeTriggerLenghtForTouchAt:(CGPoint)point SWIFT_WARN_UNUSED_RESULT;
-- (NSTimeInterval)holdSpeedForPoint:(CGPoint)point SWIFT_WARN_UNUSED_RESULT;
-- (void)handleForceTouchBegan:(CGPoint)point;
-- (void)handleForceTouchMoved:(CGPoint)point;
-- (void)handleForceTouchEnded:(CGPoint)point;
-- (void)handleTap:(CGPoint)point toEndLocation:(CGPoint)endPoint timestampTouch:(NSTimeInterval)time;
-- (void)handleTapBegan:(CGPoint)point;
-- (void)handleLongPressBegan:(FleksyTouch * _Nonnull)touch;
-- (void)handleLongPressMoved:(FleksyTouch * _Null_unspecified)touch;
-- (void)handleLongPressEndedWithTouch:(FleksyTouch * _Null_unspecified)touch time:(NSTimeInterval)time;
-- (BOOL)allowsTouchesBuffering SWIFT_WARN_UNUSED_RESULT;
-- (FleksyTouchType)swipeTypeToContinue SWIFT_WARN_UNUSED_RESULT;
-- (void)handleSwipe:(FleksyTouch * _Null_unspecified)touch isContinuation:(BOOL)isContinuation;
-- (void)handleContinueMove:(CGPoint)point;
-- (void)savePotentialFutureContinuousMovePoint:(CGPoint)point;
-- (void)handleTapEnded:(CGPoint)point toEndLocation:(CGPoint)endPoint timestampTouch:(NSTimeInterval)time;
-- (void)handleTapEndedCosmetic:(CGPoint)point toEndLocation:(CGPoint)endPoint timestampTouch:(NSTimeInterval)time;
-- (void)handleTapEndedCosmetic:(CGPoint)point timestampTouch:(NSTimeInterval)time;
-- (void)handleTouchesCancelled;
-@end
 
 @class FleksySpeechManager;
 @class FleksyLayoutElement;
@@ -1059,11 +1064,13 @@ SWIFT_CLASS("_TtC17FleksyKeyboardSDK28FleksyKeyboardViewController")
 @property (nonatomic, readonly, copy) NSString * _Null_unspecified magicButtonIcon;
 @property (nonatomic, readonly, copy) NSString * _Null_unspecified enterButtonIcon;
 @property (nonatomic, readonly) KeyboardSize keyboardSize;
+@property (nonatomic, readonly) KeyboardStyle keyboardStyle;
 - (void)didSetKeyboardLayout;
 - (UIImage * _Nullable)imageForCustomButtonWithLabel:(NSString * _Nonnull)label SWIFT_WARN_UNUSED_RESULT;
 - (UIViewContentMode)contentModeForImageInCustomButtonWithLabel:(NSString * _Nonnull)label SWIFT_WARN_UNUSED_RESULT;
 - (void)longTapMovedToNewKey;
 @end
+
 
 
 
@@ -1077,6 +1084,14 @@ SWIFT_CLASS("_TtC17FleksyKeyboardSDK28FleksyKeyboardViewController")
 + (BOOL)isExtension SWIFT_WARN_UNUSED_RESULT;
 @end
 
+
+
+@interface FleksyUtility (SWIFT_EXTENSION(FleksyKeyboardSDK))
+/// Returns a rect with the original size of the keyboard (see <code>StyleConfiguration/KeyboardSize-swift.enum/original</code>).
++ (CGRect)getDefaultFleksyKeyboardSizeWithTraitCollection:(UITraitCollection * _Nonnull)traitCollection SWIFT_WARN_UNUSED_RESULT;
++ (CGRect)applyingKeyOrButtonInsetsToRect:(CGRect)rect isHoverHighlight:(BOOL)isHoverHighlight flickKeyboard:(BOOL)flickKeyboard buttonType:(ButtonType)buttonType keyboardStyle:(KeyboardStyle)keyboardStyle SWIFT_WARN_UNUSED_RESULT;
++ (CGFloat)getPaddingOffSet SWIFT_WARN_UNUSED_RESULT;
+@end
 
 @class UICollectionViewLayoutAttributes;
 
@@ -1131,6 +1146,7 @@ SWIFT_CLASS("_TtC17FleksyKeyboardSDK24HighlightsViewController")
 
 
 
+
 SWIFT_CLASS("_TtC17FleksyKeyboardSDK33JapanesePredictionsViewController")
 @interface JapanesePredictionsViewController : UIViewController <FleksyThemeableUI>
 @property (nonatomic, strong) FleksyTheme * _Nullable theme;
@@ -1177,7 +1193,7 @@ SWIFT_CLASS_NAMED("KeyPopupAppearance")
 /// Creates the popup view for a long press key tap, masked with the long press key popup shape.
 /// This method also modifies the <code>y</code> position of the <code>elements</code> to make them appear right on top of the long press popup view
 /// Based on old, Obj-C <code>FleksyKeyPadHighlight</code>.
-+ (KeyLongPressPopupView * _Nonnull)viewForLongPressPopupWithKeyboardBounds:(CGRect)keyboardBounds forElements:(NSArray<FleksyLayoutElement *> * _Nonnull)elements theme:(FleksyTheme * _Nonnull)theme keyFrame:(CGRect)keyFrame SWIFT_WARN_UNUSED_RESULT;
++ (KeyLongPressPopupView * _Nonnull)viewForLongPressPopupWithKeyboardBounds:(CGRect)keyboardBounds forElements:(NSArray<FleksyLayoutElement *> * _Nonnull)elements theme:(FleksyTheme * _Nonnull)theme keyFrame:(CGRect)keyFrame keyboardStyle:(KeyboardStyle)keyboardStyle SWIFT_WARN_UNUSED_RESULT;
 /// Creates the popup for a Japanese Flick key tap.
 + (UIView * _Nullable)viewForFlickPopWithKeyFrame:(CGRect)keyFrame direction:(FlickDirection)direction letter:(NSString * _Nonnull)letter keyboardFrame:(CGRect)keyboardFrame font:(UIFont * _Nonnull)font theme:(FleksyTheme * _Nonnull)theme SWIFT_WARN_UNUSED_RESULT;
 /// Creates the popup for a Japanese Flick key tap.
@@ -1503,6 +1519,12 @@ SWIFT_CLASS("_TtC17FleksyKeyboardSDK25UITextViewDelegateWrapper")
 - (UIMenu * _Nullable)textView:(UITextView * _Nonnull)textView editMenuForTextInRange:(NSRange)range suggestedActions:(NSArray<UIMenuElement *> * _Nonnull)suggestedActions SWIFT_WARN_UNUSED_RESULT SWIFT_AVAILABILITY(ios,introduced=16);
 - (void)textView:(UITextView * _Nonnull)textView willDismissEditMenuWithAnimator:(id <UIEditMenuInteractionAnimating> _Nonnull)animator SWIFT_AVAILABILITY(ios,introduced=16);
 - (void)textView:(UITextView * _Nonnull)textView willPresentEditMenuWithAnimator:(id <UIEditMenuInteractionAnimating> _Nonnull)animator SWIFT_AVAILABILITY(ios,introduced=16);
+@end
+
+
+@interface UITraitCollection (SWIFT_EXTENSION(FleksyKeyboardSDK))
+/// The style of keyboard defined by the trait collection.
+- (KeyboardStyle)keyboardStyleForAvailableWidth:(CGFloat)width SWIFT_WARN_UNUSED_RESULT;
 @end
 
 

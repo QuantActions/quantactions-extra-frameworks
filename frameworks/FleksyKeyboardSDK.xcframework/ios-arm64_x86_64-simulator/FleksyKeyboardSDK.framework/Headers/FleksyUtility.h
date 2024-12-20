@@ -28,9 +28,6 @@
 /// The IDFA or `nil` if not available.
 + (NSString * _Nullable)identifierForAdvertisers;
 
-/// Returns a rect with the original size of the keyboard (see ``StyleConfiguration/KeyboardSize-swift.enum/original``).
-+ (CGRect)getDefaultFleksyKeyboardSizeWithTraitCollection:(UITraitCollection *_Nonnull)traitCollection;
-
 @end
 
 #endif //  FleksyiOS_FleksyUtility_h

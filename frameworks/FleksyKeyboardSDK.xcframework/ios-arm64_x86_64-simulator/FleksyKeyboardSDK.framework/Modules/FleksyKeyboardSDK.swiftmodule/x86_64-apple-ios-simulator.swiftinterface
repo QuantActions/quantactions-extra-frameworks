@@ -487,6 +487,9 @@ public enum LanguageResourceType : Swift.String, Swift.Codable {
   @objc public func copy(with zone: ObjectiveC.NSZone? = nil) -> Any
   @objc deinit
 }
+extension FleksyKeyboardSDK.FleksyUtility {
+  @objc public static func getDefaultFleksyKeyboardSize(traitCollection: UIKit.UITraitCollection) -> CoreFoundation.CGRect
+}
 public enum EventBasedDataCaptureEvent : Swift.Codable {
   case keyStroke(FleksyKeyboardSDK.EventBasedDataCaptureEvent.KeyStroke)
   case delete(FleksyKeyboardSDK.EventBasedDataCaptureEvent.Delete)

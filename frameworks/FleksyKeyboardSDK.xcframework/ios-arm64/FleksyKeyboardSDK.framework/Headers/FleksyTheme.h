@@ -24,6 +24,18 @@ typedef enum {
     FleksyGraphicsHardwareEffectMountains
 } FleksyGraphicsHardwareEffect;
 
+/// Specifies a style of keyboard. iPhone, iPad default or on-screen floating iPad keyboard.
+typedef enum {
+    /// iPhone keyboard
+    KeyboardStyleIPhone = 0,
+    
+    /// iPad default, full-width keyboard
+    KeyboardStyleIPadDefault = 1,
+    
+    /// iPad small, floating keyboard
+    KeyboardStyleIPadFloating = 2
+} KeyboardStyle;
+
 extern NSArray * ExtensionDefaultJSONFields;
 extern NSArray * ContainerDefaultJSONFields;
 extern NSArray * AllJSONFields;
@@ -94,7 +106,7 @@ extern NSArray * AllJSONFields;
 @property (readonly, nonatomic) BOOL shouldUseImageTransform;
 @property (readonly, nonatomic) UIFont *defaultKeyboardFont __attribute((deprecated("Unused. Returns the fontKeyboardNormal")));
 @property (nonatomic, strong) UIFont * _Nonnull fontKeyboardNormal;
-@property (nonatomic, strong) UIFont * _Nullable fontKeyboardLowercaseKeys;
+@property (nonatomic, strong) UIFont * _Nonnull fontKeyboardLowercaseKeys;
 @property (nonatomic, readonly) FleksyThemeType currentThemeType;
 @property (nonatomic) FleksyGraphicsHardwareEffect graphicsHardwareEffect;
 @property (nonatomic) BOOL isVibrant;

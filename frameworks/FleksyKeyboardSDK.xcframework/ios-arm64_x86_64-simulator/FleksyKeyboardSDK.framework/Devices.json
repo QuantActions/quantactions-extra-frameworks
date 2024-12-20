@@ -1,0 +1,3590 @@
+{
+    "iPhone17,2": {
+        "device": "iPhone 16 Pro Max",
+        "ppi": 460,
+        "keyboard": {
+            "portrait": {
+                "type": "phone",
+                "height": 229.6666667,
+                "topBarHeight": 48.3333333,
+                "insets": {
+                    "bottom": 77
+                },
+                "keysInsets": {
+                    "top": 6,
+                    "bottom": 5,
+                    "left": 3,
+                    "right": 3,
+                },
+            },
+            "landscape": {
+                "type": "phone",
+                "height": 164,
+                "topBarHeight": 38.6666667,
+                "insets": {
+                    "left": 120,
+                    "right": 120,
+                    "bottom": 21.3333333
+                },
+                "keysInsets": {
+                    "top": 6,
+                    "bottom": 2,
+                    "left": 2.6666667,
+                    "right": 2.6666667,
+                },
+            }
+        },
+    },
+    "iPhone17,1": {
+        "device": "iPhone 16 Pro",
+        "ppi": 460,
+        "keyboard": {
+            "portrait": {
+                "type": "phone",
+                "height": 221.6666667,
+                "topBarHeight": 46,
+                "insets": {
+                    "bottom": 77,
+                },
+                "keysInsets": {
+                    "top": 8.3333333,
+                    "bottom": 4,
+                    "left": 3.3333333,
+                    "right": 3.3333333,
+                },
+            },
+            "landscape": {
+                "type": "phone",
+                "height": 164.0,
+                "topBarHeight": 38.6666667,
+                "insets": {
+                    "left": 77,
+                    "right": 77,
+                    "bottom": 21.3333333,
+                },
+                "keysInsets": {
+                    "top": 6.3333333,
+                    "bottom": 2,
+                    "left": 2.6666667,
+                    "right": 2.6666667,
+                }
+            }
+        },
+    },
+    "iPhone17,4": {
+        "device": "iPhone 16 Plus",
+        "ppi": 460,
+        "keyboard": {
+            "portrait": {
+                "type": "phone",
+                "height": 224.0,
+                "topBarHeight": 47,
+                "insets": {
+                    "bottom": 75,
+                },
+                "keysInsets": {
+                    "top": 6,
+                    "bottom": 5,
+                    "left": 2.5,
+                    "right": 2.5,
+                },
+            },
+            "landscape": {
+                "type": "phone",
+                "height": 154.0,
+                "topBarHeight": 38,
+                "insets": {
+                    "left": 117,
+                    "right": 117,
+                    "bottom": 21,
+                },
+                "keysInsets": {
+                    "top": 6,
+                    "bottom": 2,
+                    "left": 2.6666667,
+                    "right": 2.6666667,
+                },
+            },
+        },
+    },
+    "iPhone17,3": {
+        "device": "iPhone 16",
+        "ppi": 460,
+        "keyboard": {
+            "portrait": {
+                "type": "phone",
+                "height": 216.0,
+                "topBarHeight": 45,
+                "insets": {
+                    "bottom": 75,
+                },
+                "keysInsets": {
+                    "top": 8,
+                    "bottom": 4,
+                    "left": 3,
+                    "right": 3,
+                },
+            },
+            "landscape": {
+                "type": "phone",
+                "height": 160.0,
+                "topBarHeight": 38.0,
+                "insets": {
+                    "left": 75,
+                    "right": 75,
+                    "bottom": 21,
+                },
+                "keysInsets": {
+                    "top": 6,
+                    "bottom": 2,
+                    "left": 2.6666667,
+                    "right": 2.6666667,
+                },
+            },
+        },
+    },
+    "iPhone16,2": {
+        "device": "iPhone 15 Pro Max",
+        "ppi": 460,
+        "keyboard": {
+            "portrait": {
+                "type": "phone",
+                "height": 224.0,
+                "topBarHeight": 47,
+                "insets": {
+                    "bottom": 75,
+                },
+                "keysInsets": {
+                    "top": 6,
+                    "bottom": 5,
+                    "left": 2.5,
+                    "right": 2.5,
+                },
+            },
+            "landscape": {
+                "type": "phone",
+                "height": 154.0,
+                "topBarHeight": 38,
+                "insets": {
+                    "left": 117,
+                    "right": 117,
+                    "bottom": 21,
+                },
+                "keysInsets": {
+                    "top": 6,
+                    "bottom": 2,
+                    "left": 2.6666667,
+                    "right": 2.6666667,
+                },
+            },
+        },
+    },
+    "iPhone16,1": {
+        "device": "iPhone 15 Pro",
+        "ppi": 460,
+        "keyboard": {
+            "portrait": {
+                "type": "phone",
+                "height": 216.0,
+                "topBarHeight": 45,
+                "insets": {
+                    "bottom": 75,
+                },
+                "keysInsets": {
+                    "top": 8,
+                    "bottom": 4,
+                    "left": 3,
+                    "right": 3,
+                },
+            },
+            "landscape": {
+                "type": "phone",
+                "height": 160.0,
+                "topBarHeight": 38.0,
+                "insets": {
+                    "left": 75,
+                    "right": 75,
+                    "bottom": 21,
+                },
+                "keysInsets": {
+                    "top": 6,
+                    "bottom": 2,
+                    "left": 2.6666667,
+                    "right": 2.6666667,
+                },
+            },
+        },
+    },
+    "iPhone15,5": {
+        "device": "iPhone 15 Plus",
+        "ppi": 460,
+        "keyboard": {
+            "portrait": {
+                "type": "phone",
+                "height": 224.0,
+                "topBarHeight": 47,
+                "insets": {
+                    "bottom": 75,
+                },
+                "keysInsets": {
+                    "top": 6,
+                    "bottom": 5,
+                    "left": 2.5,
+                    "right": 2.5,
+                },
+            },
+            "landscape": {
+                "type": "phone",
+                "height": 154.0,
+                "topBarHeight": 38,
+                "insets": {
+                    "left": 117,
+                    "right": 117,
+                    "bottom": 21,
+                },
+                "keysInsets": {
+                    "top": 6,
+                    "bottom": 2,
+                    "left": 2.6666667,
+                    "right": 2.6666667,
+                },
+            },
+        },
+    },
+    "iPhone15,4": {
+        "device": "iPhone 15",
+        "ppi": 460,
+        "keyboard": {
+            "portrait": {
+                "type": "phone",
+                "height": 216.0,
+                "topBarHeight": 45,
+                "insets": {
+                    "bottom": 75,
+                },
+                "keysInsets": {
+                    "top": 8,
+                    "bottom": 4,
+                    "left": 3,
+                    "right": 3,
+                },
+            },
+            "landscape": {
+                "type": "phone",
+                "height": 160.0,
+                "topBarHeight": 38.0,
+                "insets": {
+                    "left": 75,
+                    "right": 75,
+                    "bottom": 21,
+                },
+                "keysInsets": {
+                    "top": 6,
+                    "bottom": 2,
+                    "left": 2.6666667,
+                    "right": 2.6666667,
+                },
+            },
+        },
+    },
+    "iPhone15,3": {
+        "device": "iPhone 14 Pro Max",
+        "ppi": 460,
+        "keyboard": {
+            "portrait": {
+                "type": "phone",
+                "height": 224.0,
+                "topBarHeight": 47,
+                "insets": {
+                    "bottom": 75,
+                },
+                "keysInsets": {
+                    "top": 6,
+                    "bottom": 5,
+                    "left": 2.5,
+                    "right": 2.5,
+                },
+            },
+            "landscape": {
+                "type": "phone",
+                "height": 154.0,
+                "topBarHeight": 38,
+                "insets": {
+                    "left": 117,
+                    "right": 117,
+                    "bottom": 21,
+                },
+                "keysInsets": {
+                    "top": 6,
+                    "bottom": 2,
+                    "left": 2.6666667,
+                    "right": 2.6666667,
+                },
+            },
+        },
+    },
+    "iPhone15,2": {
+        "device": "iPhone 14 Pro",
+        "ppi": 460,
+        "keyboard": {
+            "portrait": {
+                "type": "phone",
+                "height": 216.0,
+                "topBarHeight": 45,
+                "insets": {
+                    "bottom": 75,
+                },
+                "keysInsets": {
+                    "top": 8,
+                    "bottom": 4,
+                    "left": 3,
+                    "right": 3,
+                },
+            },
+            "landscape": {
+                "type": "phone",
+                "height": 160.0,
+                "topBarHeight": 38.0,
+                "insets": {
+                    "left": 75,
+                    "right": 75,
+                    "bottom": 21,
+                },
+                "keysInsets": {
+                    "top": 6,
+                    "bottom": 2,
+                    "left": 2.6666667,
+                    "right": 2.6666667,
+                },
+            },
+        },
+    },
+    "iPhone14,8": {
+        "device": "iPhone 14 Plus",
+        "ppi": 460,
+        "keyboard": {
+            "portrait": {
+                "type": "phone",
+                "height": 224.0,
+                "topBarHeight": 47.0,
+                "insets": {
+                    "bottom": 75,
+                },
+                "keysInsets": {
+                    "top": 6,
+                    "bottom": 5,
+                    "left": 3,
+                    "right": 3,
+                },
+            },
+            "landscape": {
+                "type": "phone",
+                "height": 160.0,
+                "topBarHeight": 38.0,
+                "insets": {
+                    "left": 117,
+                    "right": 117,
+                    "bottom": 21,
+                },
+                "keysInsets": {
+                    "top": 6,
+                    "bottom": 2,
+                    "left": 2.6666667,
+                    "right": 2.6666667,
+                },
+            },
+        },
+    },
+    "iPhone14,7": {
+        "device": "iPhone 14",
+        "ppi": 460,
+        "keyboard": {
+            "portrait": {
+                "type": "phone",
+                "height": 216.0,
+                "topBarHeight": 45,
+                "insets": {
+                    "bottom": 75,
+                },
+                "keysInsets": {
+                    "top": 8,
+                    "bottom": 4,
+                    "left": 3,
+                    "right": 3,
+                },
+            },
+            "landscape": {
+                "type": "phone",
+                "height": 160.0,
+                "topBarHeight": 38.0,
+                "insets": {
+                    "left": 75,
+                    "right": 75,
+                    "bottom": 21,
+                },
+                "keysInsets": {
+                    "top": 6,
+                    "bottom": 2,
+                    "left": 2.6666667,
+                    "right": 2.6666667,
+                },
+            },
+        },
+    },
+    "iPhone14,6": {
+        "device": "iPhone SE (3rd generation)",
+        "ppi": 326,
+        "keyboard": {
+            "portrait": {
+                "type": "phone",
+                "height": 216.0,
+                "topBarHeight": 44,
+                "keysInsets": {
+                    "top": 8,
+                    "bottom": 4,
+                    "left": 3,
+                    "right": 3,
+                },
+            },
+            "landscape": {
+                "type": "phone",
+                "height": 160.0,
+                "topBarHeight": 40.0,
+                "keysInsets": {
+                    "top": 4,
+                    "bottom": 4,
+                    "left": 3,
+                    "right": 3,
+                },
+            },
+        },
+    },
+    "iPhone14,5": {
+        "device": "iPhone 13",
+        "ppi": 460,
+        "keyboard": {
+            "portrait": {
+                "type": "phone",
+                "height": 216.0,
+                "topBarHeight": 45,
+                "insets": {
+                    "bottom": 75,
+                },
+                "keysInsets": {
+                    "top": 8,
+                    "bottom": 4,
+                    "left": 3,
+                    "right": 3,
+                },
+            },
+            "landscape": {
+                "type": "phone",
+                "height": 160.0,
+                "topBarHeight": 38.0,
+                "insets": {
+                    "left": 75,
+                    "right": 75,
+                    "bottom": 21,
+                },
+                "keysInsets": {
+                    "top": 6,
+                    "bottom": 2,
+                    "left": 2.6666667,
+                    "right": 2.6666667,
+                },
+            },
+        },
+    },
+    "iPhone14,4": {
+        "device": "iPhone 13 Mini",
+        "ppi": 460,
+        "keyboard": {
+            "portrait": {
+                "type": "phone",
+                "height": 207.6666667,
+                "topBarHeight": 43.3333333,
+                "insets": {
+                    "bottom": 72,
+                },
+                "keysInsets": {
+                    "top": 7.6666667,
+                    "bottom": 4,
+                    "left": 3,
+                    "right": 3,
+                },
+            },
+            "landscape": {
+                "type": "phone",
+                "height": 139.0,
+                "topBarHeight": 36.3333333,
+                "insets": {
+                    "left": 72,
+                    "right": 72,
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 5.3333333,
+                    "bottom": 2,
+                    "left": 2.5,
+                    "right": 2.5,
+                },
+            },
+        },
+    },
+    "iPhone14,3": {
+        "device": "iPhone 13 Pro Max",
+        "ppi": 460,
+        "keyboard": {
+            "portrait": {
+                "type": "phone",
+                "height": 224.0,
+                "topBarHeight": 47.0,
+                "insets": {
+                    "bottom": 75,
+                },
+                "keysInsets": {
+                    "top": 6,
+                    "bottom": 5,
+                    "left": 3,
+                    "right": 3,
+                },
+            },
+            "landscape": {
+                "type": "phone",
+                "height": 160.0,
+                "topBarHeight": 38.0,
+                "insets": {
+                    "left": 117,
+                    "right": 117,
+                    "bottom": 21,
+                },
+                "keysInsets": {
+                    "top": 6,
+                    "bottom": 2,
+                    "left": 2.6666667,
+                    "right": 2.6666667,
+                },
+            },
+        },
+    },
+    "iPhone14,2": {
+        "device": "iPhone 13 Pro",
+        "ppi": 460,
+        "keyboard": {
+            "portrait": {
+                "type": "phone",
+                "height": 216.0,
+                "topBarHeight": 45,
+                "insets": {
+                    "bottom": 75,
+                },
+                "keysInsets": {
+                    "top": 8,
+                    "bottom": 4,
+                    "left": 3,
+                    "right": 3,
+                },
+            },
+            "landscape": {
+                "type": "phone",
+                "height": 160.0,
+                "topBarHeight": 38.0,
+                "insets": {
+                    "left": 75,
+                    "right": 75,
+                    "bottom": 21,
+                },
+                "keysInsets": {
+                    "top": 6,
+                    "bottom": 2,
+                    "left": 2.6666667,
+                    "right": 2.6666667,
+                },
+            },
+        },
+    },
+    "iPhone13,4": {
+        "device": "iPhone 12 Pro Max",
+        "ppi": 460,
+        "keyboard": {
+            "portrait": {
+                "type": "phone",
+                "height": 224.0,
+                "topBarHeight": 47.0,
+                "insets": {
+                    "bottom": 75,
+                },
+                "keysInsets": {
+                    "top": 6,
+                    "bottom": 5,
+                    "left": 3,
+                    "right": 3,
+                },
+            },
+            "landscape": {
+                "type": "phone",
+                "height": 160.0,
+                "topBarHeight": 38.0,
+                "insets": {
+                    "left": 117,
+                    "right": 117,
+                    "bottom": 21,
+                },
+                "keysInsets": {
+                    "top": 6,
+                    "bottom": 2,
+                    "left": 2.6666667,
+                    "right": 2.6666667,
+                },
+            },
+        },
+    },
+    "iPhone13,3": {
+        "device": "iPhone 12 Pro",
+        "ppi": 460,
+        "keyboard": {
+            "portrait": {
+                "type": "phone",
+                "height": 216.0,
+                "topBarHeight": 45,
+                "insets": {
+                    "bottom": 75,
+                },
+                "keysInsets": {
+                    "top": 8,
+                    "bottom": 4,
+                    "left": 3,
+                    "right": 3,
+                },
+            },
+            "landscape": {
+                "type": "phone",
+                "height": 160.0,
+                "topBarHeight": 38.0,
+                "insets": {
+                    "left": 75,
+                    "right": 75,
+                    "bottom": 21,
+                },
+                "keysInsets": {
+                    "top": 6,
+                    "bottom": 2,
+                    "left": 2.6666667,
+                    "right": 2.6666667,
+                },
+            },
+        },
+    },
+    "iPhone13,2": {
+        "device": "iPhone 12",
+        "ppi": 460,
+        "keyboard": {
+            "portrait": {
+                "type": "phone",
+                "height": 216.0,
+                "topBarHeight": 45,
+                "insets": {
+                    "bottom": 75,
+                },
+                "keysInsets": {
+                    "top": 8,
+                    "bottom": 4,
+                    "left": 3,
+                    "right": 3,
+                },
+            },
+            "landscape": {
+                "type": "phone",
+                "height": 160.0,
+                "topBarHeight": 38.0,
+                "insets": {
+                    "left": 75,
+                    "right": 75,
+                    "bottom": 21,
+                },
+                "keysInsets": {
+                    "top": 6,
+                    "bottom": 2,
+                    "left": 2.6666667,
+                    "right": 2.6666667,
+                },
+            },
+        },
+    },
+    "iPhone13,1": {
+        "device": "iPhone 12 Mini",
+        "ppi": 460,
+        "keyboard": {
+            "portrait": {
+                "type": "phone",
+                "height": 207.6666667,
+                "topBarHeight": 43.3333333,
+                "insets": {
+                    "bottom": 72,
+                },
+                "keysInsets": {
+                    "top": 7.6666667,
+                    "bottom": 4,
+                    "left": 3,
+                    "right": 3,
+                },
+            },
+            "landscape": {
+                "type": "phone",
+                "height": 144.3333333,
+                "topBarHeight": 36.3333333,
+                "insets": {
+                    "left": 72,
+                    "right": 72,
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 5.3333333,
+                    "bottom": 2,
+                    "left": 2.5,
+                    "right": 2.5,
+                },
+            },
+        },
+    },
+    "iPhone12,8": {
+        "device": "iPhone SE 2nd generation)",
+        "ppi": 326,
+        "keyboard": {
+            "portrait": {
+                "type": "phone",
+                "height": 216.0,
+                "topBarHeight": 44,
+                "keysInsets": {
+                    "top": 8,
+                    "bottom": 4,
+                    "left": 3,
+                    "right": 3,
+                },
+            },
+            "landscape": {
+                "type": "phone",
+                "height": 160.0,
+                "topBarHeight": 40.0,
+                "keysInsets": {
+                    "top": 4,
+                    "bottom": 4,
+                    "left": 3,
+                    "right": 3,
+                },
+            },
+        }
+    },
+    "iPhone12,5": {
+        "device": "iPhone 11 Pro Max",
+        "ppi": 458,
+        "keyboard": {
+            "portrait": {
+                "type": "phone",
+                "height": 224.0,
+                "topBarHeight": 47,
+                "insets": {
+                    "bottom": 75,
+                },
+                "keysInsets": {
+                    "top": 6,
+                    "bottom": 5,
+                    "left": 3,
+                    "right": 3,
+                },
+            },
+            "landscape": {
+                "type": "phone",
+                "height": 150,
+                "topBarHeight": 38,
+                "insets": {
+                    "left": 117,
+                    "right": 117,
+                    "bottom": 21.0,
+                },
+                "keysInsets": {
+                    "top": 5.6666667,
+                    "bottom": 2,
+                    "left": 2.6666667,
+                    "right": 2.6666667,
+                },
+            },
+        },
+    },
+    "iPhone12,3": {
+        "device": "iPhone 11 Pro",
+        "ppi": 458,
+        "keyboard": {
+            "portrait": {
+                "type": "phone",
+                "height": 212,
+                "topBarHeight": 47,
+                "insets": {
+                    "bottom": 75,
+                },
+                "keysInsets": {
+                    "top": 8,
+                    "bottom": 4,
+                    "left": 3,
+                    "right": 3,
+                },
+            },
+            "landscape": {
+                "type": "phone",
+                "height": 150,
+                "topBarHeight": 38,
+                "insets": {
+                    "left": 75,
+                    "right": 75,
+                    "bottom": 21,
+                },
+                "keysInsets": {
+                    "top": 5.6666667,
+                    "bottom": 2,
+                    "left": 2.6666667,
+                    "right": 2.6666667,
+                },
+            },
+        },
+    },
+    "iPhone12,1": {
+        "device": "iPhone 11",
+        "ppi": 326,
+        "keyboard": {
+            "portrait": {
+                "type": "phone",
+                "height": 224,
+                "topBarHeight": 47,
+                "insets": {
+                    "bottom": 75,
+                },
+                "keysInsets": {
+                    "top": 6,
+                    "bottom": 5,
+                    "left": 3,
+                    "right": 3,
+                },
+            },
+            "landscape": {
+                "type": "phone",
+                "height": 151.5,
+                "topBarHeight": 36.5,
+                "insets": {
+                    "left": 117.0,
+                    "right": 117.0,
+                    "bottom": 21.0,
+                },
+                "keysInsets": {
+                    "top": 7,
+                    "bottom": 1,
+                    "left": 2.5,
+                    "right": 2.5,
+                },
+            },
+        },
+    },
+    "iPhone11,8": {
+        "device": "iPhone XR",
+        "ppi": 326,
+        "keyboard": {
+            "portrait": {
+                "type": "phone",
+                "height": 224,
+                "topBarHeight": 47,
+                "insets": {
+                    "bottom": 75,
+                },
+                "keysInsets": {
+                    "top": 6,
+                    "bottom": 5,
+                    "left": 3,
+                    "right": 3,
+                },
+            },
+            "landscape": {
+                "type": "phone",
+                "height": 151.5,
+                "topBarHeight": 36.5,
+                "insets": {
+                    "left": 117.0,
+                    "right": 117.0,
+                    "bottom": 21.0,
+                },
+                "keysInsets": {
+                    "top": 7,
+                    "bottom": 1,
+                    "left": 2.5,
+                    "right": 2.5,
+                },
+            },
+        },
+    },
+    "iPhone11,6": {
+        "device": "iPhone XS Max",
+        "ppi": 458,
+        "keyboard": {
+            "portrait": {
+                "type": "phone",
+                "height": 224.0,
+                "topBarHeight": 47,
+                "insets": {
+                    "bottom": 75,
+                },
+                "keysInsets": {
+                    "top": 6,
+                    "bottom": 5,
+                    "left": 3,
+                    "right": 3,
+                },
+            },
+            "landscape": {
+                "type": "phone",
+                "height": 150,
+                "topBarHeight": 38,
+                "insets": {
+                    "left": 117,
+                    "right": 117,
+                    "bottom": 21.0,
+                },
+                "keysInsets": {
+                    "top": 5.6666667,
+                    "bottom": 2,
+                    "left": 2.6666667,
+                    "right": 2.6666667,
+                },
+            },
+        },
+    },
+    "iPhone11,4": {
+        "device": "iPhone XS Max",
+        "ppi": 458,
+        "keyboard": {
+            "portrait": {
+                "type": "phone",
+                "height": 224.0,
+                "topBarHeight": 47,
+                "insets": {
+                    "bottom": 75,
+                },
+                "keysInsets": {
+                    "top": 6,
+                    "bottom": 5,
+                    "left": 3,
+                    "right": 3,
+                },
+            },
+            "landscape": {
+                "type": "phone",
+                "height": 150,
+                "topBarHeight": 38,
+                "insets": {
+                    "left": 117,
+                    "right": 117,
+                    "bottom": 21.0,
+                },
+                "keysInsets": {
+                    "top": 5.6666667,
+                    "bottom": 2,
+                    "left": 2.6666667,
+                    "right": 2.6666667,
+                },
+            },
+        },
+    },
+    "iPhone11,2": {
+        "device": "iPhone XS",
+        "ppi": 458,
+        "keyboard": {
+            "portrait": {
+                "type": "phone",
+                "height": 212,
+                "topBarHeight": 47,
+                "insets": {
+                    "bottom": 75,
+                },
+                "keysInsets": {
+                    "top": 8,
+                    "bottom": 4,
+                    "left": 3,
+                    "right": 3,
+                },
+            },
+            "landscape": {
+                "type": "phone",
+                "height": 150,
+                "topBarHeight": 38,
+                "insets": {
+                    "left": 75,
+                    "right": 75,
+                    "bottom": 21,
+                },
+                "keysInsets": {
+                    "top": 5.6666667,
+                    "bottom": 2,
+                    "left": 2.6666667,
+                    "right": 2.6666667,
+                },
+            },
+        },
+    },
+    "iPhone10,6": {
+        "device": "iPhone X GSM",
+        "ppi": 458,
+        "keyboard": {
+            "portrait": {
+                "type": "phone",
+                "height": 212,
+                "topBarHeight": 47,
+                "insets": {
+                    "bottom": 75,
+                },
+                "keysInsets": {
+                    "top": 8,
+                    "bottom": 4,
+                    "left": 3,
+                    "right": 3,
+                },
+            },
+            "landscape": {
+                "type": "phone",
+                "height": 150,
+                "topBarHeight": 38,
+                "insets": {
+                    "left": 75,
+                    "right": 75,
+                    "bottom": 21,
+                },
+                "keysInsets": {
+                    "top": 5.6666667,
+                    "bottom": 2,
+                    "left": 2.6666667,
+                    "right": 2.6666667,
+                },
+            },
+        },
+    },
+    "iPhone10,3": {
+        "device": "iPhone X Global",
+        "ppi": 458,
+        "keyboard": {
+            "portrait": {
+                "type": "phone",
+                "height": 212,
+                "topBarHeight": 47,
+                "insets": {
+                    "bottom": 75,
+                },
+                "keysInsets": {
+                    "top": 8,
+                    "bottom": 4,
+                    "left": 3,
+                    "right": 3,
+                },
+            },
+            "landscape": {
+                "type": "phone",
+                "height": 150,
+                "topBarHeight": 38,
+                "insets": {
+                    "left": 75,
+                    "right": 75,
+                    "bottom": 21,
+                },
+                "keysInsets": {
+                    "top": 5.6666667,
+                    "bottom": 2,
+                    "left": 2.6666667,
+                    "right": 2.6666667,
+                },
+            },
+        },
+    },
+    "iPhone10,5": {
+        "device": "iPhone 8 Plus",
+        "ppi": 401,
+        "keyboard": {
+            "portrait": {
+                "type": "phone",
+                "height": 224,
+                "topBarHeight": 47,
+                "keysInsets": {
+                    "top": 6,
+                    "bottom": 5,
+                    "left": 3,
+                    "right": 3,
+                },
+            },
+            "landscape": {
+                "type": "phone",
+                "height": 160,
+                "topBarHeight": 44,
+                "keysInsets": {
+                    "top": 4,
+                    "bottom": 4,
+                    "left": 3,
+                    "right": 3,
+                },
+            },
+        }
+    },
+    "iPhone10,2": {
+        "device": "iPhone 8 Plus",
+        "ppi": 401,
+        "keyboard": {
+            "portrait": {
+                "type": "phone",
+                "height": 224,
+                "topBarHeight": 47,
+                "keysInsets": {
+                    "top": 6,
+                    "bottom": 5,
+                    "left": 3,
+                    "right": 3,
+                },
+            },
+            "landscape": {
+                "type": "phone",
+                "height": 160,
+                "topBarHeight": 44,
+                "keysInsets": {
+                    "top": 4,
+                    "bottom": 4,
+                    "left": 3,
+                    "right": 3,
+                },
+            },
+        }
+    },
+    "iPhone10,4": {
+        "device": "iPhone 8",
+        "ppi": 326,
+        "keyboard": {
+            "portrait": {
+                "type": "phone",
+                "height": 216.0,
+                "topBarHeight": 44,
+                "keysInsets": {
+                    "top": 8,
+                    "bottom": 4,
+                    "left": 3,
+                    "right": 3,
+                },
+            },
+            "landscape": {
+                "type": "phone",
+                "height": 160.0,
+                "topBarHeight": 40.0,
+                "keysInsets": {
+                    "top": 4,
+                    "bottom": 4,
+                    "left": 3,
+                    "right": 3,
+                },
+            },
+        }
+    },
+    "iPhone10,1": {
+        "device": "iPhone 8",
+        "ppi": 326,
+        "keyboard": {
+            "portrait": {
+                "type": "phone",
+                "height": 216.0,
+                "topBarHeight": 44,
+                "keysInsets": {
+                    "top": 8,
+                    "bottom": 4,
+                    "left": 3,
+                    "right": 3,
+                },
+            },
+            "landscape": {
+                "type": "phone",
+                "height": 160.0,
+                "topBarHeight": 40.0,
+                "keysInsets": {
+                    "top": 4,
+                    "bottom": 4,
+                    "left": 3,
+                    "right": 3,
+                },
+            },
+        },
+    },
+    "iPhone9,4": {
+        "device": "iPhone 7 Plus",
+        "ppi": 401,
+        "keyboard": {
+            "portrait": {
+                "type": "phone",
+                "height": 224,
+                "topBarHeight": 47,
+                "keysInsets": {
+                    "top": 6,
+                    "bottom": 5,
+                    "left": 3,
+                    "right": 3,
+                },
+            },
+            "landscape": {
+                "type": "phone",
+                "height": 160,
+                "topBarHeight": 44,
+                "keysInsets": {
+                    "top": 4,
+                    "bottom": 4,
+                    "left": 3,
+                    "right": 3,
+                },
+            },
+        }
+    },
+    "iPhone9,2": {
+        "device": "iPhone 7 Plus",
+        "ppi": 401,
+        "keyboard": {
+            "portrait": {
+                "type": "phone",
+                "height": 224,
+                "topBarHeight": 47,
+                "keysInsets": {
+                    "top": 6,
+                    "bottom": 5,
+                    "left": 3,
+                    "right": 3,
+                },
+            },
+            "landscape": {
+                "type": "phone",
+                "height": 160,
+                "topBarHeight": 44,
+                "keysInsets": {
+                    "top": 4,
+                    "bottom": 4,
+                    "left": 3,
+                    "right": 3,
+                },
+            },
+        }
+    },
+    "iPhone9,3": {
+        "device": "iPhone 7",
+        "ppi": 326,
+        "keyboard": {
+            "portrait": {
+                "type": "phone",
+                "height": 216.0,
+                "topBarHeight": 44,
+                "keysInsets": {
+                    "top": 8,
+                    "bottom": 4,
+                    "left": 3,
+                    "right": 3,
+                },
+            },
+            "landscape": {
+                "type": "phone",
+                "height": 160.0,
+                "topBarHeight": 40.0,
+                "keysInsets": {
+                    "top": 4,
+                    "bottom": 4,
+                    "left": 3,
+                    "right": 3,
+                },
+            },
+        }
+    },
+    "iPhone9,1": {
+        "device": "iPhone 7",
+        "ppi": 326,
+        "keyboard": {
+            "portrait": {
+                "type": "phone",
+                "height": 216.0,
+                "topBarHeight": 44,
+                "keysInsets": {
+                    "top": 8,
+                    "bottom": 4,
+                    "left": 3,
+                    "right": 3,
+                },
+            },
+            "landscape": {
+                "type": "phone",
+                "height": 160.0,
+                "topBarHeight": 40.0,
+                "keysInsets": {
+                    "top": 4,
+                    "bottom": 4,
+                    "left": 3,
+                    "right": 3,
+                },
+            },
+        }
+    },
+    "iPhone8,2": {
+        "device": "iPhone 6s Plus",
+        "ppi": 401,
+        "keyboard": {
+            "portrait": {
+                "type": "phone",
+                "height": 224,
+                "topBarHeight": 47,
+                "keysInsets": {
+                    "top": 6,
+                    "bottom": 5,
+                    "left": 3,
+                    "right": 3,
+                },
+            },
+            "landscape": {
+                "type": "phone",
+                "height": 160,
+                "topBarHeight": 44,
+                "keysInsets": {
+                    "top": 4,
+                    "bottom": 4,
+                    "left": 3,
+                    "right": 3,
+                },
+            },
+        }
+    },
+    "iPhone8,4": {
+        "device": "iPhone SE (1st generation)",
+        "ppi": 326,
+        "keyboard": {
+            "portrait": {
+                "type": "phone",
+                "height": 216.0,
+                "topBarHeight": 38,
+                "keysInsets": {
+                    "top": 12,
+                    "bottom": 4,
+                    "left": 3,
+                    "right": 3,
+                },
+            },
+            "landscape": {
+                "type": "phone",
+                "height": 160.0,
+                "topBarHeight": 40,
+                "keysInsets": {
+                    "top": 4,
+                    "bottom": 4,
+                    "left": 2.5,
+                    "right": 2.5,
+                },
+            },
+        }
+    },
+    "iPhone8,1": {
+        "device": "iPhone 6s",
+        "ppi": 326,
+        "keyboard": {
+            "portrait": {
+                "type": "phone",
+                "height": 216.0,
+                "topBarHeight": 44,
+                "keysInsets": {
+                    "top": 8,
+                    "bottom": 4,
+                    "left": 3,
+                    "right": 3,
+                },
+            },
+            "landscape": {
+                "type": "phone",
+                "height": 160.0,
+                "topBarHeight": 40.0,
+                "keysInsets": {
+                    "top": 4,
+                    "bottom": 4,
+                    "left": 3,
+                    "right": 3,
+                },
+            },
+        }
+    },
+    "iPad16,6": {
+        "device": "iPad Pro 13-inch (M4)",
+        "ppi": 264,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_L",
+                "height": 274,
+                "topBarHeight": 58,
+                "numbersRowHeight": 54.5,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 3,
+                    "bottom": 4,
+                    "left": 3.5,
+                    "right": 3.5,
+                },
+            },
+            "landscape": {
+                "type": "pad_L",
+                "height": 355.5,
+                "topBarHeight": 57,
+                "numbersRowHeight": 69,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 5.5,
+                    "bottom": 3.5,
+                    "left": 4.5,
+                    "right": 4.5,
+                },
+            },
+        },
+    },
+    "iPad16,5": {
+        "device": "iPad Pro 13-inch (M4)",
+        "ppi": 264,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_L",
+                "height": 274,
+                "topBarHeight": 58,
+                "numbersRowHeight": 54.5,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 3,
+                    "bottom": 4,
+                    "left": 3.5,
+                    "right": 3.5,
+                },
+            },
+            "landscape": {
+                "type": "pad_L",
+                "height": 355.5,
+                "topBarHeight": 57,
+                "numbersRowHeight": 69,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 5.5,
+                    "bottom": 3.5,
+                    "left": 4.5,
+                    "right": 4.5,
+                },
+            },
+        },
+    },
+    "iPad16,4": {
+        "device": "iPad Pro 11-inch (M4)",
+        "ppi": 264,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_M",
+                "height": 258,
+                "topBarHeight": 62,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 1,
+                    "bottom": 8,
+                    "left": 5,
+                    "right": 5,
+                },
+            },
+            "landscape": {
+                "type": "pad_M",
+                "height": 344,
+                "topBarHeight": 64,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 2,
+                    "bottom": 10,
+                    "left": 7,
+                    "right": 7,
+                },
+            },
+        },
+    },
+    "iPad16,3": {
+        "device": "iPad Pro 11-inch (M4)",
+        "ppi": 264,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_M",
+                "height": 258,
+                "topBarHeight": 62,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 1,
+                    "bottom": 8,
+                    "left": 5,
+                    "right": 5,
+                },
+            },
+            "landscape": {
+                "type": "pad_M",
+                "height": 344,
+                "topBarHeight": 64,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 2,
+                    "bottom": 10,
+                    "left": 7,
+                    "right": 7,
+                },
+            },
+        },
+    },
+    "iPad14,11": {
+        "device": "iPad Air 13-inch (M2)",
+        "ppi": 264,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_L",
+                "height": 272,
+                "topBarHeight": 58,
+                "numbersRowHeight": 53,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 3,
+                    "bottom": 4,
+                    "left": 3.5,
+                    "right": 3.5,
+                },
+            },
+            "landscape": {
+                "type": "pad_L",
+                "height": 352,
+                "topBarHeight": 58,
+                "numbersRowHeight": 68,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 5,
+                    "bottom": 4,
+                    "left": 5.5,
+                    "right": 5.5,
+                },
+            },
+        },
+    },
+    "iPad14,10": {
+        "device": "iPad Air 13-inch (M2)",
+        "ppi": 264,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_L",
+                "height": 272,
+                "topBarHeight": 58,
+                "numbersRowHeight": 53,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 3,
+                    "bottom": 4,
+                    "left": 3.5,
+                    "right": 3.5,
+                },
+            },
+            "landscape": {
+                "type": "pad_L",
+                "height": 352,
+                "topBarHeight": 58,
+                "numbersRowHeight": 68,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 5,
+                    "bottom": 4,
+                    "left": 5.5,
+                    "right": 5.5,
+                },
+            },
+        },
+    },
+    "iPad14,9": {
+        "device": "iPad Air 11-inch (M2)",
+        "ppi": 264,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_M",
+                "height": 255,
+                "topBarHeight": 62,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 1,
+                    "bottom": 8,
+                    "left": 2.5,
+                    "right": 2.5,
+                },
+            },
+            "landscape": {
+                "type": "pad_M",
+                "height": 338,
+                "topBarHeight": 64,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 2,
+                    "bottom": 10,
+                    "left": 7,
+                    "right": 7,
+                },
+            },
+        },
+    },
+    "iPad14,8": {
+        "device": "iPad Air 11-inch (M2)",
+        "ppi": 264,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_M",
+                "height": 255,
+                "topBarHeight": 62,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 1,
+                    "bottom": 8,
+                    "left": 2.5,
+                    "right": 2.5,
+                },
+            },
+            "landscape": {
+                "type": "pad_M",
+                "height": 338,
+                "topBarHeight": 64,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 2,
+                    "bottom": 10,
+                    "left": 7,
+                    "right": 7,
+                },
+            },
+        },
+    },
+    "iPad14,6": {
+        "device": "iPad Pro 12.9-inch (6th generation)",
+        "ppi": 264,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_L",
+                "height": 272,
+                "topBarHeight": 58,
+                "numbersRowHeight": 53,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 3,
+                    "bottom": 4,
+                    "left": 3.5,
+                    "right": 3.5,
+                },
+            },
+            "landscape": {
+                "type": "pad_L",
+                "height": 352,
+                "topBarHeight": 58,
+                "numbersRowHeight": 68,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 5,
+                    "bottom": 4,
+                    "left": 5.5,
+                    "right": 5.5,
+                },
+            },
+        },
+    },
+    "iPad14,5": {
+        "device": "iPad Pro 12.9-inch (6th generation)",
+        "ppi": 264,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_L",
+                "height": 272,
+                "topBarHeight": 58,
+                "numbersRowHeight": 53,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 3,
+                    "bottom": 4,
+                    "left": 3.5,
+                    "right": 3.5,
+                },
+            },
+            "landscape": {
+                "type": "pad_L",
+                "height": 352,
+                "topBarHeight": 58,
+                "numbersRowHeight": 68,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 5,
+                    "bottom": 4,
+                    "left": 5.5,
+                    "right": 5.5,
+                },
+            },
+        },
+    },
+    "iPad14,4": {
+        "device": "iPad Pro 11-inch (4th generation)",
+        "ppi": 264,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_M",
+                "height": 258,
+                "topBarHeight": 62,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 1,
+                    "bottom": 8,
+                    "left": 5,
+                    "right": 5,
+                },
+            },
+            "landscape": {
+                "type": "pad_M",
+                "height": 344,
+                "topBarHeight": 64,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 2,
+                    "bottom": 10,
+                    "left": 7,
+                    "right": 7,
+                },
+            },
+        },
+    },
+    "iPad14,3": {
+        "device": "iPad Pro 11-inch (4th generation)",
+        "ppi": 264,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_M",
+                "height": 258,
+                "topBarHeight": 62,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 1,
+                    "bottom": 8,
+                    "left": 5,
+                    "right": 5,
+                },
+            },
+            "landscape": {
+                "type": "pad_M",
+                "height": 344,
+                "topBarHeight": 64,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 2,
+                    "bottom": 10,
+                    "left": 7,
+                    "right": 7,
+                },
+            },
+        },
+    },
+    "iPad13,19": {
+        "device": "iPad (10th generation)",
+        "ppi": 264,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_M",
+                "height": 255,
+                "topBarHeight": 62,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 1,
+                    "bottom": 8,
+                    "left": 5,
+                    "right": 5,
+                },
+            },
+            "landscape": {
+                "type": "pad_M",
+                "height": 338,
+                "topBarHeight": 64,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 2,
+                    "bottom": 10,
+                    "left": 7,
+                    "right": 7,
+                },
+            },
+        },
+    },
+    "iPad13,18": {
+        "device": "iPad (10th generation)",
+        "ppi": 264,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_M",
+                "height": 255,
+                "topBarHeight": 62,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 1,
+                    "bottom": 8,
+                    "left": 5,
+                    "right": 5,
+                },
+            },
+            "landscape": {
+                "type": "pad_M",
+                "height": 338,
+                "topBarHeight": 64,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 2,
+                    "bottom": 10,
+                    "left": 7,
+                    "right": 7,
+                },
+            },
+        },
+    },
+    "iPad13,17": {
+        "device": "iPad Air (5th generation)",
+        "ppi": 264,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_M",
+                "height": 255,
+                "topBarHeight": 62,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 1,
+                    "bottom": 8,
+                    "left": 5,
+                    "right": 5,
+                },
+            },
+            "landscape": {
+                "type": "pad_M",
+                "height": 338,
+                "topBarHeight": 64,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 2,
+                    "bottom": 10,
+                    "left": 7,
+                    "right": 7,
+                },
+            },
+        },
+    },
+    "iPad13,16": {
+        "device": "iPad Air (5th generation)",
+        "ppi": 264,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_M",
+                "height": 255,
+                "topBarHeight": 62,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 1,
+                    "bottom": 8,
+                    "left": 5,
+                    "right": 5,
+                },
+            },
+            "landscape": {
+                "type": "pad_M",
+                "height": 338,
+                "topBarHeight": 64,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 2,
+                    "bottom": 10,
+                    "left": 7,
+                    "right": 7,
+                },
+            },
+        },
+    },
+    "iPad14,2": {
+        "device": "iPad mini (6th generation)",
+        "ppi": 326,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_S",
+                "height": 258,
+                "topBarHeight": 62,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 1,
+                    "bottom": 8,
+                    "left": 6,
+                    "right": 6,
+                },
+            },
+            "landscape": {
+                "type": "pad_S",
+                "height": 344,
+                "topBarHeight": 64,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 2,
+                    "bottom": 10,
+                    "left": 7.5,
+                    "right": 7.5,
+                },
+            },
+        },
+    },
+    "iPad14,1": {
+        "device": "iPad mini (6th generation)",
+        "ppi": 326,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_S",
+                "height": 258,
+                "topBarHeight": 62,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 1,
+                    "bottom": 8,
+                    "left": 6,
+                    "right": 6,
+                },
+            },
+            "landscape": {
+                "type": "pad_S",
+                "height": 344,
+                "topBarHeight": 64,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 2,
+                    "bottom": 10,
+                    "left": 7.5,
+                    "right": 7.5,
+                },
+            },
+        },
+    },
+    "iPad13,11": {
+        "device": "iPad Pro 12.9-inch (5th generation)",
+        "ppi": 264,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_L",
+                "height": 272,
+                "topBarHeight": 58,
+                "numbersRowHeight": 53,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 3,
+                    "bottom": 4,
+                    "left": 3.5,
+                    "right": 3.5,
+                },
+            },
+            "landscape": {
+                "type": "pad_L",
+                "height": 352,
+                "topBarHeight": 58,
+                "numbersRowHeight": 68,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 5,
+                    "bottom": 4,
+                    "left": 5.5,
+                    "right": 5.5,
+                },
+            },
+        },
+    },
+    "iPad13,10": {
+        "device": "iPad Pro 12.9-inch (5th generation)",
+        "ppi": 264,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_L",
+                "height": 272,
+                "topBarHeight": 58,
+                "numbersRowHeight": 53,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 3,
+                    "bottom": 4,
+                    "left": 3.5,
+                    "right": 3.5,
+                },
+            },
+            "landscape": {
+                "type": "pad_L",
+                "height": 352,
+                "topBarHeight": 58,
+                "numbersRowHeight": 68,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 5,
+                    "bottom": 4,
+                    "left": 5.5,
+                    "right": 5.5,
+                },
+            },
+        },
+    },
+    "iPad13,9": {
+        "device": "iPad Pro 12.9-inch (5th generation)",
+        "ppi": 264,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_L",
+                "height": 272,
+                "topBarHeight": 58,
+                "numbersRowHeight": 53,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 3,
+                    "bottom": 4,
+                    "left": 3.5,
+                    "right": 3.5,
+                },
+            },
+            "landscape": {
+                "type": "pad_L",
+                "height": 352,
+                "topBarHeight": 58,
+                "numbersRowHeight": 68,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 5,
+                    "bottom": 4,
+                    "left": 5.5,
+                    "right": 5.5,
+                },
+            },
+        },
+    },
+    "iPad13,8": {
+        "device": "iPad Pro 12.9-inch (5th generation)",
+        "ppi": 264,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_L",
+                "height": 272,
+                "topBarHeight": 58,
+                "numbersRowHeight": 53,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 3,
+                    "bottom": 4,
+                    "left": 3.5,
+                    "right": 3.5,
+                },
+            },
+            "landscape": {
+                "type": "pad_L",
+                "height": 352,
+                "topBarHeight": 58,
+                "numbersRowHeight": 68,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 5,
+                    "bottom": 4,
+                    "left": 5.5,
+                    "right": 5.5,
+                },
+            },
+        },
+    },
+    "iPad13,7": {
+        "device": "iPad Pro 11-inch (3th generation)",
+        "ppi": 264,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_M",
+                "height": 258,
+                "topBarHeight": 62,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 1,
+                    "bottom": 8,
+                    "left": 5,
+                    "right": 5,
+                },
+            },
+            "landscape": {
+                "type": "pad_M",
+                "height": 344,
+                "topBarHeight": 64,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 2,
+                    "bottom": 10,
+                    "left": 7,
+                    "right": 7,
+                },
+            },
+        },
+    },
+    "iPad13,6": {
+        "device": "iPad Pro 11-inch (3th generation)",
+        "ppi": 264,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_M",
+                "height": 258,
+                "topBarHeight": 62,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 1,
+                    "bottom": 8,
+                    "left": 5,
+                    "right": 5,
+                },
+            },
+            "landscape": {
+                "type": "pad_M",
+                "height": 344,
+                "topBarHeight": 64,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 2,
+                    "bottom": 10,
+                    "left": 7,
+                    "right": 7,
+                },
+            },
+        },
+    },
+    "iPad13,5": {
+        "device": "iPad Pro 11-inch (3th generation)",
+        "ppi": 264,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_M",
+                "height": 258,
+                "topBarHeight": 62,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 1,
+                    "bottom": 8,
+                    "left": 5,
+                    "right": 5,
+                },
+            },
+            "landscape": {
+                "type": "pad_M",
+                "height": 344,
+                "topBarHeight": 64,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 2,
+                    "bottom": 10,
+                    "left": 7,
+                    "right": 7,
+                },
+            },
+        },
+    },
+    "iPad13,4": {
+        "device": "iPad Pro 11-inch (3th generation)",
+        "ppi": 264,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_M",
+                "height": 258,
+                "topBarHeight": 62,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 1,
+                    "bottom": 8,
+                    "left": 5,
+                    "right": 5,
+                },
+            },
+            "landscape": {
+                "type": "pad_M",
+                "height": 344,
+                "topBarHeight": 64,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 2,
+                    "bottom": 10,
+                    "left": 7,
+                    "right": 7,
+                },
+            },
+        },
+    },
+    "iPad13,2": {
+        "device": "iPad Air (4th generation)",
+        "ppi": 264,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_M",
+                "height": 255,
+                "topBarHeight": 62,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 1,
+                    "bottom": 8,
+                    "left": 5,
+                    "right": 5,
+                },
+            },
+            "landscape": {
+                "type": "pad_M",
+                "height": 338,
+                "topBarHeight": 64,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 2,
+                    "bottom": 10,
+                    "left": 7,
+                    "right": 7,
+                },
+            },
+        },
+    },
+    "iPad13,1": {
+        "device": "iPad Air (4th generation)",
+        "ppi": 264,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_M",
+                "height": 255,
+                "topBarHeight": 62,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 1,
+                    "bottom": 8,
+                    "left": 5,
+                    "right": 5,
+                },
+            },
+            "landscape": {
+                "type": "pad_M",
+                "height": 338,
+                "topBarHeight": 64,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 2,
+                    "bottom": 10,
+                    "left": 7,
+                    "right": 7,
+                },
+            },
+        },
+    },
+    "iPad12,2": {
+        "device": "iPad (9th generation)",
+        "ppi": 264,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_S",
+                "height": 258,
+                "topBarHeight": 62,
+                "keysInsets": {
+                    "top": 1,
+                    "bottom": 8,
+                    "left": 6.25,
+                    "right": 6.25,
+                },
+            },
+            "landscape": {
+                "type": "pad_S",
+                "height": 344,
+                "topBarHeight": 68,
+                "keysInsets": {
+                    "top": 2,
+                    "bottom": 10,
+                    "left": 7.25,
+                    "right": 7.25,
+                },
+            },
+        },
+    },
+    "iPad12,1": {
+        "device": "iPad (9th generation)",
+        "ppi": 264,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_S",
+                "height": 258,
+                "topBarHeight": 62,
+                "keysInsets": {
+                    "top": 1,
+                    "bottom": 8,
+                    "left": 6.25,
+                    "right": 6.25,
+                },
+            },
+            "landscape": {
+                "type": "pad_S",
+                "height": 344,
+                "topBarHeight": 68,
+                "keysInsets": {
+                    "top": 2,
+                    "bottom": 10,
+                    "left": 7.25,
+                    "right": 7.25,
+                },
+            },
+        },
+    },
+    "iPad11,7": {
+        "device": "iPad (8th generation)",
+        "ppi": 264,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_S",
+                "height": 258,
+                "topBarHeight": 62,
+                "keysInsets": {
+                    "top": 1,
+                    "bottom": 8,
+                    "left": 6.25,
+                    "right": 6.25,
+                },
+            },
+            "landscape": {
+                "type": "pad_S",
+                "height": 344,
+                "topBarHeight": 68,
+                "keysInsets": {
+                    "top": 2,
+                    "bottom": 10,
+                    "left": 7.25,
+                    "right": 7.25,
+                },
+            },
+        },
+    },
+    "iPad11,6": {
+        "device": "iPad (8th generation)",
+        "ppi": 264,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_S",
+                "height": 258,
+                "topBarHeight": 62,
+                "keysInsets": {
+                    "top": 1,
+                    "bottom": 8,
+                    "left": 6.25,
+                    "right": 6.25,
+                },
+            },
+            "landscape": {
+                "type": "pad_S",
+                "height": 344,
+                "topBarHeight": 68,
+                "keysInsets": {
+                    "top": 2,
+                    "bottom": 10,
+                    "left": 7.25,
+                    "right": 7.25,
+                },
+            },
+        },
+    },
+    "iPad11,4": {
+        "device": "iPad Air (3rd generation)",
+        "ppi": 264,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_S",
+                "height": 258,
+                "topBarHeight": 62,
+                "keysInsets": {
+                    "top": 1,
+                    "bottom": 8,
+                    "left": 7,
+                    "right": 7,
+                },
+            },
+            "landscape": {
+                "type": "pad_S",
+                "height": 344,
+                "topBarHeight": 64,
+                "keysInsets": {
+                    "top": 2,
+                    "bottom": 10,
+                    "left": 7.25,
+                    "right": 7.25,
+                },
+            },
+        },
+    },
+    "iPad11,3": {
+        "device": "iPad Air (3rd generation)",
+        "ppi": 264,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_S",
+                "height": 258,
+                "topBarHeight": 62,
+                "keysInsets": {
+                    "top": 1,
+                    "bottom": 8,
+                    "left": 7,
+                    "right": 7,
+                },
+            },
+            "landscape": {
+                "type": "pad_S",
+                "height": 344,
+                "topBarHeight": 64,
+                "keysInsets": {
+                    "top": 2,
+                    "bottom": 10,
+                    "left": 7.25,
+                    "right": 7.25,
+                },
+            },
+        },
+    },
+    "iPad11,2": {
+        "device": "iPad Mini (5th generation)",
+        "ppi": 326,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_S",
+                "height": 258,
+                "topBarHeight": 62,
+                "keysInsets": {
+                    "top": 1,
+                    "bottom": 8,
+                    "left": 6,
+                    "right": 6,
+                },
+            },
+            "landscape": {
+                "type": "pad_S",
+                "height": 344,
+                "topBarHeight": 64,
+                "keysInsets": {
+                    "top": 2,
+                    "bottom": 10,
+                    "left": 7,
+                    "right": 7,
+                },
+            },
+        }
+    },
+    "iPad11,1": {
+        "device": "iPad Mini (5th generation)",
+        "ppi": 326,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_S",
+                "height": 258,
+                "topBarHeight": 62,
+                "keysInsets": {
+                    "top": 1,
+                    "bottom": 8,
+                    "left": 6,
+                    "right": 6,
+                },
+            },
+            "landscape": {
+                "type": "pad_S",
+                "height": 344,
+                "topBarHeight": 64,
+                "keysInsets": {
+                    "top": 2,
+                    "bottom": 10,
+                    "left": 7,
+                    "right": 7,
+                },
+            },
+        }
+    },
+    "iPad8,12": {
+        "device": "iPad Pro 12.9-inch (4th generation)",
+        "ppi": 264,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_L",
+                "height": 272,
+                "topBarHeight": 58,
+                "numbersRowHeight": 53,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 3,
+                    "bottom": 4,
+                    "left": 3.5,
+                    "right": 3.5,
+                },
+            },
+            "landscape": {
+                "type": "pad_L",
+                "height": 352,
+                "topBarHeight": 58,
+                "numbersRowHeight": 68,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 5,
+                    "bottom": 4,
+                    "left": 5.5,
+                    "right": 5.5,
+                },
+            },
+        },
+    },
+    "iPad8,11": {
+        "device": "iPad Pro 12.9-inch (4th generation)",
+        "ppi": 264,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_L",
+                "height": 272,
+                "topBarHeight": 58,
+                "numbersRowHeight": 53,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 3,
+                    "bottom": 4,
+                    "left": 3.5,
+                    "right": 3.5,
+                },
+            },
+            "landscape": {
+                "type": "pad_L",
+                "height": 352,
+                "topBarHeight": 58,
+                "numbersRowHeight": 68,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 5,
+                    "bottom": 4,
+                    "left": 5.5,
+                    "right": 5.5,
+                },
+            },
+        },
+    },
+    "iPad8,10": {
+        "device": "iPad Pro 11-inch (2th generation)",
+        "ppi": 264,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_M",
+                "height": 258,
+                "topBarHeight": 62,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 1,
+                    "bottom": 8,
+                    "left": 5,
+                    "right": 5,
+                },
+            },
+            "landscape": {
+                "type": "pad_M",
+                "height": 344,
+                "topBarHeight": 64,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 2,
+                    "bottom": 10,
+                    "left": 7,
+                    "right": 7,
+                },
+            },
+        },
+    },
+    "iPad8,9": {
+        "device": "iPad Pro 11-inch (2th generation)",
+        "ppi": 264,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_M",
+                "height": 258,
+                "topBarHeight": 62,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 1,
+                    "bottom": 8,
+                    "left": 5,
+                    "right": 5,
+                },
+            },
+            "landscape": {
+                "type": "pad_M",
+                "height": 344,
+                "topBarHeight": 64,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 2,
+                    "bottom": 10,
+                    "left": 7,
+                    "right": 7,
+                },
+            },
+        },
+    },
+    "iPad8,8": {
+        "device": "iPad Pro 12.9-inch (3rd generation)",
+        "ppi": 264,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_L",
+                "height": 272,
+                "topBarHeight": 58,
+                "numbersRowHeight": 53,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 3,
+                    "bottom": 4,
+                    "left": 3.5,
+                    "right": 3.5,
+                },
+            },
+            "landscape": {
+                "type": "pad_L",
+                "height": 352,
+                "topBarHeight": 58,
+                "numbersRowHeight": 68,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 5,
+                    "bottom": 4,
+                    "left": 5.5,
+                    "right": 5.5,
+                },
+            },
+        },
+    },
+    "iPad8,7": {
+        "device": "iPad Pro 12.9-inch (3rd generation)",
+        "ppi": 264,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_L",
+                "height": 272,
+                "topBarHeight": 58,
+                "numbersRowHeight": 53,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 3,
+                    "bottom": 4,
+                    "left": 3.5,
+                    "right": 3.5,
+                },
+            },
+            "landscape": {
+                "type": "pad_L",
+                "height": 352,
+                "topBarHeight": 58,
+                "numbersRowHeight": 68,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 5,
+                    "bottom": 4,
+                    "left": 5.5,
+                    "right": 5.5,
+                },
+            },
+        },
+    },
+    "iPad8,6": {
+        "device": "iPad Pro 12.9-inch (3rd generation)",
+        "ppi": 264,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_L",
+                "height": 272,
+                "topBarHeight": 58,
+                "numbersRowHeight": 53,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 3,
+                    "bottom": 4,
+                    "left": 3.5,
+                    "right": 3.5,
+                },
+            },
+            "landscape": {
+                "type": "pad_L",
+                "height": 352,
+                "topBarHeight": 58,
+                "numbersRowHeight": 68,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 5,
+                    "bottom": 4,
+                    "left": 5.5,
+                    "right": 5.5,
+                },
+            },
+        },
+    },
+    "iPad8,5": {
+        "device": "iPad Pro 12.9-inch (3rd generation)",
+        "ppi": 264,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_L",
+                "height": 272,
+                "topBarHeight": 58,
+                "numbersRowHeight": 53,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 3,
+                    "bottom": 4,
+                    "left": 3.5,
+                    "right": 3.5,
+                },
+            },
+            "landscape": {
+                "type": "pad_L",
+                "height": 352,
+                "topBarHeight": 58,
+                "numbersRowHeight": 68,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 5,
+                    "bottom": 4,
+                    "left": 5.5,
+                    "right": 5.5,
+                },
+            },
+        },
+    },
+    "iPad8,4": {
+        "device": "iPad Pro 11-inch (1st generation)",
+        "ppi": 264,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_M",
+                "height": 258,
+                "topBarHeight": 62,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 1,
+                    "bottom": 8,
+                    "left": 5,
+                    "right": 5,
+                },
+            },
+            "landscape": {
+                "type": "pad_M",
+                "height": 344,
+                "topBarHeight": 64,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 2,
+                    "bottom": 10,
+                    "left": 7,
+                    "right": 7,
+                },
+            },
+        },
+    },
+    "iPad8,3": {
+        "device": "iPad Pro 11-inch (1st generation)",
+        "ppi": 264,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_M",
+                "height": 258,
+                "topBarHeight": 62,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 1,
+                    "bottom": 8,
+                    "left": 5,
+                    "right": 5,
+                },
+            },
+            "landscape": {
+                "type": "pad_M",
+                "height": 344,
+                "topBarHeight": 64,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 2,
+                    "bottom": 10,
+                    "left": 7,
+                    "right": 7,
+                },
+            },
+        },
+    },
+    "iPad8,2": {
+        "device": "iPad Pro 11-inch (1st generation)",
+        "ppi": 264,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_M",
+                "height": 258,
+                "topBarHeight": 62,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 1,
+                    "bottom": 8,
+                    "left": 5,
+                    "right": 5,
+                },
+            },
+            "landscape": {
+                "type": "pad_M",
+                "height": 344,
+                "topBarHeight": 64,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 2,
+                    "bottom": 10,
+                    "left": 7,
+                    "right": 7,
+                },
+            },
+        },
+    },
+    "iPad8,1": {
+        "device": "iPad Pro 11-inch (1st generation)",
+        "ppi": 264,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_M",
+                "height": 258,
+                "topBarHeight": 62,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 1,
+                    "bottom": 8,
+                    "left": 5,
+                    "right": 5,
+                },
+            },
+            "landscape": {
+                "type": "pad_M",
+                "height": 344,
+                "topBarHeight": 64,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 2,
+                    "bottom": 10,
+                    "left": 7,
+                    "right": 7,
+                },
+            },
+        },
+    },
+    "iPad7,12": {
+        "device": "iPad (7th generation)",
+        "ppi": 264,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_S",
+                "height": 258,
+                "topBarHeight": 62,
+                "keysInsets": {
+                    "top": 1,
+                    "bottom": 8,
+                    "left": 6.25,
+                    "right": 6.25,
+                },
+            },
+            "landscape": {
+                "type": "pad_S",
+                "height": 344,
+                "topBarHeight": 68,
+                "keysInsets": {
+                    "top": 2,
+                    "bottom": 10,
+                    "left": 7.25,
+                    "right": 7.25,
+                },
+            },
+        },
+    },
+    "iPad7,11": {
+        "device": "iPad (7th generation)",
+        "ppi": 264,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_S",
+                "height": 258,
+                "topBarHeight": 62,
+                "keysInsets": {
+                    "top": 1,
+                    "bottom": 8,
+                    "left": 6.25,
+                    "right": 6.25,
+                },
+            },
+            "landscape": {
+                "type": "pad_S",
+                "height": 344,
+                "topBarHeight": 68,
+                "keysInsets": {
+                    "top": 2,
+                    "bottom": 10,
+                    "left": 7.25,
+                    "right": 7.25,
+                },
+            },
+        },
+    },
+    "iPad7,6": {
+        "device": "iPad (6th generation)",
+        "ppi": 264,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_S",
+                "height": 258,
+                "topBarHeight": 62,
+                "keysInsets": {
+                    "top": 1,
+                    "bottom": 8,
+                    "left": 6,
+                    "right": 6,
+                },
+            },
+            "landscape": {
+                "type": "pad_S",
+                "height": 344,
+                "topBarHeight": 64,
+                "keysInsets": {
+                    "top": 2,
+                    "bottom": 10,
+                    "left": 7,
+                    "right": 7,
+                },
+            },
+        },
+    },
+    "iPad7,5": {
+        "device": "iPad (6th generation)",
+        "ppi": 264,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_S",
+                "height": 258,
+                "topBarHeight": 62,
+                "keysInsets": {
+                    "top": 1,
+                    "bottom": 8,
+                    "left": 6,
+                    "right": 6,
+                },
+            },
+            "landscape": {
+                "type": "pad_S",
+                "height": 344,
+                "topBarHeight": 64,
+                "keysInsets": {
+                    "top": 2,
+                    "bottom": 10,
+                    "left": 7,
+                    "right": 7,
+                },
+            },
+        },
+    },
+    "iPad7,4": {
+        "device": "iPad Pro 10.5-inch",
+        "ppi": 264,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_S",
+                "height": 258,
+                "topBarHeight": 62,
+                "keysInsets": {
+                    "top": 1,
+                    "bottom": 8,
+                    "left": 7,
+                    "right": 7,
+                },
+            },
+            "landscape": {
+                "type": "pad_S",
+                "height": 344,
+                "topBarHeight": 64,
+                "keysInsets": {
+                    "top": 2,
+                    "bottom": 10,
+                    "left": 7.25,
+                    "right": 7.25,
+                },
+            },
+        },
+    },
+    "iPad7,3": {
+        "device": "iPad Pro 10.5-inch",
+        "ppi": 264,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_S",
+                "height": 258,
+                "topBarHeight": 62,
+                "keysInsets": {
+                    "top": 1,
+                    "bottom": 8,
+                    "left": 7,
+                    "right": 7,
+                },
+            },
+            "landscape": {
+                "type": "pad_S",
+                "height": 344,
+                "topBarHeight": 64,
+                "keysInsets": {
+                    "top": 2,
+                    "bottom": 10,
+                    "left": 7.25,
+                    "right": 7.25,
+                },
+            },
+        },
+    },
+    "iPad7,2": {
+        "device": "iPad Pro 12.9-inch (2nd generation)",
+        "ppi": 264,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_L",
+                "height": 272,
+                "topBarHeight": 58,
+                "numbersRowHeight": 53,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 3,
+                    "bottom": 4,
+                    "left": 3.5,
+                    "right": 3.5,
+                },
+            },
+            "landscape": {
+                "type": "pad_L",
+                "height": 352,
+                "topBarHeight": 58,
+                "numbersRowHeight": 69,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 5,
+                    "bottom": 4,
+                    "left": 4.5,
+                    "right": 4.5,
+                },
+            },
+        },
+    },
+    "iPad7,1": {
+        "device": "iPad Pro 12.9-inch (2nd generation)",
+        "ppi": 264,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_L",
+                "height": 272,
+                "topBarHeight": 58,
+                "numbersRowHeight": 53,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 3,
+                    "bottom": 4,
+                    "left": 3.5,
+                    "right": 3.5,
+                },
+            },
+            "landscape": {
+                "type": "pad_L",
+                "height": 352,
+                "topBarHeight": 58,
+                "numbersRowHeight": 69,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 5,
+                    "bottom": 4,
+                    "left": 4.5,
+                    "right": 4.5,
+                },
+            },
+        },
+    },
+    "iPad6,12": {
+        "device": "iPad (5th generation)",
+        "ppi": 264,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_S",
+                "height": 258,
+                "topBarHeight": 62,
+                "keysInsets": {
+                    "top": 1,
+                    "bottom": 8,
+                    "left": 6,
+                    "right": 6,
+                },
+            },
+            "landscape": {
+                "type": "pad_S",
+                "height": 344,
+                "topBarHeight": 64,
+                "keysInsets": {
+                    "top": 2,
+                    "bottom": 10,
+                    "left": 7,
+                    "right": 7,
+                },
+            },
+        },
+    },
+    "iPad6,11": {
+        "device": "iPad (5th generation)",
+        "ppi": 264,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_S",
+                "height": 258,
+                "topBarHeight": 62,
+                "keysInsets": {
+                    "top": 1,
+                    "bottom": 8,
+                    "left": 6,
+                    "right": 6,
+                },
+            },
+            "landscape": {
+                "type": "pad_S",
+                "height": 344,
+                "topBarHeight": 64,
+                "keysInsets": {
+                    "top": 2,
+                    "bottom": 10,
+                    "left": 7,
+                    "right": 7,
+                },
+            },
+        },
+    },
+    "iPad6,8": {
+        "device": "iPad Pro 12.9-inch (1st generation)",
+        "ppi": 264,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_L",
+                "height": 272,
+                "topBarHeight": 58,
+                "numbersRowHeight": 53,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 3,
+                    "bottom": 4,
+                    "left": 3.5,
+                    "right": 3.5,
+                },
+            },
+            "landscape": {
+                "type": "pad_L",
+                "height": 352,
+                "topBarHeight": 58,
+                "numbersRowHeight": 69,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 5,
+                    "bottom": 4,
+                    "left": 4.5,
+                    "right": 4.5,
+                },
+            },
+        },
+    },
+    "iPad6,7": {
+        "device": "iPad Pro 12.9-inch (1st generation)",
+        "ppi": 264,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_L",
+                "height": 272,
+                "topBarHeight": 58,
+                "numbersRowHeight": 53,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 3,
+                    "bottom": 4,
+                    "left": 3.5,
+                    "right": 3.5,
+                },
+            },
+            "landscape": {
+                "type": "pad_L",
+                "height": 352,
+                "topBarHeight": 58,
+                "numbersRowHeight": 69,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 5,
+                    "bottom": 4,
+                    "left": 4.5,
+                    "right": 4.5,
+                },
+            },
+        },
+    },
+    "iPad6,4": {
+        "device": "iPad Pro 9.7-inch",
+        "ppi": 264,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_S",
+                "height": 258,
+                "topBarHeight": 62,
+                "keysInsets": {
+                    "top": 1,
+                    "bottom": 8,
+                    "left": 6,
+                    "right": 6,
+                },
+            },
+            "landscape": {
+                "type": "pad_S",
+                "height": 344,
+                "topBarHeight": 64,
+                "keysInsets": {
+                    "top": 2,
+                    "bottom": 10,
+                    "left": 7,
+                    "right": 7,
+                },
+            },
+        },
+    },
+    "iPad6,3": {
+        "device": "iPad Pro 9.7-inch",
+        "ppi": 264,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_S",
+                "height": 258,
+                "topBarHeight": 62,
+                "keysInsets": {
+                    "top": 1,
+                    "bottom": 8,
+                    "left": 6,
+                    "right": 6,
+                },
+            },
+            "landscape": {
+                "type": "pad_S",
+                "height": 344,
+                "topBarHeight": 64,
+                "keysInsets": {
+                    "top": 2,
+                    "bottom": 10,
+                    "left": 7,
+                    "right": 7,
+                },
+            },
+        },
+    },
+    "iPad5,4": {
+        "device": "iPad Air 2",
+        "ppi": 264,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_S",
+                "height": 258,
+                "topBarHeight": 62,
+                "keysInsets": {
+                    "top": 1,
+                    "bottom": 8,
+                    "left": 6,
+                    "right": 6,
+                },
+            },
+            "landscape": {
+                "type": "pad_S",
+                "height": 344,
+                "topBarHeight": 64,
+                "keysInsets": {
+                    "top": 2,
+                    "bottom": 10,
+                    "left": 7,
+                    "right": 7,
+                },
+            },
+        },
+    },
+    "iPad5,3": {
+        "device": "iPad Air 2",
+        "ppi": 264,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_S",
+                "height": 258,
+                "topBarHeight": 62,
+                "keysInsets": {
+                    "top": 1,
+                    "bottom": 8,
+                    "left": 6,
+                    "right": 6,
+                },
+            },
+            "landscape": {
+                "type": "pad_S",
+                "height": 344,
+                "topBarHeight": 64,
+                "keysInsets": {
+                    "top": 2,
+                    "bottom": 10,
+                    "left": 7,
+                    "right": 7,
+                },
+            },
+        },
+    },
+    "iPad5,2": {
+        "device": "iPad mini 4",
+        "ppi": 326,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_S",
+                "height": 258,
+                "topBarHeight": 62,
+                "keysInsets": {
+                    "top": 1,
+                    "bottom": 8,
+                    "left": 6,
+                    "right": 6,
+                },
+            },
+            "landscape": {
+                "type": "pad_S",
+                "height": 344,
+                "topBarHeight": 64,
+                "keysInsets": {
+                    "top": 2,
+                    "bottom": 10,
+                    "left": 7,
+                    "right": 7,
+                },
+            },
+        },
+    },
+    "iPad5,1": {
+        "device": "iPad mini 4",
+        "ppi": 326,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_S",
+                "height": 258,
+                "topBarHeight": 62,
+                "keysInsets": {
+                    "top": 1,
+                    "bottom": 8,
+                    "left": 6,
+                    "right": 6,
+                },
+            },
+            "landscape": {
+                "type": "pad_S",
+                "height": 344,
+                "topBarHeight": 64,
+                "keysInsets": {
+                    "top": 2,
+                    "bottom": 10,
+                    "left": 7,
+                    "right": 7,
+                },
+            },
+        },
+    },
+    "iPod9,1": {
+        "device": "iPod touch (7th generation)",
+        "ppi": 326,
+        "keyboard": {
+            "portrait": {
+                "type": "phone",
+                "height": 216.0,
+                "topBarHeight": 38,
+                "keysInsets": {
+                    "top": 12,
+                    "bottom": 4,
+                    "left": 3,
+                    "right": 3,
+                },
+            },
+            "landscape": {
+                "type": "phone",
+                "height": 160.0,
+                "topBarHeight": 40,
+                "keysInsets": {
+                    "top": 4,
+                    "bottom": 4,
+                    "left": 2.5,
+                    "right": 2.5,
+                },
+            },
+        }
+    }
+}

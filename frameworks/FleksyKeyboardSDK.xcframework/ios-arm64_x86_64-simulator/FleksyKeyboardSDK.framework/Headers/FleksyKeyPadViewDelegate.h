@@ -21,6 +21,7 @@
 @property (nonatomic, readonly) BOOL configurationShowAutocorrectOffIndicator;
 @property (nonatomic, readonly) KeyboardID keyboardID;
 @property (nonatomic, readonly) KeyboardSize keyboardSize;
+@property (nonatomic, readonly) KeyboardStyle keyboardStyle;
 @property (nonatomic, readonly) FleksySpeechManager *speechManager;
 @property (nonatomic, readonly) BOOL hasMultipleLanguages;
 @property (nonatomic, readonly) BOOL isLanguageRightToLeft;

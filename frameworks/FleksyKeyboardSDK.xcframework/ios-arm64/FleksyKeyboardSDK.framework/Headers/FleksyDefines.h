@@ -185,17 +185,11 @@ typedef enum {
   FleksyControlTypeTotalKeys,         // Total hardcoded keys. After these ones, we could add custom ones.
 } FleksyControlType;
 
-typedef NS_ENUM(NSUInteger, FleksyTouchType) {
-  FleksyTouchTypeUnknown = 0,
-  FleksyTouchTypeTap = 1,
-  FleksyTouchTypeSwipeLeft = 2,
-  FleksyTouchTypeSwipeRight = 3,
-  FleksyTouchTypeSwipeUp = 4,
-  FleksyTouchTypeSwipeDown = 5,
-  FleksyTouchTypeTwoFingerSwipeUp = 6,
-  FleksyTouchTypeTwoFingerSwipeDown = 7,
-  FleksyTouchTypeLongPress = 8,
-  FleksyTouchTypeForceTouch = 9,
+typedef NS_ENUM(NSUInteger, FleksyTouchSwipeDirection) {
+    FleksyTouchSwipeDirectionLeft = 0,
+    FleksyTouchSwipeDirectionRight = 1,
+    FleksyTouchSwipeDirectionUp = 2,
+    FleksyTouchSwipeDirectionDown = 3,
 };
 
 typedef enum {

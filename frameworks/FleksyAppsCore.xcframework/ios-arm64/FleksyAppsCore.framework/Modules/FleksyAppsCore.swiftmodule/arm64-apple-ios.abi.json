@@ -785,6 +785,72 @@
           },
           {
             "kind": "Function",
+            "name": "textFieldIcon",
+            "printedName": "textFieldIcon()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14FleksyAppsCore20AppTextFieldDelegateP04textF4IconSo7UIImageCSgyF",
+            "mangledName": "$s14FleksyAppsCore20AppTextFieldDelegateP04textF4IconSo7UIImageCSgyF",
+            "moduleName": "FleksyAppsCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : FleksyAppsCore.AppTextFieldDelegate>",
+            "sugared_genericSig": "<Self where Self : FleksyAppsCore.AppTextFieldDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "contentModeForTextFieldIcon",
+            "printedName": "contentModeForTextFieldIcon()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIView.ContentMode?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentMode",
+                    "printedName": "UIKit.UIView.ContentMode",
+                    "usr": "c:@E@UIViewContentMode"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14FleksyAppsCore20AppTextFieldDelegateP014contentModeForeF4IconSo013UIViewContentI0VSgyF",
+            "mangledName": "$s14FleksyAppsCore20AppTextFieldDelegateP014contentModeForeF4IconSo013UIViewContentI0VSgyF",
+            "moduleName": "FleksyAppsCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : FleksyAppsCore.AppTextFieldDelegate>",
+            "sugared_genericSig": "<Self where Self : FleksyAppsCore.AppTextFieldDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "onAppIconAction",
             "printedName": "onAppIconAction()",
             "children": [
@@ -797,6 +863,33 @@
             "declKind": "Func",
             "usr": "s:14FleksyAppsCore20AppTextFieldDelegateP02onD10IconActionyyF",
             "mangledName": "$s14FleksyAppsCore20AppTextFieldDelegateP02onD10IconActionyyF",
+            "moduleName": "FleksyAppsCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : FleksyAppsCore.AppTextFieldDelegate>",
+            "sugared_genericSig": "<Self where Self : FleksyAppsCore.AppTextFieldDelegate>",
+            "deprecated": true,
+            "protocolReq": true,
+            "declAttributes": [
+              "Available",
+              "Custom",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onTextFieldIconAction",
+            "printedName": "onTextFieldIconAction()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14FleksyAppsCore20AppTextFieldDelegateP02oneF10IconActionyyF",
+            "mangledName": "$s14FleksyAppsCore20AppTextFieldDelegateP02oneF10IconActionyyF",
             "moduleName": "FleksyAppsCore",
             "genericSig": "<τ_0_0 where τ_0_0 : FleksyAppsCore.AppTextFieldDelegate>",
             "sugared_genericSig": "<Self where Self : FleksyAppsCore.AppTextFieldDelegate>",
@@ -1200,6 +1293,64 @@
           },
           {
             "kind": "Function",
+            "name": "textFieldIcon",
+            "printedName": "textFieldIcon()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14FleksyAppsCore20AppTextFieldDelegatePAAE04textF4IconSo7UIImageCSgyF",
+            "mangledName": "$s14FleksyAppsCore20AppTextFieldDelegatePAAE04textF4IconSo7UIImageCSgyF",
+            "moduleName": "FleksyAppsCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : FleksyAppsCore.AppTextFieldDelegate>",
+            "sugared_genericSig": "<Self where Self : FleksyAppsCore.AppTextFieldDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "contentModeForTextFieldIcon",
+            "printedName": "contentModeForTextFieldIcon()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIView.ContentMode?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentMode",
+                    "printedName": "UIKit.UIView.ContentMode",
+                    "usr": "c:@E@UIViewContentMode"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14FleksyAppsCore20AppTextFieldDelegatePAAE014contentModeForeF4IconSo013UIViewContentI0VSgyF",
+            "mangledName": "$s14FleksyAppsCore20AppTextFieldDelegatePAAE014contentModeForeF4IconSo013UIViewContentI0VSgyF",
+            "moduleName": "FleksyAppsCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : FleksyAppsCore.AppTextFieldDelegate>",
+            "sugared_genericSig": "<Self where Self : FleksyAppsCore.AppTextFieldDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "onAppIconAction",
             "printedName": "onAppIconAction()",
             "children": [
@@ -1212,6 +1363,26 @@
             "declKind": "Func",
             "usr": "s:14FleksyAppsCore20AppTextFieldDelegatePAAE02onD10IconActionyyF",
             "mangledName": "$s14FleksyAppsCore20AppTextFieldDelegatePAAE02onD10IconActionyyF",
+            "moduleName": "FleksyAppsCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : FleksyAppsCore.AppTextFieldDelegate>",
+            "sugared_genericSig": "<Self where Self : FleksyAppsCore.AppTextFieldDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onTextFieldIconAction",
+            "printedName": "onTextFieldIconAction()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14FleksyAppsCore20AppTextFieldDelegatePAAE02oneF10IconActionyyF",
+            "mangledName": "$s14FleksyAppsCore20AppTextFieldDelegatePAAE02oneF10IconActionyyF",
             "moduleName": "FleksyAppsCore",
             "genericSig": "<τ_0_0 where τ_0_0 : FleksyAppsCore.AppTextFieldDelegate>",
             "sugared_genericSig": "<Self where Self : FleksyAppsCore.AppTextFieldDelegate>",
@@ -2196,6 +2367,39 @@
             "funcSelfKind": "NonMutating"
           },
           {
+            "kind": "Function",
+            "name": "contentModeForAppIcon",
+            "printedName": "contentModeForAppIcon()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIView.ContentMode?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentMode",
+                    "printedName": "UIKit.UIView.ContentMode",
+                    "usr": "c:@E@UIViewContentMode"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14FleksyAppsCore11KeyboardAppP014contentModeForE4IconSo013UIViewContentG0VSgyF",
+            "mangledName": "$s14FleksyAppsCore11KeyboardAppP014contentModeForE4IconSo013UIViewContentG0VSgyF",
+            "moduleName": "FleksyAppsCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : FleksyAppsCore.KeyboardApp>",
+            "sugared_genericSig": "<Self where Self : FleksyAppsCore.KeyboardApp>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Var",
             "name": "appId",
             "printedName": "appId",
@@ -2346,6 +2550,35 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Function",
+            "name": "contentModeForAppIcon",
+            "printedName": "contentModeForAppIcon()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIView.ContentMode?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ContentMode",
+                    "printedName": "UIKit.UIView.ContentMode",
+                    "usr": "c:@E@UIViewContentMode"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14FleksyAppsCore11KeyboardAppPAAE014contentModeForE4IconSo013UIViewContentG0VSgyF",
+            "mangledName": "$s14FleksyAppsCore11KeyboardAppPAAE014contentModeForE4IconSo013UIViewContentG0VSgyF",
+            "moduleName": "FleksyAppsCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : FleksyAppsCore.KeyboardApp>",
+            "sugared_genericSig": "<Self where Self : FleksyAppsCore.KeyboardApp>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
@@ -2926,7 +3159,7 @@
     {
       "filePath": "\/Users\/vagrant\/git\/Sources\/FleksyAppsCore\/AppTextFieldDelegate.swift",
       "kind": "BooleanLiteral",
-      "offset": 3938,
+      "offset": 5794,
       "length": 4,
       "value": "true"
     },
