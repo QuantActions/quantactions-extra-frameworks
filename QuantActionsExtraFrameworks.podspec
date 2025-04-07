@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = 'QuantActionsExtraFrameworks'
-  spec.version = '4.29.0b'
+  spec.version = '4.29.1'
   spec.summary = 'QuantActions Extra Frameworks'
   spec.description = 'Extra frameworks of QuantActionsSDK'
  
