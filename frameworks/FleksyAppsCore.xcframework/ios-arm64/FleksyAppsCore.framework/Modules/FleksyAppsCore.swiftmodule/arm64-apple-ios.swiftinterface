@@ -33,11 +33,7 @@ public protocol AppTextFieldDelegate : AnyObject {
   var returnKeyType: UIKit.UIReturnKeyType { get }
   var keyboardType: UIKit.UIKeyboardType { get }
   var focusOnAppear: Swift.Bool { get }
-  func textFieldIcon() -> UIKit.UIImage?
-  func contentModeForTextFieldIcon() -> UIKit.UIView.ContentMode?
-  @available(*, deprecated, renamed: "onTextFieldIconAction", message: "Use onTextFieldIconAction instead. Do not implement both onTextFieldIconAction() and onAppIconAction(), as they are both called when the user taps the text field icon")
   @_Concurrency.MainActor func onAppIconAction()
-  @_Concurrency.MainActor func onTextFieldIconAction()
   @_Concurrency.MainActor func onCloseAction()
   @_Concurrency.MainActor func onTextDidChange(_ text: Swift.String?)
   @_Concurrency.MainActor func onReturnKeyAction(_ text: Swift.String?)
@@ -60,10 +56,7 @@ extension FleksyAppsCore.AppTextFieldDelegate {
   public var focusOnAppear: Swift.Bool {
     get
   }
-  public func textFieldIcon() -> UIKit.UIImage?
-  public func contentModeForTextFieldIcon() -> UIKit.UIView.ContentMode?
   public func onAppIconAction()
-  public func onTextFieldIconAction()
   public func onBecomeFirstResponder(_ text: Swift.String?)
   public func onTextDidChange(_ text: Swift.String?)
   public func onResignFirstResponder(_ text: Swift.String?)
@@ -92,7 +85,6 @@ public protocol KeyboardApp : AnyObject {
   func onConfigurationChanged(_ configuration: FleksyAppsCore.AppConfiguration)
   func onThemeChanged(_ theme: FleksyAppsCore.AppTheme)
   func appIcon() -> UIKit.UIImage?
-  func contentModeForAppIcon() -> UIKit.UIView.ContentMode?
   var appId: Swift.String { get }
 }
 extension FleksyAppsCore.KeyboardApp {
@@ -102,7 +94,6 @@ extension FleksyAppsCore.KeyboardApp {
   public var defaultViewMode: FleksyAppsCore.KeyboardAppViewMode {
     get
   }
-  public func contentModeForAppIcon() -> UIKit.UIView.ContentMode?
 }
 public enum TopBarMode {
   case `default`
