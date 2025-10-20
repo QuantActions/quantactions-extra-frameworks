@@ -1065,12 +1065,6 @@ public struct LicenseConfiguration {
     @objc get
   }
 }
-extension FleksyKeyboardSDK.FKInterfaceInputViewController : FleksyKeyboardSDK.FleksyCursorControllable {
-  @objc dynamic public var isShowingCursorControl: Swift.Bool {
-    @objc get
-    @objc set
-  }
-}
 extension FleksyKeyboardSDK.FKInterfaceInputViewController {
   @objc dynamic public var extensionKeysFont: UIKit.UIFont? {
     @objc get
@@ -1089,6 +1083,10 @@ extension FleksyKeyboardSDK.FKInterfaceInputViewController {
 extension FleksyKeyboardSDK.FKInterfaceInputViewController : FleksyKeyboardSDK.FleksyCursorControlDelegate {
   @objc dynamic public var keyboardContainerHeight: CoreFoundation.CGFloat {
     @objc get
+  }
+  @objc dynamic public var isShowingCursorControl: Swift.Bool {
+    @objc get
+    @objc set
   }
 }
 extension FleksyKeyboardSDK.FKInterfaceInputViewController {
@@ -1183,6 +1181,9 @@ public protocol DataCaptureEventDelegate : AnyObject {
   @_Concurrency.MainActor public func openEmojiSearch()
   #if compiler(>=5.3) && $AsyncAwait
   @_Concurrency.MainActor(unsafe) public func readFullDocumentContext() async throws -> FleksyKeyboardSDK.FullDocumentContext
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  @_Concurrency.MainActor(unsafe) public func deleteFullDocumentContext() async throws
   #endif
   @_Concurrency.MainActor(unsafe) open func createConfiguration() -> FleksyKeyboardSDK.KeyboardConfiguration
   @_Concurrency.MainActor(unsafe) @objc open var appIcon: UIKit.UIImage? {
@@ -1341,12 +1342,6 @@ public struct AppsConfiguration {
   }
   @objc deinit
 }
-extension FleksyKeyboardSDK.FKInputView : FleksyKeyboardSDK.FleksyCursorControllable {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public var isShowingCursorControl: Swift.Bool {
-    @objc get
-    @objc set
-  }
-}
 extension FleksyKeyboardSDK.FKInputView : FleksyKeyboardSDK.FleksyViewControllerPresenter {
   @_Concurrency.MainActor(unsafe) @objc dynamic public func pullDownGesture(withOffset offset: CoreFoundation.CGFloat, view: UIKit.UIView!, presentedViewController controller: UIKit.UIViewController!)
   @_Concurrency.MainActor(unsafe) @objc dynamic public func pullDownGestureEnded(withOffset offset: CoreFoundation.CGFloat, velocity verticalVelocity: CoreFoundation.CGFloat, view: UIKit.UIView!, presentedViewController controller: UIKit.UIViewController!)
@@ -1390,6 +1385,7 @@ public struct FullDocumentContext {
     case userCancelled
     case cancelled
     case fullDocumentReadInProgress
+    case fullDocumentDeletionInProgress
     case invalidTextDocumentProxy
     case unexpectedlyStopped
     public static func == (a: FleksyKeyboardSDK.FullDocumentContext.Error, b: FleksyKeyboardSDK.FullDocumentContext.Error) -> Swift.Bool

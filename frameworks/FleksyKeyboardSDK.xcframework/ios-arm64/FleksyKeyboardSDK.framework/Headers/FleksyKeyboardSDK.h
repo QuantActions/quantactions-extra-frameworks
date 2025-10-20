@@ -30,15 +30,17 @@ FOUNDATION_EXPORT const unsigned char FleksyKeyboardSDKVersionString[];
 #import "AppearancePopup.h"
 #import "PerformanceDelegate.h"
 #import "FleksyViewControllerPresenter.h" // Needs to be public because of Swift
-#import "FleksyCursorControllable.h" // Needs to be public because of Swift
+#import "FleksyCursorControlDelegate.h" // Needs to be public because of Swift
 #import "FlickDirection.h" // Needs to be public because it was part of old, deprecated `AppearancePopup` API
 #import "FleksyAPIManagerDelegate.h" // Needs to be public because of Swift
 #import "FleksyKeyboardDisplayStateInfoProvider.h" // Needs to be public because of Swift
 #import "FleksyJapaneseKeyboardStatusProvider.h" // Needs to be public because of Swift
 #import "FleksyInternalDefines.h" // Needs to be public because of Swift
-#import "FleksyKeyPadViewDelegate.h" // Needs to be public because of Swift
 #import "FleksyFontProvider.h" // Needs to be public because of Swift
 #import "FleksyPullDownViewController.h" // Needs to be public because of Swift
 #import "FleksyUIElement.h" // Needs to be public because of Swift
 #import "FleksyKeyboardKey.h" // Needs to be public because of Swift
+#import "FleksyButton.h" // Needs to be public because of Swift
+#import "FleksyEmojiHintButton.h" // Needs to be public because of Swift
+#import "FleksyVibrantViewContainer.h" // Needs to be public because of Swift
 

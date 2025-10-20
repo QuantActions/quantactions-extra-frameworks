@@ -10,7 +10,7 @@
 		</data>
 		<key>Devices.json</key>
 		<data>
-		eLgB2mY3w7F5VwjBNp5sbc43ttM=
+		sYvp50hnT9NggLaoiEYAzYKOlvE=
 		</data>
 		<key>FL_Backspace.caf</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Headers/FKEnums.h</key>
 		<data>
-		P55IihY9rjt9Re4Zg9bEr2Qp+vw=
+		64zNdyWb9VlqEixqyeJ9veffG50=
 		</data>
 		<key>Headers/FKInterfaceDelegate.h</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>Headers/FleksyAPIManager.h</key>
 		<data>
-		bJIntfYHDO17FLUhzUxHgiMnqF0=
+		iVyNjpd3rU/y3N3usWuUyBPSPIw=
 		</data>
 		<key>Headers/FleksyAPIManagerDelegate.h</key>
 		<data>
@@ -94,11 +94,11 @@
 		</data>
 		<key>Headers/FleksyBaseView.h</key>
 		<data>
-		zQQbC4QsioViBvhA45Pf+0qvfOk=
+		ja+vOohmDrOLSClffwn1daGn0BM=
 		</data>
 		<key>Headers/FleksyButton.h</key>
 		<data>
-		Bu3uLsvnYtup1oQLZxcWtqjiIDg=
+		68Dior4WQKXoG0pzMoFt9DC68nA=
 		</data>
 		<key>Headers/FleksyContainer.h</key>
 		<data>
@@ -106,11 +106,11 @@
 		</data>
 		<key>Headers/FleksyCursorControl.h</key>
 		<data>
-		P3wL4icgUObaxHSE4PK6h+GlyX0=
+		W3saBYAdaAUNJ0ibYx+Hn8nPeOc=
 		</data>
-		<key>Headers/FleksyCursorControllable.h</key>
+		<key>Headers/FleksyCursorControlDelegate.h</key>
 		<data>
-		yvxCTtT4UiE6aHOSHPObEoHQGe4=
+		Htoin1YUpfBYmZHE05KJfPdt5Jk=
 		</data>
 		<key>Headers/FleksyDebugSDK.h</key>
 		<data>
@@ -126,7 +126,7 @@
 		</data>
 		<key>Headers/FleksyEmojiHintButton.h</key>
 		<data>
-		lHjKruYMmT6pDGWr+ZVZv5RyHm4=
+		sHclS0BdOKR7TGaU6sNLxFuwctI=
 		</data>
 		<key>Headers/FleksyEmojiImage.h</key>
 		<data>
@@ -164,13 +164,13 @@
 		<data>
 		F5fQh+kohIlrp1yjQ/Y43EckjXI=
 		</data>
-		<key>Headers/FleksyKeyPadView.h</key>
+		<key>Headers/FleksyKey.h</key>
 		<data>
-		fWuceawWW+Z7GxRf1I2K5SkiJYk=
+		2NnQ3Y+hGsXgjfhHFokiI6k6QZs=
 		</data>
-		<key>Headers/FleksyKeyPadViewDelegate.h</key>
+		<key>Headers/FleksyKeyPadSwipe.h</key>
 		<data>
-		y3KuS0qtlLH8YgJjKDIbg3LsY8g=
+		Yj2TMRLMSC5b7hcWNXGxsTnIw14=
 		</data>
 		<key>Headers/FleksyKeyboardDisplayStateInfoProvider.h</key>
 		<data>
@@ -178,19 +178,19 @@
 		</data>
 		<key>Headers/FleksyKeyboardKey.h</key>
 		<data>
-		xaC8P6ZFa8OG9QzYR0+pCvTqCCM=
+		CK/cp46Zp8EVeu1o+973v/6YxK8=
 		</data>
 		<key>Headers/FleksyKeyboardSDK-Swift.h</key>
 		<data>
-		dEWdGmSSCqu/H4q0in8sdRPUpfY=
+		G4O4vQ+kiCnCh9pREM3DaMBaBV0=
 		</data>
 		<key>Headers/FleksyKeyboardSDK.h</key>
 		<data>
-		KPSGbaDtbiMB2iOeStXfkGMQ/6E=
+		gm6q/aiyHfWndS8Ad7N6diaMTTA=
 		</data>
 		<key>Headers/FleksyLayoutElement+KeypadUtilities.h</key>
 		<data>
-		PH1tT2ZegQGrB90BTnXypu96GIY=
+		qn/fxvN782Q/vxuBKeP71HjlLZU=
 		</data>
 		<key>Headers/FleksyLogoView.h</key>
 		<data>
@@ -220,6 +220,10 @@
 		<data>
 		OEX2rmthrVwmK+CL71QdmQc3tfA=
 		</data>
+		<key>Headers/FleksySpacebarButton.h</key>
+		<data>
+		SbcsAfWrQCBG0uYaC6u3Jxy8z6I=
+		</data>
 		<key>Headers/FleksySpeechManager.h</key>
 		<data>
 		T3kcxDeYSM7nI+2bmeGuP0JEmCQ=
@@ -230,7 +234,7 @@
 		</data>
 		<key>Headers/FleksyThemeInternal.h</key>
 		<data>
-		OxTaBNZi8nq4HnbZXFVpwk7eVTk=
+		USGK9P1bPV5gmIEu6WpAvrreL2M=
 		</data>
 		<key>Headers/FleksyThemeableUI.h</key>
 		<data>
@@ -238,11 +242,11 @@
 		</data>
 		<key>Headers/FleksyUIElement.h</key>
 		<data>
-		DdSfRUvDSuGrhE0wAIuvpajK20U=
+		h3c8b6RW4Lg0eA+tPqVvB5UxMNU=
 		</data>
 		<key>Headers/FleksyUtility+ControlKeys.h</key>
 		<data>
-		5Ntf0v+6AyMkDx/erPDJP36PbWc=
+		chSTLdo26CFngqUePIO2+k5JSG0=
 		</data>
 		<key>Headers/FleksyUtility+ControlOpenURLs.h</key>
 		<data>
@@ -306,7 +310,7 @@
 		</data>
 		<key>Headers/PerformanceInterfaces.h</key>
 		<data>
-		STF4k2UJfH5Dj6iHsxVnjBMDdRk=
+		zPF1DRKkdReuxlF3+et8lf5nBIU=
 		</data>
 		<key>Headers/PerformanceProxy.h</key>
 		<data>
@@ -330,7 +334,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		39CqImjnmVXg9Fhq9waBRavpOR8=
+		gIS2N4iEs9C2MioDqDb3wgt30n0=
 		</data>
 		<key>InvalidLicenseBackground.jpg</key>
 		<data>
@@ -342,43 +346,43 @@
 		</data>
 		<key>Modules/FleksyKeyboardSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		7i/PiQX/5y3uN8JK5OyuzJC9Epc=
+		Dt3hA1P0Xym97aQiiJFEs3Rzaw4=
 		</data>
 		<key>Modules/FleksyKeyboardSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		GHsHWUudQc7YkrN+BAjydi3/WRQ=
+		N59eE/XKcv5gL7I+x0m6jHSwWhU=
 		</data>
 		<key>Modules/FleksyKeyboardSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		LWbo2RZ3/ZLMWbElc8U+6ToJohA=
+		VKydZ1tpZcgN+VdjgqNjJg/AB+g=
 		</data>
 		<key>Modules/FleksyKeyboardSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		esBDYqyB0eMIr2czYCgKBghGx18=
+		AtFQ3gwBMlseWDEK6E8ep20pYtc=
 		</data>
 		<key>Modules/FleksyKeyboardSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		utrAJQqXZFM4lHQ/VqbZGkjOm9o=
+		YZAmUu3nzPNG3iUdIm0wHvWNr6o=
 		</data>
 		<key>Modules/FleksyKeyboardSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		7i/PiQX/5y3uN8JK5OyuzJC9Epc=
+		Dt3hA1P0Xym97aQiiJFEs3Rzaw4=
 		</data>
 		<key>Modules/FleksyKeyboardSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		USA+WOH69rjSkzxhIXIfb5K5zgI=
+		eABWbKsEPYRyAFSQjVGibe6YkoA=
 		</data>
 		<key>Modules/FleksyKeyboardSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		c9iViSgwNOhiTncd5kmTm9xTDW4=
+		QBg8TFOfDcCXSE2DliFcTK+On2E=
 		</data>
 		<key>Modules/FleksyKeyboardSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		l3KtRSS9CIhE56uTlzzoCMTXJHk=
+		66d0Q+BgY7g5HRHWh3s1brtG4H0=
 		</data>
 		<key>Modules/FleksyKeyboardSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		/9swzQlePj/oKd8eZmwaqua7oEo=
+		/+ezSNoYWHHfohk3WHWDUav9/vk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -601,7 +605,7 @@
 		</dict>
 		<key>flicon.ttf</key>
 		<data>
-		S8XgTB9ucvrpdtkmPbUsZ3VU/0g=
+		MQfy2MvIdkSgiAC7LzBk+YaZwQ8=
 		</data>
 		<key>fr.lproj/Localizable.strings</key>
 		<dict>
@@ -1053,7 +1057,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rTomQWWQbLBvcF5GvmFRxQ1TLio4S707z2I1cfrh3SM=
+			FVLi1OMOCe01ie5UoQZI19U1aDpGUerj96zb7XfhaZ0=
 			</data>
 		</dict>
 		<key>FL_Backspace.caf</key>
@@ -1130,7 +1134,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YvN65RtPFrwhUafPxt9PWFGQL0yZExeY8YmGMMa6hZA=
+			bwZ9RoM16gMhGGItxUfItxPdJ8HQE2iVqDybU1/odP0=
 			</data>
 		</dict>
 		<key>Headers/FKInterfaceDelegate.h</key>
@@ -1179,7 +1183,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PLERdymqgc91LaqWFEatSNFB5/R6H9C53SWPDMl/WNI=
+			ut+SwHI+8NNN4AY6FnXLCoRrBqGWEQCsHK1JW7cIOdM=
 			</data>
 		</dict>
 		<key>Headers/FleksyAPIManagerDelegate.h</key>
@@ -1200,14 +1204,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DJ4I4OsUtaPFtoyVOqRqdsNcbTikAIRxICEGTyUUvYs=
+			P2QpDGS6wm5hoDk0bNPL2E77Zyj+RqcwUIMZUT6PUjc=
 			</data>
 		</dict>
 		<key>Headers/FleksyButton.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZyUisAvnJzKgz8lMgyJcoaKqF2AHwEOGGMQ81UJaSJU=
+			2E5h9C1XBtSTTBt7UlKuHSUHZVjRJs8AOUVJSuFv6no=
 			</data>
 		</dict>
 		<key>Headers/FleksyContainer.h</key>
@@ -1221,14 +1225,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mbKDAAn+qR29Bemfkk1pfvF8rrCfGUGw4Nl7/wbNmnY=
+			Y8LnRtQAmOZBYMfqbd01uBeRTLKLK2ezGfVsjHXOVvU=
 			</data>
 		</dict>
-		<key>Headers/FleksyCursorControllable.h</key>
+		<key>Headers/FleksyCursorControlDelegate.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aCthcxKlOl9HcP9VrBs1bsH5l6I/O7K1tZYuZAbkRGM=
+			zaC6vlJ2iJetLAZ1eu1w/yIL7s9N4SOwrpl8IOg8OWA=
 			</data>
 		</dict>
 		<key>Headers/FleksyDebugSDK.h</key>
@@ -1256,7 +1260,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Pyfe8z/MW8dSbJTqL0wSBU/sXGgbmu9wnTiyXgY0KiE=
+			TqDJeudsIIQMaFmK0GogEZGcxPQ98bYO1/ombYwnM8Y=
 			</data>
 		</dict>
 		<key>Headers/FleksyEmojiImage.h</key>
@@ -1322,18 +1326,18 @@
 			uphJLIp8wfJoqlsvfZ15VYJqHuKfR4EkErcn1j9dJlg=
 			</data>
 		</dict>
-		<key>Headers/FleksyKeyPadView.h</key>
+		<key>Headers/FleksyKey.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sbOMW1Nprlu+wYUcmKco//UoTMo391uyxQojorVhhsA=
+			9XQryZ7dQg6+hNFrWSLns4bwhab7ytnWTK9T5+GBnTM=
 			</data>
 		</dict>
-		<key>Headers/FleksyKeyPadViewDelegate.h</key>
+		<key>Headers/FleksyKeyPadSwipe.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ScoNn3NvVNr8uENaDriDnLaJ4DYL/jkPV4a2PSkBME4=
+			hwlldq0skRU0XUXuvGAXXBz19rJheCjDJJoUX7X8QrU=
 			</data>
 		</dict>
 		<key>Headers/FleksyKeyboardDisplayStateInfoProvider.h</key>
@@ -1347,28 +1351,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			X9d9CVpUxFf+0vksXkiBuGwC7yfxxdpAGvE8Cr8Nrqo=
+			ryFiPCyBCASx/jiwcuxULRXfSZ+p0bkzcspdybhDybM=
 			</data>
 		</dict>
 		<key>Headers/FleksyKeyboardSDK-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xE/DWuhfJk8qfWdcvUIAoaJJ6eyXG0+280Cf7tePrug=
+			w/F9zKqdbR9vbVnTISCsU6dpCt+WqFEu4OOCLzDyI6I=
 			</data>
 		</dict>
 		<key>Headers/FleksyKeyboardSDK.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			K50LyFts+yYUuIXND3sDDb8BFvd3TU1B+WCnXTdUgRQ=
+			WNq3l0nTxJ5ePoBb/477fyhJwydge9KKw+TOAAGjYVk=
 			</data>
 		</dict>
 		<key>Headers/FleksyLayoutElement+KeypadUtilities.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IfgcRvg3vOf439x+GrMSW7Jg3iCU21k28D04twm99UI=
+			1egAMHoLy+qNqzgWehDEyJgsK9fml9mrXB39UaQddPc=
 			</data>
 		</dict>
 		<key>Headers/FleksyLogoView.h</key>
@@ -1420,6 +1424,13 @@
 			jeXlzzW9fnjNNVG366YYu/oo3VW+c6M1Btl3EWmAHg4=
 			</data>
 		</dict>
+		<key>Headers/FleksySpacebarButton.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			pOdEhb1Xd+8GBk6gTYA3uA1rXe2WV+EE9fokUn4uSoE=
+			</data>
+		</dict>
 		<key>Headers/FleksySpeechManager.h</key>
 		<dict>
 			<key>hash2</key>
@@ -1438,7 +1449,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QsgEaVr77funz8277bJvqXcmGeB4xMJaLd7I6ceVVAg=
+			1b9UrShorg1EctasdW70b6c8WMJksXSeYuJrHKSMsXg=
 			</data>
 		</dict>
 		<key>Headers/FleksyThemeableUI.h</key>
@@ -1452,14 +1463,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LSIh9SGtfqltYf43ZAi3P3kiriUy5T6bOyQcohwO+SI=
+			oC5S+TNLeLmoqnH+tRfD/0iyFP2NFEFcmjpd5H5IrY8=
 			</data>
 		</dict>
 		<key>Headers/FleksyUtility+ControlKeys.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jZDVWn2nrs8pZ8Ef2pmFOnGQZSSIRZzJBCBk/8SkGb8=
+			0i3RRPpssoZ8QOiSEtPRYPHArYsAexQUW2jwjjwoIOg=
 			</data>
 		</dict>
 		<key>Headers/FleksyUtility+ControlOpenURLs.h</key>
@@ -1571,7 +1582,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GTu2WVYM9vw1WSwtiuTmMqliFTqFEMLOwVeJSfP5gWs=
+			2d5HfaDbX0VLlOzcE2oOR7ga99IRxoRfrsC/Kfvj3HE=
 			</data>
 		</dict>
 		<key>Headers/PerformanceProxy.h</key>
@@ -1627,70 +1638,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZkXAH93foRjbn/93CXCts4gVmVvAZHGoa4IRyhkr37s=
+			4l5BTJVOh4sfc5zLFsoKPHAyE8ehtN8xpIhJWenA2xo=
 			</data>
 		</dict>
 		<key>Modules/FleksyKeyboardSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tjJGQARJQwc+CVqmc5s+oZVg1CsdzSZJW9OBFcE6Ov8=
+			Nq7C4FGwBbft/uAtUk9b0uFsNdiycjsd0+rytmuyNTM=
 			</data>
 		</dict>
 		<key>Modules/FleksyKeyboardSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oBOh3/q2fA2wMZNHawUldeDRExzr8m1qcTFM/Ha6vUo=
+			avCyJfQP408zuvQ3COj5ZdI9C9/HguBBmfCkzOJhlJc=
 			</data>
 		</dict>
 		<key>Modules/FleksyKeyboardSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MucUXLLpR38hyhWBTQkK96jvMpKGI1u/h5tv6PvdBs4=
+			y/jUBZCUA+RublFJWHy1NSmcNeob97GzIUTRuZvsDEI=
 			</data>
 		</dict>
 		<key>Modules/FleksyKeyboardSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tdx8ji4xkfR1lbMrUBSmX5DdFWhSsJq/EExQEKjPWkY=
+			/EvRjJy00XVKAo2QwnW5d6++7Y3MUWeshywkxRuJF/Y=
 			</data>
 		</dict>
 		<key>Modules/FleksyKeyboardSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZkXAH93foRjbn/93CXCts4gVmVvAZHGoa4IRyhkr37s=
+			4l5BTJVOh4sfc5zLFsoKPHAyE8ehtN8xpIhJWenA2xo=
 			</data>
 		</dict>
 		<key>Modules/FleksyKeyboardSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rNmOWms+EK/KHZPL20uHkFDnOr232XiE4wrHhcDpfrI=
+			jikaP8kqu9MCO6Qs1jcUavOWmQLLz6B4vBFz6Q+dokA=
 			</data>
 		</dict>
 		<key>Modules/FleksyKeyboardSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6VO+hIriytSYHA4SKEzp4bVs0UBPOGkcXUJXkSr/vW0=
+			nwC2ECe6iL5lwvDWF67QnfBb8jD/ToShHRGR8iiUFX8=
 			</data>
 		</dict>
 		<key>Modules/FleksyKeyboardSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Eh3x7Lmve+sn5rGCtoDKnGFRsJG19nuYS2W46sTDbQ4=
+			tLn6x1NAhKlfzimGSg2b3HdvNKJFLyOJwsXn/b4ZvF0=
 			</data>
 		</dict>
 		<key>Modules/FleksyKeyboardSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			91uySUSyWxMkwqsQWRkkBjk4sJbIag++pqpHuPiWOR8=
+			MQPATub/YxY0CIthiAyGY+C59SmwfkRFwJnRz45beqo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1925,7 +1936,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SV5bavvkFUMaTJLwYDhKy2KOUoThNQRYYIBIEiBHzY0=
+			xxJ9npWvpWsaLquoWW1/+K06pwuGg+N9QjFS6q4hPVU=
 			</data>
 		</dict>
 		<key>fr.lproj/Localizable.strings</key>

@@ -48,7 +48,10 @@ static const int ButtonType_ReturnToEmoji  = 30;
 static const int ButtonType_EmoLangSwitch  = 31;
 static const int ButtonType_Phonepad_Symbols = 32;
 static const int ButtonType_LongPress_Type = 33;
-static const int ButtonType_CustomLabel = 34;
+static const int ButtonType_CustomLabel    = 34;
+static const int ButtonType_Globe          = 35;
+static const int ButtonType_Caps_Off       = 36;
+static const int ButtonType_NamedKey       = 37;
 
 typedef enum {
   KeyboardSize_Huge,

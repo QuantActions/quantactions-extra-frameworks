@@ -13,9 +13,12 @@
 
 - (void)highlight;
 - (void)pop;
-- (void)longPressPop;
+
+/// Called when the keyboard is showing a temporary with the receiver key as the origin.
+///
+/// For example, when long pressing the "A" key to get accents: "Á", "À", etc.
+- (void)highlightForTemporaryKeypad;
 - (void)restore;
-- (void)restoreWithAnimationDuration:(NSTimeInterval)duration;
 - (void)dragPopWithShiftY:(CGFloat)shiftY
                  duration:(NSTimeInterval)duration
                 isSidePop:(BOOL)isSidePop;

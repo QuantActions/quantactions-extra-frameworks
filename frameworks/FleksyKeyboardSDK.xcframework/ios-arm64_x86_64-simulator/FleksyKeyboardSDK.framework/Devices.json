@@ -1547,6 +1547,74 @@
             },
         },
     },
+    "iPad16,2": {
+        "device": "iPad mini (A17 Pro)",
+        "ppi": 326,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_S",
+                "height": 258,
+                "topBarHeight": 62,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 1,
+                    "bottom": 8,
+                    "left": 6,
+                    "right": 6,
+                },
+            },
+            "landscape": {
+                "type": "pad_S",
+                "height": 344,
+                "topBarHeight": 64,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 2,
+                    "bottom": 10,
+                    "left": 7.5,
+                    "right": 7.5,
+                },
+            },
+        },
+    },
+    "iPad16,1": {
+        "device": "iPad mini (A17 Pro)",
+        "ppi": 326,
+        "keyboard": {
+            "portrait": {
+                "type": "pad_S",
+                "height": 258,
+                "topBarHeight": 62,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 1,
+                    "bottom": 8,
+                    "left": 6,
+                    "right": 6,
+                },
+            },
+            "landscape": {
+                "type": "pad_S",
+                "height": 344,
+                "topBarHeight": 64,
+                "insets": {
+                    "bottom": 20,
+                },
+                "keysInsets": {
+                    "top": 2,
+                    "bottom": 10,
+                    "left": 7.5,
+                    "right": 7.5,
+                },
+            },
+        },
+    },
     "iPad14,11": {
         "device": "iPad Air 13-inch (M2)",
         "ppi": 264,
@@ -1633,8 +1701,8 @@
                 "keysInsets": {
                     "top": 1,
                     "bottom": 8,
-                    "left": 2.5,
-                    "right": 2.5,
+                    "left": 5,
+                    "right": 5,
                 },
             },
             "landscape": {
@@ -1667,8 +1735,8 @@
                 "keysInsets": {
                     "top": 1,
                     "bottom": 8,
-                    "left": 2.5,
-                    "right": 2.5,
+                    "left": 5,
+                    "right": 5,
                 },
             },
             "landscape": {
